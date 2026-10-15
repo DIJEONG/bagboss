@@ -26,6 +26,7 @@ import BBPersistence
 //   -arrangelive          -arrange 와 같지만 bagTouch 를 넣지 않는다(정리 타이머가 흐르는 '출발 ▶ n초' 점검)
 //   -stage snow           새 판(프롤로그 없이)을 열고 7호선 눈 승강장 구간으로 바로 간다(Sim.debugSnowJump — docs/10 · 노선 기록은 그대로)
 //                         -stage snowdojo = 무도장을 눈 승강장 배경으로(+ -dojozoom 2 = 무도장 확대 — 입김 영상) · crossdojo = 건널목 · wooddojo = 무도장
+//                         beachdojo · beachdusk · beachnight = 무도장을 해변(오후 · 노을 · 밤) 배경으로(docs/12)
 //   -impactdemo [초]      주인공 앞 바닥 충격(철산고 진각과 같은 groundImpact + tsring)을 n초(기본 2.5)마다 — 바닥 충격 연출 점검(Sim.debugGroundImpact)
 //   -kodemo [체력] [초]   새 판(프롤로그 없이)에서 n초(기본 3)마다 남은 적 체력을 그 값(기본 6) 이하로 — 웨이브가 빨리 끝나 KO 마무리가 자주 보인다(docs/11 · Sim.debugLowFoes)
 enum DebugLaunch {
