@@ -1,0 +1,93 @@
+{
+ "saved": {
+  "v": 2,
+  "at": 1791539784309,
+  "cfg": {
+   "kit": "basic",
+   "stage": 0,
+   "daily": false
+  },
+  "stageIdx": 0,
+  "ci": 2,
+  "bag": [
+   {
+    "id": "upper",
+    "tier": 1,
+    "uid": 1,
+    "t": 0.5500000000000002,
+    "rot": 0,
+    "opt": null,
+    "x": 0,
+    "y": 0,
+    "pin": 5
+   },
+   {
+    "id": "punch",
+    "tier": 1,
+    "uid": 2,
+    "t": 0.5500000000000002,
+    "rot": 0,
+    "opt": null,
+    "x": 1,
+    "y": 0
+   },
+   {
+    "id": "kick",
+    "tier": 1,
+    "uid": 3,
+    "t": 0.5500000000000002,
+    "rot": 0,
+    "opt": null,
+    "x": 2,
+    "y": 0
+   }
+  ],
+  "stash": [
+   {
+    "id": "paper",
+    "tier": 2,
+    "uid": 4,
+    "t": 0,
+    "rot": 0,
+    "opt": {
+     "k": "crit",
+     "v": 0.15
+    },
+    "sx": 0,
+    "sy": 0,
+    "isNew": true
+   },
+   {
+    "id": "umb",
+    "tier": 1,
+    "uid": 5,
+    "t": 0,
+    "rot": 0,
+    "opt": null,
+    "sx": 0,
+    "sy": 2,
+    "isNew": true
+   }
+  ],
+  "tokens": 17,
+  "score": 2345,
+  "hp": 120,
+  "sp": 0.5,
+  "kills": 12,
+  "stats": {
+   "dealt": 0,
+   "taken": 0,
+   "crits": 0,
+   "counters": 0,
+   "outs": 0
+  },
+  "bonusDone": false,
+  "bonusSt": {},
+  "imprints": {
+   "5,2": "holster",
+   "1,0": "pocket",
+   "2,3": "worn"
+  }
+ },
+ "loaded": null
+}

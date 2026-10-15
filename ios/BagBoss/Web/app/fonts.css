@@ -1,0 +1,15 @@
+/* iOS에는 Impact · Arial Black이 없다 → 만화 효과음(캔버스 'italic 900 …px Impact')이 Helvetica로 빠진다.
+   같은 이름으로 Anton(OFL-1.1)을 묶어 데스크톱과 비슷한 굵은 압축체로 맞춘다.
+   local()을 먼저 두므로 Impact가 깔린 기기(맥 · 윈도)에서는 원래 글꼴을 쓴다. */
+@font-face {
+  font-family: 'Impact';
+  src: local('Impact'), url('fonts/anton-latin-400-normal.woff2') format('woff2');
+  font-weight: 100 900; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: 'Arial Black';
+  src: local('Arial Black'), local('Arial-Black'), url('fonts/anton-latin-400-normal.woff2') format('woff2');
+  font-weight: 100 900; font-style: normal; font-display: block;
+}
+/* 게임 본문 글꼴(갈무리 9 · 11)은 index.html 안에 base64로 이미 들어 있다.
+   원본이 구글 폰트에서 받던 IBM Plex Sans KR · Silkscreen은 엔진 실험실 UI 전용이라 앱에서는 시스템 글꼴로 대체한다. */

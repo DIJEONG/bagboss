@@ -1,0 +1,2167 @@
+{
+ "F": "float",
+ "V3": "vec3",
+ "TYPES": {
+  "gbuf": {
+   "t": "G-버퍼",
+   "cat": "in",
+   "inputs": [],
+   "outputs": [
+    {
+     "k": "base",
+     "l": "기본색",
+     "t": "vec3"
+    },
+    {
+     "k": "mat",
+     "l": "재질 ID",
+     "t": "float"
+    },
+    {
+     "k": "tone",
+     "l": "톤",
+     "t": "float"
+    },
+    {
+     "k": "normal",
+     "l": "노멀",
+     "t": "vec3"
+    },
+    {
+     "k": "emit",
+     "l": "발광",
+     "t": "float"
+    },
+    {
+     "k": "lum",
+     "l": "재질 밝기",
+     "t": "float"
+    },
+    {
+     "k": "mask",
+     "l": "캐릭터 마스크",
+     "t": "float"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.gbuf.glsl"
+   }
+  },
+  "lights": {
+   "t": "광원 합산",
+   "cat": "light",
+   "inputs": [
+    {
+     "k": "normal",
+     "l": "노멀",
+     "t": "vec3",
+     "d": "gNormal()"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "light",
+     "l": "빛 색",
+     "t": "vec3"
+    },
+    {
+     "k": "lum",
+     "l": "빛 세기",
+     "t": "float"
+    },
+    {
+     "k": "tint",
+     "l": "빛 색조",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "amb",
+     "l": "환경광",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "v": 0.16
+    },
+    {
+     "k": "gain",
+     "l": "광원 배율",
+     "kind": "range",
+     "min": 0,
+     "max": 3,
+     "step": 0.05,
+     "v": 1
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.lights.glsl"
+   }
+  },
+  "relief": {
+   "t": "릴리프 그림자",
+   "cat": "light",
+   "inputs": [],
+   "outputs": [
+    {
+     "k": "sh",
+     "l": "그늘",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "len",
+     "l": "길이",
+     "kind": "range",
+     "min": 1,
+     "max": 8,
+     "step": 1,
+     "v": 5
+    },
+    {
+     "k": "str",
+     "l": "세기",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "v": 0.6
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.relief.glsl"
+   }
+  },
+  "rim": {
+   "t": "림라이트",
+   "cat": "light",
+   "inputs": [
+    {
+     "k": "normal",
+     "l": "노멀",
+     "t": "vec3",
+     "d": "gNormal()"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "rim",
+     "l": "림",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "str",
+     "l": "세기",
+     "kind": "range",
+     "min": 0,
+     "max": 2,
+     "step": 0.05,
+     "v": 0.8
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.rim.glsl"
+   }
+  },
+  "value": {
+   "t": "숫자",
+   "cat": "math",
+   "inputs": [],
+   "outputs": [
+    {
+     "k": "v",
+     "l": "값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "v",
+     "l": "값",
+     "kind": "range",
+     "min": 0,
+     "max": 4,
+     "step": 0.05,
+     "v": 1
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.value.glsl"
+   }
+  },
+  "color": {
+   "t": "색",
+   "cat": "math",
+   "inputs": [],
+   "outputs": [
+    {
+     "k": "c",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "c",
+     "l": "색",
+     "kind": "color",
+     "v": "#ffffff"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.color.glsl"
+   }
+  },
+  "add": {
+   "t": "더하기",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "A",
+     "t": "float",
+     "d": "0.0"
+    },
+    {
+     "k": "b",
+     "l": "B",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "A+B",
+     "t": "float"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.add.glsl"
+   }
+  },
+  "mul": {
+   "t": "곱하기",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "A",
+     "t": "float",
+     "d": "1.0"
+    },
+    {
+     "k": "b",
+     "l": "B",
+     "t": "float",
+     "d": "1.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "A×B",
+     "t": "float"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.mul.glsl"
+   }
+  },
+  "invert": {
+   "t": "반전",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "1−값",
+     "t": "float"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.invert.glsl"
+   }
+  },
+  "lumOf": {
+   "t": "색 → 밝기",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "c",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "밝기",
+     "t": "float"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.lumOf.glsl"
+   }
+  },
+  "mulc": {
+   "t": "색 × 값",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "c",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(1.0)"
+    },
+    {
+     "k": "v",
+     "l": "값",
+     "t": "float",
+     "d": "1.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.mulc.glsl"
+   }
+  },
+  "mulcc": {
+   "t": "색 × 색",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "A",
+     "t": "vec3",
+     "d": "vec3(1.0)"
+    },
+    {
+     "k": "b",
+     "l": "B",
+     "t": "vec3",
+     "d": "vec3(1.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.mulcc.glsl"
+   }
+  },
+  "addc": {
+   "t": "색 + 색",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "A",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    },
+    {
+     "k": "b",
+     "l": "B",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.addc.glsl"
+   }
+  },
+  "mixc": {
+   "t": "색 섞기",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "A",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    },
+    {
+     "k": "b",
+     "l": "B",
+     "t": "vec3",
+     "d": "vec3(1.0)"
+    },
+    {
+     "k": "t",
+     "l": "비율",
+     "t": "float",
+     "d": "0.5"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.mixc.glsl"
+   }
+  },
+  "levels": {
+   "t": "레벨 (대비)",
+   "cat": "math",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "lo",
+     "l": "검정점",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "v": 0.1
+    },
+    {
+     "k": "hi",
+     "l": "흰색점",
+     "kind": "range",
+     "min": 0,
+     "max": 1.5,
+     "step": 0.01,
+     "v": 0.9
+    },
+    {
+     "k": "g",
+     "l": "감마",
+     "kind": "range",
+     "min": 0.3,
+     "max": 3,
+     "step": 0.05,
+     "v": 1
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.levels.glsl"
+   }
+  },
+  "posterize": {
+   "t": "단계화",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "단계값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "n",
+     "l": "단계 수",
+     "kind": "range",
+     "min": 2,
+     "max": 8,
+     "step": 1,
+     "v": 4
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.posterize.glsl"
+   }
+  },
+  "ramp": {
+   "t": "팔레트 램프",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "mat",
+     "l": "재질 ID",
+     "t": "float",
+     "d": "gMat()"
+    },
+    {
+     "k": "level",
+     "l": "밝기 단계",
+     "t": "float",
+     "d": "0.5"
+    },
+    {
+     "k": "tint",
+     "l": "빛 색조",
+     "t": "vec3",
+     "d": "vec3(1.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "pal",
+     "l": "팔레트",
+     "kind": "select",
+     "opts": [
+      "밤 숲",
+      "황혼",
+      "새벽"
+     ],
+     "v": 0
+    },
+    {
+     "k": "tintAmt",
+     "l": "빛 색 반영",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "v": 0.4
+    },
+    {
+     "k": "dith",
+     "l": "경계 디더",
+     "kind": "range",
+     "min": 0,
+     "max": 1.5,
+     "step": 0.05,
+     "v": 0
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.ramp.glsl"
+   }
+  },
+  "dither": {
+   "t": "디더",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.5"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "디더 값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "pat",
+     "l": "패턴",
+     "kind": "select",
+     "opts": [
+      "베이어 4×4",
+      "베이어 8×8",
+      "사선 해칭",
+      "노이즈"
+     ],
+     "v": 0
+    },
+    {
+     "k": "lv",
+     "l": "단계 수",
+     "kind": "range",
+     "min": 2,
+     "max": 6,
+     "step": 1,
+     "v": 2
+    },
+    {
+     "k": "str",
+     "l": "세기",
+     "kind": "range",
+     "min": 0,
+     "max": 1.5,
+     "step": 0.05,
+     "v": 1
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.dither.glsl"
+   }
+  },
+  "matdither": {
+   "t": "재질 패턴 디더",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.5"
+    },
+    {
+     "k": "mat",
+     "l": "재질 ID",
+     "t": "float",
+     "d": "gMat()"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "디더 값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "mode",
+     "l": "무늬",
+     "kind": "select",
+     "opts": [
+      "재질마다 다르게",
+      "모두 베이어"
+     ],
+     "v": 0
+    },
+    {
+     "k": "lv",
+     "l": "단계 수",
+     "kind": "range",
+     "min": 2,
+     "max": 6,
+     "step": 1,
+     "v": 2
+    },
+    {
+     "k": "str",
+     "l": "세기",
+     "kind": "range",
+     "min": 0,
+     "max": 1.5,
+     "step": 0.05,
+     "v": 1
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.matdither.glsl"
+   }
+  },
+  "edgeval": {
+   "t": "캐릭터 테두리 (값)",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "값",
+     "t": "float"
+    }
+   ],
+   "params": [
+    {
+     "k": "v",
+     "l": "테두리 값",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "v": 1
+    },
+    {
+     "k": "th",
+     "l": "두께",
+     "kind": "select",
+     "opts": [
+      "1px",
+      "2px"
+     ],
+     "v": 0
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.edgeval.glsl"
+   }
+  },
+  "fog": {
+   "t": "안개 · 공기 원근",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "c",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "amt",
+     "l": "세기",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "v": 0.55
+    },
+    {
+     "k": "start",
+     "l": "시작 깊이",
+     "kind": "range",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "v": 0.3
+    },
+    {
+     "k": "mode",
+     "l": "안개 색",
+     "kind": "select",
+     "opts": [
+      "하늘색 따라가기",
+      "직접 지정"
+     ],
+     "v": 0
+    },
+    {
+     "k": "col",
+     "l": "직접 지정 색",
+     "kind": "color",
+     "v": "#c9c7c0"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.fog.glsl"
+   }
+  },
+  "twotone": {
+   "t": "2색 매핑",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "ink",
+     "l": "잉크",
+     "kind": "color",
+     "v": "#141217"
+    },
+    {
+     "k": "paper",
+     "l": "종이",
+     "kind": "color",
+     "v": "#efe9da"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.twotone.glsl"
+   }
+  },
+  "grad4": {
+   "t": "4색 매핑",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "a",
+     "l": "값",
+     "t": "float",
+     "d": "0.0"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "c0",
+     "l": "가장 어두운 색",
+     "kind": "color",
+     "v": "#0f380f"
+    },
+    {
+     "k": "c1",
+     "l": "어두운 색",
+     "kind": "color",
+     "v": "#306230"
+    },
+    {
+     "k": "c2",
+     "l": "밝은 색",
+     "kind": "color",
+     "v": "#8bac0f"
+    },
+    {
+     "k": "c3",
+     "l": "가장 밝은 색",
+     "kind": "color",
+     "v": "#c8d89a"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.grad4.glsl"
+   }
+  },
+  "charline": {
+   "t": "캐릭터 선 (실루엣·겹침)",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "pal",
+     "l": "팔레트",
+     "kind": "select",
+     "opts": [
+      "세트 1",
+      "세트 2",
+      "세트 3"
+     ],
+     "v": 0
+    },
+    {
+     "k": "outer",
+     "l": "바깥 외곽선",
+     "kind": "select",
+     "opts": [
+      "끔",
+      "켬"
+     ],
+     "v": 1
+    },
+    {
+     "k": "inner",
+     "l": "겹침 선",
+     "kind": "select",
+     "opts": [
+      "끔",
+      "켬"
+     ],
+     "v": 1
+    },
+    {
+     "k": "sel",
+     "l": "선 방식",
+     "kind": "select",
+     "opts": [
+      "재질의 가장 어두운 단",
+      "셀렉티브(색 섞인 선)"
+     ],
+     "v": 0
+    },
+    {
+     "k": "tint",
+     "l": "선 색조",
+     "kind": "color",
+     "v": "#1d2b6b"
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.charline.glsl"
+   }
+  },
+  "outline": {
+   "t": "캐릭터 외곽선",
+   "cat": "style",
+   "inputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [
+    {
+     "k": "o",
+     "l": "색",
+     "t": "vec3"
+    }
+   ],
+   "params": [
+    {
+     "k": "col",
+     "l": "선 색",
+     "kind": "color",
+     "v": "#f6f0ff"
+    },
+    {
+     "k": "th",
+     "l": "두께",
+     "kind": "select",
+     "opts": [
+      "1px",
+      "2px"
+     ],
+     "v": 0
+    }
+   ],
+   "glsl": {
+    "$fn": "TYPES.outline.glsl"
+   }
+  },
+  "output": {
+   "t": "화면 출력",
+   "cat": "out",
+   "inputs": [
+    {
+     "k": "color",
+     "l": "색",
+     "t": "vec3",
+     "d": "vec3(0.0)"
+    }
+   ],
+   "outputs": [],
+   "glsl": {
+    "$fn": "TYPES.output.glsl"
+   }
+  }
+ },
+ "CAT_LABEL": {
+  "in": "입력",
+  "light": "빛",
+  "math": "수학",
+  "style": "스타일",
+  "out": "출력"
+ },
+ "PRESETS": [
+  {
+   "name": "컬러 도트",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.16,
+       "gain": 1
+      }
+     },
+     {
+      "id": 3,
+      "type": "rim",
+      "x": 250,
+      "y": 262,
+      "p": {
+       "str": 0.8
+      }
+     },
+     {
+      "id": 4,
+      "type": "add",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 5,
+      "type": "mul",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 6,
+      "type": "add",
+      "x": 470,
+      "y": 276
+     },
+     {
+      "id": 7,
+      "type": "ramp",
+      "x": 690,
+      "y": 40,
+      "p": {
+       "pal": 0,
+       "tintAmt": 0.4,
+       "dith": 0
+      }
+     },
+     {
+      "id": 8,
+      "type": "output",
+      "x": 910,
+      "y": 110
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 3,
+      "ti": "normal"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 3,
+      "fo": "rim",
+      "t": 4,
+      "ti": "b"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 7,
+      "ti": "mat"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "level"
+     },
+     {
+      "f": 2,
+      "fo": "tint",
+      "t": 7,
+      "ti": "tint"
+     },
+     {
+      "f": 7,
+      "fo": "color",
+      "t": 8,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "1비트 야간",
+   "beam": true,
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.03,
+       "gain": 1.15
+      }
+     },
+     {
+      "id": 3,
+      "type": "rim",
+      "x": 250,
+      "y": 262,
+      "p": {
+       "str": 0.5
+      }
+     },
+     {
+      "id": 4,
+      "type": "add",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 5,
+      "type": "mul",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 6,
+      "type": "add",
+      "x": 470,
+      "y": 276
+     },
+     {
+      "id": 7,
+      "type": "mul",
+      "x": 690,
+      "y": 24
+     },
+     {
+      "id": 8,
+      "type": "value",
+      "x": 690,
+      "y": 150,
+      "p": {
+       "v": 2.2
+      }
+     },
+     {
+      "id": 9,
+      "type": "mul",
+      "x": 690,
+      "y": 250
+     },
+     {
+      "id": 13,
+      "type": "levels",
+      "x": 910,
+      "y": 24,
+      "p": {
+       "lo": 0.12,
+       "hi": 0.85,
+       "g": 1
+      }
+     },
+     {
+      "id": 10,
+      "type": "matdither",
+      "x": 1130,
+      "y": 24,
+      "p": {
+       "mode": 0,
+       "lv": 2,
+       "str": 1
+      }
+     },
+     {
+      "id": 14,
+      "type": "edgeval",
+      "x": 1130,
+      "y": 290,
+      "p": {
+       "v": 1,
+       "th": 0
+      }
+     },
+     {
+      "id": 11,
+      "type": "twotone",
+      "x": 1350,
+      "y": 24,
+      "p": {
+       "ink": "#141217",
+       "paper": "#efe9da"
+      }
+     },
+     {
+      "id": 12,
+      "type": "output",
+      "x": 1350,
+      "y": 230
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 3,
+      "ti": "normal"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 3,
+      "fo": "rim",
+      "t": 4,
+      "ti": "b"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "lum",
+      "t": 7,
+      "ti": "b"
+     },
+     {
+      "f": 7,
+      "fo": "o",
+      "t": 9,
+      "ti": "a"
+     },
+     {
+      "f": 8,
+      "fo": "v",
+      "t": 9,
+      "ti": "b"
+     },
+     {
+      "f": 9,
+      "fo": "o",
+      "t": 13,
+      "ti": "a"
+     },
+     {
+      "f": 13,
+      "fo": "o",
+      "t": 10,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 10,
+      "ti": "mat"
+     },
+     {
+      "f": 10,
+      "fo": "o",
+      "t": 14,
+      "ti": "a"
+     },
+     {
+      "f": 14,
+      "fo": "o",
+      "t": 11,
+      "ti": "a"
+     },
+     {
+      "f": 11,
+      "fo": "color",
+      "t": 12,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "4색 휴대기",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.1,
+       "gain": 1
+      }
+     },
+     {
+      "id": 4,
+      "type": "mul",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 5,
+      "type": "add",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 7,
+      "type": "mul",
+      "x": 690,
+      "y": 24
+     },
+     {
+      "id": 8,
+      "type": "value",
+      "x": 690,
+      "y": 150,
+      "p": {
+       "v": 2.1
+      }
+     },
+     {
+      "id": 9,
+      "type": "mul",
+      "x": 690,
+      "y": 250
+     },
+     {
+      "id": 10,
+      "type": "matdither",
+      "x": 910,
+      "y": 24,
+      "p": {
+       "mode": 0,
+       "lv": 4,
+       "str": 0.85
+      }
+     },
+     {
+      "id": 11,
+      "type": "grad4",
+      "x": 910,
+      "y": 260
+     },
+     {
+      "id": 12,
+      "type": "output",
+      "x": 1130,
+      "y": 150
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 4,
+      "ti": "b"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 7,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "lum",
+      "t": 7,
+      "ti": "b"
+     },
+     {
+      "f": 7,
+      "fo": "o",
+      "t": 9,
+      "ti": "a"
+     },
+     {
+      "f": 8,
+      "fo": "v",
+      "t": 9,
+      "ti": "b"
+     },
+     {
+      "f": 9,
+      "fo": "o",
+      "t": 10,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 10,
+      "ti": "mat"
+     },
+     {
+      "f": 10,
+      "fo": "o",
+      "t": 11,
+      "ti": "a"
+     },
+     {
+      "f": 11,
+      "fo": "color",
+      "t": 12,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "도시 · 흐린 날",
+   "scene": "city",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.2,
+       "gain": 1
+      }
+     },
+     {
+      "id": 3,
+      "type": "relief",
+      "x": 250,
+      "y": 262,
+      "p": {
+       "len": 5,
+       "str": 0.6
+      }
+     },
+     {
+      "id": 4,
+      "type": "invert",
+      "x": 470,
+      "y": 262
+     },
+     {
+      "id": 5,
+      "type": "mul",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 6,
+      "type": "mul",
+      "x": 470,
+      "y": 140
+     },
+     {
+      "id": 7,
+      "type": "add",
+      "x": 690,
+      "y": 24
+     },
+     {
+      "id": 8,
+      "type": "ramp",
+      "x": 690,
+      "y": 150,
+      "p": {
+       "pal": 0,
+       "tintAmt": 0.45,
+       "dith": 0
+      }
+     },
+     {
+      "id": 9,
+      "type": "fog",
+      "x": 910,
+      "y": 24,
+      "p": {
+       "amt": 0.55,
+       "start": 0.3,
+       "mode": 0,
+       "col": "#c9c7c0"
+      }
+     },
+     {
+      "id": 10,
+      "type": "output",
+      "x": 1130,
+      "y": 110
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 3,
+      "fo": "sh",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 7,
+      "ti": "b"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 8,
+      "ti": "mat"
+     },
+     {
+      "f": 7,
+      "fo": "o",
+      "t": 8,
+      "ti": "level"
+     },
+     {
+      "f": 2,
+      "fo": "tint",
+      "t": 8,
+      "ti": "tint"
+     },
+     {
+      "f": 8,
+      "fo": "color",
+      "t": 9,
+      "ti": "c"
+     },
+     {
+      "f": 9,
+      "fo": "o",
+      "t": 10,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "비교: 양자화 없음",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.16,
+       "gain": 1
+      }
+     },
+     {
+      "id": 3,
+      "type": "mulcc",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 4,
+      "type": "mulc",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 5,
+      "type": "mulc",
+      "x": 470,
+      "y": 276
+     },
+     {
+      "id": 6,
+      "type": "addc",
+      "x": 690,
+      "y": 100
+     },
+     {
+      "id": 7,
+      "type": "output",
+      "x": 910,
+      "y": 110
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 1,
+      "fo": "base",
+      "t": 3,
+      "ti": "a"
+     },
+     {
+      "f": 2,
+      "fo": "light",
+      "t": 3,
+      "ti": "b"
+     },
+     {
+      "f": 3,
+      "fo": "o",
+      "t": 4,
+      "ti": "c"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 4,
+      "ti": "v"
+     },
+     {
+      "f": 1,
+      "fo": "base",
+      "t": 5,
+      "ti": "c"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 5,
+      "ti": "v"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "컬러 도트 · 캐릭터 선",
+   "scene": "octagon",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.16,
+       "gain": 1
+      }
+     },
+     {
+      "id": 3,
+      "type": "rim",
+      "x": 250,
+      "y": 262,
+      "p": {
+       "str": 0.8
+      }
+     },
+     {
+      "id": 4,
+      "type": "add",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 5,
+      "type": "mul",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 6,
+      "type": "add",
+      "x": 470,
+      "y": 276
+     },
+     {
+      "id": 7,
+      "type": "ramp",
+      "x": 690,
+      "y": 40,
+      "p": {
+       "pal": 0,
+       "tintAmt": 0.4,
+       "dith": 0
+      }
+     },
+     {
+      "id": 8,
+      "type": "output",
+      "x": 1130,
+      "y": 110
+     },
+     {
+      "id": 9,
+      "type": "charline",
+      "x": 910,
+      "y": 110,
+      "p": {
+       "pal": 0,
+       "outer": 1,
+       "inner": 1
+      }
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 3,
+      "ti": "normal"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 3,
+      "fo": "rim",
+      "t": 4,
+      "ti": "b"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 7,
+      "ti": "mat"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "level"
+     },
+     {
+      "f": 2,
+      "fo": "tint",
+      "t": 7,
+      "ti": "tint"
+     },
+     {
+      "f": 9,
+      "fo": "o",
+      "t": 8,
+      "ti": "color"
+     },
+     {
+      "f": 7,
+      "fo": "color",
+      "t": 9,
+      "ti": "color"
+     }
+    ]
+   }
+  },
+  {
+   "name": "느와르 · 부드러운 빛",
+   "scene": "noir",
+   "g": {
+    "nodes": [
+     {
+      "id": 1,
+      "type": "gbuf",
+      "x": 24,
+      "y": 24
+     },
+     {
+      "id": 2,
+      "type": "lights",
+      "x": 250,
+      "y": 24,
+      "p": {
+       "amb": 0.12,
+       "gain": 1
+      }
+     },
+     {
+      "id": 3,
+      "type": "rim",
+      "x": 250,
+      "y": 262,
+      "p": {
+       "str": 0.8
+      }
+     },
+     {
+      "id": 4,
+      "type": "add",
+      "x": 470,
+      "y": 24
+     },
+     {
+      "id": 5,
+      "type": "mul",
+      "x": 470,
+      "y": 150
+     },
+     {
+      "id": 6,
+      "type": "add",
+      "x": 470,
+      "y": 276
+     },
+     {
+      "id": 7,
+      "type": "ramp",
+      "x": 690,
+      "y": 40,
+      "p": {
+       "pal": 0,
+       "tintAmt": 0.6,
+       "dith": 0.85
+      }
+     },
+     {
+      "id": 8,
+      "type": "output",
+      "x": 1130,
+      "y": 110
+     },
+     {
+      "id": 9,
+      "type": "charline",
+      "x": 910,
+      "y": 110,
+      "p": {
+       "pal": 0,
+       "outer": 1,
+       "inner": 1,
+       "sel": 1,
+       "tint": "#1d2b6b"
+      }
+     }
+    ],
+    "links": [
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 2,
+      "ti": "normal"
+     },
+     {
+      "f": 1,
+      "fo": "normal",
+      "t": 3,
+      "ti": "normal"
+     },
+     {
+      "f": 2,
+      "fo": "lum",
+      "t": 4,
+      "ti": "a"
+     },
+     {
+      "f": 3,
+      "fo": "rim",
+      "t": 4,
+      "ti": "b"
+     },
+     {
+      "f": 4,
+      "fo": "o",
+      "t": 5,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "tone",
+      "t": 5,
+      "ti": "b"
+     },
+     {
+      "f": 5,
+      "fo": "o",
+      "t": 6,
+      "ti": "a"
+     },
+     {
+      "f": 1,
+      "fo": "emit",
+      "t": 6,
+      "ti": "b"
+     },
+     {
+      "f": 1,
+      "fo": "mat",
+      "t": 7,
+      "ti": "mat"
+     },
+     {
+      "f": 6,
+      "fo": "o",
+      "t": 7,
+      "ti": "level"
+     },
+     {
+      "f": 2,
+      "fo": "tint",
+      "t": 7,
+      "ti": "tint"
+     },
+     {
+      "f": 9,
+      "fo": "o",
+      "t": 8,
+      "ti": "color"
+     },
+     {
+      "f": 7,
+      "fo": "color",
+      "t": 9,
+      "ti": "color"
+     }
+    ]
+   }
+  }
+ ],
+ "WS_W": 1600,
+ "WS_H": 860,
+ "SAVE_KEY": "dotlab.graph.v4",
+ "FPS_LIST": [
+  4,
+  6,
+  8,
+  12,
+  15,
+  24,
+  30,
+  60
+ ],
+ "SAMPLE_PARTS": "6woAAOClAQAoAC4AIAABAAAAZAAAAAAAAAAAAAAAAAAZAAEBAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrCgAA+vE0AGQAAAA0AAAAsAAAABkgGQAAAAAAAAAYAAAAAAAAAAAAAAAAABsUJP8AAB87Rf8AAC9gZv8AADomGP8AAD4vIv8AAEofKv8AAEqPhv8AAFpkcP8AAGpGKP8AAGs/Ov8AAHouNP8AAHpaMv8AAH/Cqf8AAIp6Yv8AAJagrP8AALBFO/8AALh3XP8AAMiWPP8AAMm5kf8AANlzSv8AANzk7P8AAOqwiv8AAPDmyP8AAP/QYP8AAP/0sP8cAAAABCADAAEAAAAAAAAAAAD/AAAABABjYXBlHQAAAAQgAwAAAAEAAAAAAAAA/wAAAAUAY29sb3IbAAAABCACAAAAAQAAAAAAAAD/AAAAAwBtYXQdAAAABCACAAAAAQAAAAAAAAD/AAAABQBwaXZvdBsAAAAEIAMAAQAAAAAAAAAAAP8AAAADAGxlZx0AAAAEIAMAAAABAAAAAAAAAP8AAAAFAGNvbG9yGwAAAAQgAgAAAAEAAAAAAAAA/wAAAAMAbWF0HQAAAAQgAgAAAAEAAAAAAAAA/wAAAAUAcGl2b3QdAAAABCADAAEAAAAAAAAAAAD/AAAABQB0b3Jzbx0AAAAEIAMAAAABAAAAAAAAAP8AAAAFAGNvbG9yGwAAAAQgAgAAAAEAAAAAAAAA/wAAAAMAbWF0HQAAAAQgAgAAAAEAAAAAAAAA/wAAAAUAcGl2b3QcAAAABCADAAEAAAAAAAAAAAD/AAAABABoZWFkHQAAAAQgAwAAAAEAAAAAAAAA/wAAAAUAY29sb3IbAAAABCACAAAAAQAAAAAAAAD/AAAAAwBtYXQdAAAABCACAAAAAQAAAAAAAAD/AAAABQBwaXZvdB8AAAAEIAMAAQAAAAAAAAAAAP8AAAAHAG9mZmhhbmQdAAAABCADAAAAAQAAAAAAAAD/AAAABQBjb2xvchsAAAAEIAIAAAABAAAAAAAAAP8AAAADAG1hdBwAAAAEIAIAAAABAAAAAAAAAP8AAAAEAGVtaXQdAAAABCACAAAAAQAAAAAAAAD/AAAABQBwaXZvdBsAAAAEIAMAAQAAAAAAAAAAAP8AAAADAGFybR0AAAAEIAMAAAABAAAAAAAAAP8AAAAFAGNvbG9yGwAAAAQgAgAAAAEAAAAAAAAA/wAAAAMAbWF0HQAAAAQgAgAAAAEAAAAAAAAA/wAAAAUAcGl2b3QeAAAABCADAAEAAAAAAAAAAAD/AAAABgB3ZWFwb24dAAAABCADAAAAAQAAAAAAAAD/AAAABQBjb2xvchsAAAAEIAIAAAABAAAAAAAAAP8AAAADAG1hdB0AAAAEIAIAAAABAAAAAAAAAP8AAAAFAHBpdm90TAAAAAUgAQALABYA/wIAAAAAAAAAAAcACQB4nGNgQAXSIir/veS1wBibeJWeCRjjEscnB+LjE0eXwyZOSA5ZHCYHw2heZQAAmFY60EcAAAAFIAIACwAWAP8CAAAAAAAAAAAHAAkAeJxjYEAFIiIi/09oaIAxLnFkOXRxfHIgPj5xdDlc4sTqgcnBMJpXGQCQLUGrLwAAAAUgAwAMABYA/wIAAAAAAAAAAAYACQB4nGNgwAT/wWiIgID/WN0KALZnBE1MAAAABSAFABQAHgD/AgAAAAAAAAAABgAHAHickxZR+e8lrwXH0kA+AxBIQ8Wr9EwwxK3UJP5nuWmAaVLEkeXQxUEYJo4NAwAJLzicPwAAAAUgBgAUAB4A/wIAAAAAAAAAAAYABwB4nBMREfl/QkMDjkWAfAYgEMEjHmUjB8ekisPk8IljwwCHszp7MAAAAAUgBwAWAB4A/wIAAAAAAAAAAAEABwB4nPvPwPCfAQbu2CDYAf//AwBV8wZkngAAAAUgCQANABUA/wIAAAAAAAAAABAACwB4nGNggABpEZX/IPzh2Qk4PrlzIhjD+DA1DGgAWR9MDzbcVZWEoR/E95LX+l+lZ/J/g6v1/5vFXmAaHYPkQRikFoRh5pCqH2YGLv24MLp+mBnI+nGZgayXkH50M9D14tKPbgYuDFOLLQwImYOsBl0/CIPiF4SJSQPY0gEpGKYPAMlSNsJWAAAABSAKAA0AFQD/AgAAAAAAAAAAEAALAHicY2CAABERkf8g/OvXCZwYpoYBDRDSh24Gut4TGhokY5g5A6UfZsZQ10+tMCQ1DWBLB6RgmD4AzUpXniYAAAAFIAsAFAAeAP8CAAAAAAAAAAABAAEAeJz7z8DwHwAE/wH/nAAAAAUgDQALAAsA/wIAAAAAAAAAABIADAB4nGNgwA6kRVT+Y8M4lOPU79Xf9r/+0EowBrFBWD8hjSjzkPXD9ML0I2N5a1e8ZoHkQOpw6SdkDq6wIBWDzMdlNyGM7DZk80jB+MIcJJ5tb/V/R3kMHL/a0IWCQWLExBm6OTCzQHIws4g1h5CbiEmTMH9jcxep6RrZPGL0AgAeuAFvawAAAAUgDgALAAsA/wIAAAAAAAAAABIADAB4nGNgwA5ERET+Y8M4lOPUz3DiBFZMjHn49GMzj1bm4AoLUjGxbiDkNnLNwxfmIPH/W3oIYmLiDJ9eaphDinuQwwuXflLSNbJ5xOgFAIOLLrgmAAAABSAPABQAFgD/AgAAAAAAAAAAAQABAHic+8/A8B8ABP8B/2AAAAAFIBEACgAfAP8CAAAAAAAAAAAHAAkAeJxjYEAAaRGV/wxYAEi8KsroP7o8iI+OkdWfmGYDxiC2nb4SXM3/Cwn//3/ZgMBAPslyQDaymSA2yB4YhsnhcycAjOVmC0wAAAAFIBIACgAfAP8CAAAAAAAAAAAHAAkAeJxjYEAAERGR/wxYAEh8S4/Gf3R5EB8dI6tHxzA1//8zYGBy5JDNxGUfPncCAN3JYvgzAAAABSATAAsAIwD/AgAAAAAAAAAABQADAHic+38h4f//LxsQGMQnJAZkMwABACMoMCUmAAAABSAUAA0AHwD/AgAAAAAAAAAAAQABAHic+8/A8B8ABP8B/2oAAAAFIBYAFgAXAP8CAAAAAAAAAAAFAAoAeJxjYGBgkBZR+Q/DDFD+Blfr/zeLvf5X6ZnA5UBiIIws5iWvBeaDaGR1IDFC6kBsGIaJZdtb/X+1oev/jvIYuBiIDRIDYWQ3IrsZAP5ITt5BAAAABSAXABYAFwD/AgAAAAAAAAAABQAKAHicY2BgYBAREfkPwwxQ/gkNDTiGydFD7P+WHjjGJcaAxc0ASENUJSwAAAAFIBgAGAAXAP8CAAAAAAAAAAABAAkAeJz7z8DwnwEfCPj/HwBIzARNWgAAAAUgGgAWAB0A/wIAAAAAAAAAAAUADAB4nGNggABpEZX/DEgAxD8xzeY/uridvhIKH10Mpg+GYfqjUgr+33ny5j+IhqmFiU1bsIaqYsh2wMRhbADOI0k2TgAAAAUgGwAWAB0A/wIAAAAAAAAAAAUADAB4nGNggAAREZH/DEgAxN/So/EfXRwkxoAGkMVg+mAYpn/Bqn3/YRimlh5iMHEYGwBfHU4XLAAAAAUgHAAYAB8A/wIAAAAAAAAAAAEACgB4nPvPwPCfgRAI+P8fAFDIBE0=",
+ "SAMPLE_ASE": "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"
+}

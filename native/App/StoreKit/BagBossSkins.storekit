@@ -1,0 +1,84 @@
+{
+  "identifier" : "6B3E2C1A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2200",
+      "familyShareable" : false,
+      "internalID" : "6740000101",
+      "localizations" : [
+        {
+          "description" : "흰 턱시도 · 나비넥타이 · 금 커프스. 몸짓: 커프스 매만지기 · 마무리 연출: 금빛 반짝임",
+          "displayName" : "갈라 나이트 스킨",
+          "locale" : "ko"
+        },
+        {
+          "description" : "White tuxedo, bow tie, gold cufflinks. Gesture and finisher flair included.",
+          "displayName" : "Gala Night Skin",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dijeong.bagboss.skin.gala",
+      "referenceName" : "Skin · Gala Night",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2200",
+      "familyShareable" : false,
+      "internalID" : "6740000102",
+      "localizations" : [
+        {
+          "description" : "트렌치코트 · 중절모 · 금 버클. 몸짓: 중절모 챙 내리기 · 마무리 연출: 빗줄기 · 낮은 천둥",
+          "displayName" : "레인 디텍티브 스킨",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Trench coat, fedora, gold buckle. Gesture and finisher flair included.",
+          "displayName" : "Rain Detective Skin",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dijeong.bagboss.skin.rain",
+      "referenceName" : "Skin · Rain Detective",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2200",
+      "familyShareable" : false,
+      "internalID" : "6740000103",
+      "localizations" : [
+        {
+          "description" : "핀스트라이프 · 흰 띠 중절모 · 각반. 몸짓: 넥타이 · 챙 매만지기 · 마무리 연출: 붉은 불꽃",
+          "displayName" : "시카고 1929 스킨",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Pinstripes, white-band fedora, spats. Gesture and finisher flair included.",
+          "displayName" : "Chicago 1929 Skin",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dijeong.bagboss.skin.chicago",
+      "referenceName" : "Skin · Chicago 1929",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6740000100",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ko_KR",
+    "_storefront" : "KOR",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

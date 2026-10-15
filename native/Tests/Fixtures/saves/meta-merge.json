@@ -1,0 +1,57 @@
+{
+ "saved": {
+  "v": 1,
+  "runs": 3,
+  "best": {
+   "score": 99
+  },
+  "tot": {
+   "kills": 5,
+   "legacyStat": 2
+  },
+  "foes": {
+   "thug": {
+    "seen": 1,
+    "ko": 0
+   }
+  },
+  "extraTop": "keep"
+ },
+ "loaded": {
+  "v": 1,
+  "runs": 3,
+  "best": {
+   "score": 99,
+   "stage": 0
+  },
+  "tot": {
+   "kills": 5,
+   "crits": 0,
+   "dodges": 0,
+   "links": 0,
+   "throws": 0,
+   "outs": 0,
+   "onTime": 0,
+   "merges": 0,
+   "footSet": 0,
+   "legacyStat": 2
+  },
+  "foes": {
+   "thug": {
+    "seen": 1,
+    "ko": 0
+   }
+  },
+  "stns": {},
+  "items": {},
+  "links": {},
+  "kits": {
+   "basic": 1
+  },
+  "lines": {
+   "0": 1
+  },
+  "daily": {},
+  "extraTop": "keep"
+ }
+}

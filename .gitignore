@@ -1,0 +1,18 @@
+# Xcode — 프로젝트는 xcodegen으로 만든다
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+ios/BagBoss/Info.plist          # xcodegen이 project.yml의 info: 로 매번 만든다
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# 테스트 산출물
+tools/test/out/
+__pycache__/
+.DS_Store
+# 분석 도구(Node)
+tools/js/node_modules/
+tools/js/out/
+native/App/*.xcodeproj/
+native/.build/
+native/.swiftpm/
+native/.build-*/

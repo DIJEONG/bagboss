@@ -1,0 +1,175 @@
+{
+ "CORR_LEN": 1500,
+ "CORR_WAVES": [
+  [
+   0,
+   [
+    "stick",
+    "stick",
+    "stick"
+   ],
+   1
+  ],
+  [
+   170,
+   [
+    "stick",
+    "pipe"
+   ],
+   1
+  ],
+  [
+   260,
+   [
+    "stick"
+   ],
+   0
+  ],
+  [
+   330,
+   [
+    "stick",
+    "stick"
+   ],
+   -1
+  ],
+  [
+   470,
+   [
+    "pipe",
+    "stick",
+    "stick"
+   ],
+   1
+  ],
+  [
+   600,
+   [
+    "stick",
+    "pipe"
+   ],
+   0
+  ],
+  [
+   780,
+   [
+    "stick"
+   ],
+   1,
+   "thunder"
+  ],
+  [
+   1000,
+   [
+    "stick",
+    "stick"
+   ],
+   1,
+   "bridge"
+  ],
+  [
+   1220,
+   [
+    "brute"
+   ],
+   1,
+   "signoff"
+  ]
+ ],
+ "CORR_VAULT": 6,
+ "CORR_SEG": [
+  {
+   "door": "door",
+   "gf": [
+    [
+     "gf_ltn",
+     8,
+     74
+    ],
+    [
+     "gf_tag1",
+     150,
+     112
+    ]
+   ],
+   "jbox": 52,
+   "junk": 180
+  },
+  {
+   "door": "gate",
+   "gf": [
+    [
+     "gf_mob",
+     10,
+     82
+    ],
+    [
+     "gf_crown",
+     26,
+     72
+    ],
+    [
+     "gf_sticker",
+     176,
+     128
+    ]
+   ],
+   "jbox": 186,
+   "junk": 12
+  },
+  {
+   "door": "door",
+   "gf": [
+    [
+     "gf_nyc",
+     156,
+     86
+    ],
+    [
+     "gf_tag2",
+     14,
+     126
+    ],
+    [
+     "gf_tag3",
+     160,
+     132
+    ]
+   ],
+   "jbox": 30,
+   "junk": 186
+  },
+  {
+   "door": "gate",
+   "gf": [
+    [
+     "gf_b2",
+     150,
+     80
+    ],
+    [
+     "gf_tag1",
+     10,
+     120
+    ],
+    [
+     "gf_sticker",
+     60,
+     104
+    ]
+   ],
+   "jbox": 54,
+   "junk": 178
+  }
+ ],
+ "CR_PIPE_Y": 130,
+ "LAMP_TOP": 36,
+ "LAMP_L": 62,
+ "CINE": {
+  "start": 160,
+  "trash": 560,
+  "ent": 1000,
+  "y": 222,
+  "spd": 150
+ }
+}

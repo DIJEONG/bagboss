@@ -1,0 +1,26 @@
+{
+ "default": {
+  "vol": {
+   "master": 0.8,
+   "music": 0.55,
+   "sfx": 0.8
+  },
+  "muted": false
+ },
+ "saved": {
+  "vol": {
+   "music": 0.2,
+   "voice": 0.4
+  },
+  "muted": 1
+ },
+ "loaded": {
+  "vol": {
+   "master": 0.8,
+   "music": 0.2,
+   "sfx": 0.8,
+   "voice": 0.4
+  },
+  "muted": true
+ }
+}

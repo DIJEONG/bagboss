@@ -1,0 +1,14 @@
+{
+  "_comment": "2단계 A 설정(에이전트 O). 상품 ID · 리더보드 ID 는 App Store Connect 와 똑같아야 한다. 바꾸면 StoreKit/BagBossSkins.storekit 도 같이.",
+  "freeSkins": ["jw"],
+  "skins": [
+    { "key": "gala",    "productID": "com.dijeong.bagboss.skin.gala" },
+    { "key": "rain",    "productID": "com.dijeong.bagboss.skin.rain" },
+    { "key": "chicago", "productID": "com.dijeong.bagboss.skin.chicago" }
+  ],
+  "leaderboards": {
+    "towerBest": "tower_best",
+    "dailyTower": "daily_tower",
+    "runBest": "run_best_score"
+  }
+}

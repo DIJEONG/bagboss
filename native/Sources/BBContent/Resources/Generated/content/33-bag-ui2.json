@@ -1,0 +1,43 @@
+{
+ "TIER_COL": [
+  "",
+  "#8a90a8",
+  "#5fd08a",
+  "#5aa8ff",
+  "#c77dff",
+  "#ffcf4a"
+ ],
+ "SHORT_N": {
+  "hmback": "되치기",
+  "charm": "부적",
+  "pin": "타이핀",
+  "ring": "반지",
+  "metro": "메트로",
+  "cuff": "커프스",
+  "paper": "신문",
+  "earph": "이어폰",
+  "bandage": "반창고",
+  "duck": "쭈그리기"
+ },
+ "ROLE_G": {
+  "S": "▶",
+  "L": "●",
+  "F": "■",
+  "X": "◇"
+ },
+ "SV_SW": "<svg viewBox=\"0 0 8 8\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M6 0h1v1h-1zM7 0h1v1h-1zM5 1h1v1h-1zM6 1h1v1h-1zM7 1h1v1h-1zM4 2h1v1h-1zM5 2h1v1h-1zM6 2h1v1h-1zM1 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM2 5h1v1h-1zM3 5h1v1h-1zM1 6h1v1h-1zM4 6h1v1h-1zM0 7h1v1h-1z\"/></svg>",
+ "SV_CK": "<svg viewBox=\"0 0 8 8\" shape-rendering=\"crispEdges\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2 0h1v1h-1zM3 0h1v1h-1zM4 0h1v1h-1zM5 0h1v1h-1zM1 1h1v1h-1zM6 1h1v1h-1zM0 2h1v1h-1zM3 2h1v1h-1zM7 2h1v1h-1zM0 3h1v1h-1zM3 3h1v1h-1zM7 3h1v1h-1zM0 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM7 4h1v1h-1zM0 5h1v1h-1zM7 5h1v1h-1zM1 6h1v1h-1zM6 6h1v1h-1zM2 7h1v1h-1zM3 7h1v1h-1zM4 7h1v1h-1zM5 7h1v1h-1z\"/></svg>",
+ "CMD_MAX": 5,
+ "CMD_LIFE": 4,
+ "IMP_NAME": {
+  "holster": "권총집",
+  "pocket": "비밀 주머니",
+  "worn": "해진 안감"
+ },
+ "IMP_DESC": {
+  "holster": "이 칸에 걸친 기술 10% 빨리 발동",
+  "pocket": "이 칸에 걸친 기술 치명 +8%p",
+  "worn": "이 칸에 걸친 기술 피해 −20%"
+ },
+ "UNDO_MAX": 20
+}

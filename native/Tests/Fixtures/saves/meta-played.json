@@ -1,0 +1,122 @@
+{
+ "v": 1,
+ "runs": 7,
+ "best": {
+  "score": 12345,
+  "stage": 2
+ },
+ "tot": {
+  "kills": 321,
+  "crits": 45,
+  "dodges": 0,
+  "links": 0,
+  "throws": 0,
+  "outs": 0,
+  "onTime": 0,
+  "merges": 3,
+  "footSet": 0
+ },
+ "foes": {
+  "thug": {
+   "seen": 1,
+   "ko": 1
+  },
+  "heavy": {
+   "seen": 1,
+   "ko": 0
+  }
+ },
+ "stns": {
+  "s14": 1
+ },
+ "items": {
+  "punch": 2,
+  "kick": 1
+ },
+ "links": {
+  "down": 1
+ },
+ "kits": {
+  "basic": 1,
+  "brawler": 1
+ },
+ "lines": {
+  "0": 1,
+  "1": 1,
+  "2": 1
+ },
+ "daily": {
+  "2026-10-08": 4200
+ },
+ "hints": {
+  "move": 1,
+  "bag": 1
+ },
+ "talks": {
+  "kane": 2
+ },
+ "flags": {
+  "prologueDone": 1
+ },
+ "seenCut": {
+  "intro": 1
+ },
+ "spc": {
+  "rush": 3
+ },
+ "cbook": {
+  "c1": {
+   "n": 2,
+   "best": 14
+  }
+ },
+ "cseen": {
+  "c2": 1
+ },
+ "combos": {
+  "punch>kick": {
+   "name": "원투 킥",
+   "ids": [
+    "punch",
+    "kick"
+   ],
+   "n": 5,
+   "best": 9
+  }
+ },
+ "bossScenes": {
+  "boss1": 1
+ },
+ "bonusBest": 880,
+ "tower": {
+  "best": 12,
+  "bestT": 341,
+  "runs": 4,
+  "ot": 1,
+  "lv": {
+   "0": {
+    "f": 12,
+    "t": 341
+   },
+   "1": {
+    "f": 3,
+    "t": 99
+   }
+  },
+  "daily": {
+   "2026-10-08": {
+    "f": 5,
+    "t": 120
+   }
+  }
+ },
+ "futureField": {
+  "nested": [
+   1,
+   "two",
+   null,
+   true,
+   2.5
+  ]
+ }
+}

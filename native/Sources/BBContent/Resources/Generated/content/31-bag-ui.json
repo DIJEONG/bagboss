@@ -1,0 +1,605 @@
+{
+ "ICON_PAL": {
+  "K": "#0e0d14",
+  "w": "#f4eee2",
+  "W": "#c9c2b3",
+  "g": "#8d877b",
+  "G": "#4d4943",
+  "h": "#ffffff",
+  "s": "#f0c09a",
+  "S": "#c48458",
+  "z": "#83502f",
+  "r": "#e8524a",
+  "R": "#9a2430",
+  "y": "#f6cb4c",
+  "Y": "#c08a24",
+  "o": "#f08a3a",
+  "b": "#62a8ee",
+  "B": "#2c5aa0",
+  "n": "#3c3f4e",
+  "N": "#22242e",
+  "m": "#5b5f72",
+  "e": "#6ad08a",
+  "E": "#2f8a52",
+  "p": "#d77ad8",
+  "P": "#8e3c9a",
+  "c": "#d0a46c",
+  "C": "#8a5a32",
+  "x": "#5a3820",
+  "t": "#ffe7a8",
+  "l": "#9fd6ff",
+  "D": "#14241a",
+  "d": "#22402c",
+  "v": "#0a1028",
+  "V": "#18224a",
+  "u": "#2e3c66",
+  "a": "#eaffec",
+  "q": "#5a3424",
+  "Q": "#7a4a32",
+  "i": "#2a1e16"
+ },
+ "ICON_ART": {
+  "duck": [
+   "................",
+   ".W.W....KKKKK...",
+   "W.W.W..KyyyyyKK.",
+   ".W.W...KyttyyoK.",
+   "........KKKKKK..",
+   "................",
+   ".....KK.KK......",
+   "....KssKssK.....",
+   "....KsNNNsK.....",
+   "...KnKNNNKnK....",
+   "...KnnKKKnnnK...",
+   "..KnmnnnnnnnNK..",
+   "..KnmnnnnnnnNK..",
+   "..KGGKnnnnKGGK..",
+   "..KKKK.KK.KKKK..",
+   "................"
+  ],
+  "punch": [
+   "................",
+   "....KKKKKKKK....",
+   "...KswswswssK...",
+   "..KswsswsswsSK..",
+   "..KsSssSssSsSK..",
+   "..KssssssssSSK..",
+   "..KSsssssssSSK..",
+   "..KSKKKKKKKSSK..",
+   "..KSssssssSSSK..",
+   "...KSSSSSSSSK...",
+   "...KzSSSSSSzK...",
+   "....KwwWwwWK....",
+   "....KWwwWwwK....",
+   "....KwWwwWwK....",
+   "....KKKKKKKK....",
+   "................"
+  ],
+  "paper": [
+   "................",
+   "...........KKK..",
+   "..........KwwwK.",
+   ".........KwgwgK.",
+   "........KwwgwK..",
+   ".......KwgwgK...",
+   "......KwwgwK....",
+   ".....KwgwgK.....",
+   "....KwwgwK......",
+   "...KwgwgK.......",
+   "..KWwgwK........",
+   ".KWWwwK.........",
+   ".KWWWK..........",
+   "..KKK...........",
+   "................",
+   "................"
+  ],
+  "umb": [
+   ".......KK.......",
+   "......KnnK......",
+   "......KnmK......",
+   ".....KnnmNK.....",
+   ".....KnnmNK.....",
+   "....KnnnmNNK....",
+   "....KnnnmNNK....",
+   "....KnnnmNNK....",
+   ".....KnnmNK.....",
+   "......KYyK......",
+   "......KgWK......",
+   "......KgWK......",
+   "......KgWK.KK...",
+   "......KgWKKgK...",
+   ".......KggggK...",
+   "........KKKK...."
+  ],
+  "case": [
+   "................",
+   "................",
+   "......KKKKK.....",
+   ".....KK...KK....",
+   ".....K.....K....",
+   "..KKKKKKKKKKKK..",
+   "..KcccccccccCK..",
+   "..KcCcccccccCK..",
+   "..KccccKyKccCK..",
+   "..KKKKKKYKKKKK..",
+   "..KcccccccccCK..",
+   "..KccccccccCCK..",
+   "..KCCCCCCCCCCK..",
+   "..KxxxxxxxxxxK..",
+   "...KKKKKKKKKK...",
+   "................"
+  ],
+  "kick": [
+   "................",
+   "................",
+   "................",
+   "................",
+   "W.....KKKK......",
+   ".W...KnnnnK.....",
+   "W.W..KnmnnK.....",
+   ".W...KnmnnKKKK..",
+   "W.W.KnnnnwnwnnKK",
+   "....Knnnnnnnnnnn",
+   "....Knhnnnnnnnnn",
+   "....KGGGKKGGGGGG",
+   ".....KKK.yKKKKKK",
+   "..........y.....",
+   "................",
+   "................"
+  ],
+  "round": [
+   "......WWWWW.....",
+   "....WW.....W....",
+   "...W.........W..",
+   "..W...........W.",
+   "..W............W",
+   "..W.............",
+   ".....KKKK.......",
+   "....KnnnnK......",
+   "....KnmnnK......",
+   "....KnmnnKKKK...",
+   "...KnnnnwnwnnKK.",
+   "...KnnnnnnnnnnnK",
+   "...KnhnnnnnnnnnN",
+   "...KGGGKKGGGGGGG",
+   "....KKK..KKKKKKK",
+   "................"
+  ],
+  "upper": [
+   "................",
+   "......KKKKK.....",
+   ".....KsssssK....",
+   "....KswswswsK...",
+   "....KsSsSsSsK...",
+   "....KsssssSSK...",
+   "....KSsKKKKSK...",
+   "....KSssssSSK...",
+   ".....KSSSSSK....",
+   ".....KwwWwwK....",
+   "..W..KnmnnnK..W.",
+   "..W..KnmnnnK..W.",
+   ".W...KnmnnnK...W",
+   ".W...KnnnnnK...W",
+   "W....KnnnnnK....",
+   ".....KKKKKKK...."
+  ],
+  "elbow": [
+   "................",
+   "...y............",
+   "..yty...........",
+   "...y..KKKKKK....",
+   ".....KnnnnnmK...",
+   "....KnnnnnnmK...",
+   "...KnnnnnnnmK...",
+   "...KnmmmnKKKK...",
+   "...KnnnnK.......",
+   "....KnnnK.......",
+   "....KnnnK.......",
+   "....KwwwK.......",
+   "....KsssK.......",
+   "....KsSSK.......",
+   ".....KKK........",
+   "................"
+  ],
+  "knee": [
+   "................",
+   "..y.............",
+   ".yty.....KKKK...",
+   "..y.....KnnnnK..",
+   ".......KnnnnmK..",
+   "......KnnnnmK...",
+   ".....KnnnnmK....",
+   "....KnnnnnK.....",
+   "....KnmnnnK.....",
+   "....KnnmmnnK....",
+   ".....KnnnnnnK...",
+   "......KnnnnnK...",
+   ".......KnnnnnK..",
+   "........KGGGGK..",
+   ".........KKKK...",
+   "................"
+  ],
+  "sweep": [
+   "................",
+   "................",
+   "................",
+   "................",
+   ".....KKKK.......",
+   "....KnnnnK......",
+   "....KnmnnK......",
+   "....KnmnnKKKK...",
+   "...KnnnnwnwnnKK.",
+   "...KnnnnnnnnnnnK",
+   "...KnhnnnnnnnnnN",
+   "...KGGGKKGGGGGGG",
+   "....KKK..KKKKKKK",
+   "WW.WWW.WWWWWW...",
+   ".WWWWWWWWWWWWWW.",
+   "................"
+  ],
+  "charge": [
+   "................",
+   "................",
+   "........KK......",
+   "........KrK.....",
+   "........KrrK....",
+   "WWWW.KKKKrrrK...",
+   ".....KrrrrrrrK..",
+   "WWWWWKrrhrrrrrK.",
+   ".....KrrrrrrrRK.",
+   "WWWW.KKKKrrrRK..",
+   "........KrRK....",
+   "........KRK.....",
+   "........KK......",
+   "................",
+   "................",
+   "................"
+  ],
+  "throw": [
+   "................",
+   "......WWWWW.....",
+   "....WW.....W....",
+   "...W........W...",
+   "..W.....KK...W..",
+   "..W....KssK..W..",
+   "..W....KssK.WWW.",
+   ".......KnnK..W..",
+   "......KnmnnK....",
+   ".....KnnmnnnK...",
+   ".....KsKnnKsK...",
+   "......KnnnnK....",
+   "......KnKKnK....",
+   "......KnK.KnK...",
+   ".....KGGK.KGGK..",
+   ".....KKKK.KKKK.."
+  ],
+  "stomp": [
+   "................",
+   ".......KKKK.....",
+   "......KnnnnK....",
+   "......KnmnnK....",
+   "......KnmnnKKKK.",
+   ".....KnnnnwnwnnK",
+   ".....Knnnnnnnnnn",
+   ".....Knhnnnnnnnn",
+   ".....KGGGKKGGGGG",
+   "......KKK..KKKKK",
+   ".W..W.....W...W.",
+   "..W..W...W..W...",
+   "KKKKKKKKKKKKKKKK",
+   "GGgGGGGgGGGGGgGG",
+   "GgGGGgGGGGgGGGGG",
+   "................"
+  ],
+  "charm": [
+   "......KKKK......",
+   ".....KyYYyK.....",
+   "......KyyK......",
+   ".....KKKKKK.....",
+   "....KrrrrrrK....",
+   "...KrrrrrrrRK...",
+   "...KrryyyyrRK...",
+   "...KrrytYyrRK...",
+   "...KrryYYyrRK...",
+   "...KrrrrrrrRK...",
+   "...KrrrrrrrRK...",
+   "...KrrrrrrrRK...",
+   "...KRrrrrrRRK...",
+   "....KKKKKKKK....",
+   "................",
+   "................"
+  ],
+  "coffee": [
+   "................",
+   "....KKKKKKKK....",
+   "...KWwWWWWWgK...",
+   "...KgGGGGGGGK...",
+   "...KrrrrrrrRK...",
+   "...KrhrrrrrRK...",
+   "...KwwwwwwwRK...",
+   "...KwCxCwwwRK...",
+   "...KwCCxwwwRK...",
+   "...KwwwwwwwRK...",
+   "...KrhrrrrrRK...",
+   "...KrrrrrrrRK...",
+   "...KgGGGGGGGK...",
+   "...KWwWWWWWgK...",
+   "....KKKKKKKK....",
+   "................"
+  ],
+  "coat": [
+   "................",
+   "....KKK..KKK....",
+   "...KnnnKKnnnK...",
+   "..KnnwnnnnwnnK..",
+   "..KnnnwwwwnnnK..",
+   "..KnnnnwrwnnnK..",
+   ".KnnnnnwrwnnnnK.",
+   ".KnmnnnwrwnnnNK.",
+   ".KnmnnnnrnnnnNK.",
+   ".KnmnnnnhnnnnNK.",
+   ".KnmnnnnnnnnnNK.",
+   ".KnmnnnnhnnnnNK.",
+   ".KnnnnnnnnnnnNK.",
+   ".KNNNNNNNNNNNNK.",
+   "..KKKKKKKKKKKK..",
+   "................"
+  ],
+  "shoes": [
+   "................",
+   "................",
+   "................",
+   ".......KKKK.....",
+   "......KwwwwK....",
+   ".....KwbwbwK....",
+   "....KwwbwbwWK...",
+   "...KwwwwwwwwWK..",
+   "..KwbbbwwwwwwWK.",
+   "..KwwwwwwwwwwWK.",
+   "..KhwwwwwwwwwWK.",
+   "..KgggggggggggK.",
+   "..KbbbbbbbbbbbK.",
+   "...KKKKKKKKKKK..",
+   "................",
+   "................"
+  ],
+  "earph": [
+   "................",
+   "...KKK....KKK...",
+   "..KwwWK..KwwWK..",
+   "..KwhWK..KwhWK..",
+   "..KWWgK..KWWgK..",
+   "...KWK....KWK...",
+   "...KWK....KWK...",
+   "....KW....WK....",
+   ".....W....W.....",
+   "......W..W......",
+   ".......WW.......",
+   ".......KK.......",
+   "......KgGK......",
+   ".......WW.......",
+   "........W.......",
+   "........W......."
+  ],
+  "bandage": [
+   "................",
+   "......KKKK......",
+   ".....KcccCK.....",
+   ".....KcwcCK.....",
+   ".....KccccK.....",
+   ".KKKKKcccCKKKKK.",
+   "KcccccWwWcccccCK",
+   "KcwccWwWwWccwcCK",
+   "KcccccWwWcccccCK",
+   ".KKKKKcccCKKKKK.",
+   ".....KccccK.....",
+   ".....KcwcCK.....",
+   ".....KcccCK.....",
+   "......KKKK......",
+   "................",
+   "................"
+  ],
+  "knuckle": [
+   "................",
+   "................",
+   "..KKKKKKKKKKKK..",
+   ".KyYKyYKyYKyYK..",
+   ".KytKytKytKytYK.",
+   ".KyYKyYKyYKyYYK.",
+   ".KyyyyyyyyyyyYK.",
+   "..KyyyyyyyyyYK..",
+   "...KYyyyyyyYK...",
+   "....KYYYYYYK....",
+   ".....KKKKKK.....",
+   "................",
+   "................",
+   "................",
+   "................",
+   "................"
+  ],
+  "gum": [
+   "................",
+   "......KKKK......",
+   "....KKppppKK....",
+   "...KpphppppPK...",
+   "..KpphpppppPPK..",
+   "..KpppppppppPK..",
+   "..KpppppppppPK..",
+   "..KPpppppppPPK..",
+   "...KPPpppPPPK...",
+   "....KKPPPPKK....",
+   "......KKKK......",
+   "................",
+   ".....KwwwwwK....",
+   ".....KwpppwK....",
+   ".....KwwwwwK....",
+   ".....KKKKKKK...."
+  ]
+ },
+ "ART_PX": 32,
+ "RAMPS": [
+  [
+   "N",
+   "n",
+   "m"
+  ],
+  [
+   "z",
+   "S",
+   "s"
+  ],
+  [
+   "W",
+   "w",
+   "h"
+  ],
+  [
+   "G",
+   "g",
+   "W"
+  ],
+  [
+   "Y",
+   "y",
+   "t"
+  ],
+  [
+   "x",
+   "C",
+   "c"
+  ],
+  [
+   "R",
+   "r",
+   "o"
+  ],
+  [
+   "B",
+   "b",
+   "l"
+  ],
+  [
+   "P",
+   "p",
+   "p"
+  ],
+  [
+   "E",
+   "e",
+   "e"
+  ]
+ ],
+ "RAMP_OF": {
+  "N": [
+   0,
+   0
+  ],
+  "n": [
+   0,
+   1
+  ],
+  "m": [
+   0,
+   2
+  ],
+  "z": [
+   1,
+   0
+  ],
+  "S": [
+   1,
+   1
+  ],
+  "s": [
+   1,
+   2
+  ],
+  "W": [
+   2,
+   0
+  ],
+  "w": [
+   2,
+   1
+  ],
+  "h": [
+   2,
+   2
+  ],
+  "G": [
+   3,
+   0
+  ],
+  "g": [
+   3,
+   1
+  ],
+  "Y": [
+   4,
+   0
+  ],
+  "y": [
+   4,
+   1
+  ],
+  "t": [
+   4,
+   2
+  ],
+  "x": [
+   5,
+   0
+  ],
+  "C": [
+   5,
+   1
+  ],
+  "c": [
+   5,
+   2
+  ],
+  "R": [
+   6,
+   0
+  ],
+  "r": [
+   6,
+   1
+  ],
+  "o": [
+   6,
+   2
+  ],
+  "B": [
+   7,
+   0
+  ],
+  "b": [
+   7,
+   1
+  ],
+  "l": [
+   7,
+   2
+  ],
+  "P": [
+   8,
+   0
+  ],
+  "p": [
+   8,
+   1
+  ],
+  "E": [
+   9,
+   0
+  ],
+  "e": [
+   9,
+   1
+  ]
+ },
+ "ART_CACHE": {
+  "case@0p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAuFJREFUeF7tWz8oRVEYP68sCkkmyWBSBqY3SEpKEgOTYlbKJi+D0fRkU8psMFm8DEpKMpgYlMkgowwoi6LveYf7zrvnz/fu973u9b4z3eGe78/v/H7f+c559+VUk49ck+evBABOBnS0d39R2X99e2ZZLBajkDQkvznbR5W/2jp+VBwgsAAQTf7m4YUEhOH+LhYQWAGgSl4jWLp7J2eBAEDCT8OIloAwwNA/UDh0zAy21byaeQmEJmBjUOj8UJDhvYbWgNAEBIBKD2HWkFAAhQEIBGokQNW+QhcYt4KhsSWdb/NjdpNVAEDyF3sLoTFm8r2xlcOqZqqpADg9uappp60AwMswJqdHVNafNVVRAMCkoYlRdXt2WZ6f1efFuQ1VWJ0p54AGIJMidwSNAiBK+/8CBAoAk/ZZBaG4WxIJ1FUEuSSg7cYxCnYczpEKCUAQ+eHX2Dw7e6bI82eRgGsVde9gy0QDkB8fqHrl+vxe+QBI4he9Dbok4FpFcORKJCkANvb4/KIBcO0CtiRgjm8lKQAw2ePyyyYBWAkIpLV3SX08HfzSuVEAYP0GMyDuLi5Oz8vzLWUAzAEA7B99OotZ3NyQeWA0iV+Yb16qxB6GtP7Xdwpqe61Ykwyc812BQA2wFSzbXM0cV6Grxy/MgR9VYMAzCgC9L5tB1RNIFEXXNkgNQNQvCgB9m6PRM2ngq8b1Njy+rS6JXxQAkLBNAr69Xhcc8q6mcj/hshvHVnIJcCTWCJsoBvgk0IiAqX2gAPBJgDo4LnssuwBXsNx2UQwQCXh2Ae7VorIvEoggKRLAtsKuRoiKotx2RAIigT8EUDVAGqHIwcN3QuPWMZV9FAOkEZJG6OfbAM6zPRW1Q+2IBKQRIroUDaVc2t4TCYgEkBIAysAHRtAImYeK6E1rFp5BjigJpE2/FPEIAKE1AH5S/q/D+dsgJE31sXRaAXR+LJ3WoDnjYvnHCGfA1LYFAGpEs2bvG4IWbn1rBx+FAAAAAElFTkSuQmCC"
+ }
+}

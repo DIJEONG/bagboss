@@ -1,0 +1,17 @@
+{
+  "name": "bagboss-tools",
+  "private": true,
+  "type": "module",
+  "description": "web/src 조각 분석 · 네이티브용 추출 도구",
+  "devDependencies": {
+    "acorn": "8.14.0",
+    "eslint-scope": "8.2.0",
+    "playwright": "1.48.2",
+    "wawoff2": "2.0.1"
+  },
+  "scripts": {
+    "deps": "node deps_web.mjs",
+    "extract": "node extract/atlas.mjs && node extract/content.mjs && node extract/strings.mjs && node extract/fixtures.mjs && node extract/fonts.mjs && node extract/sfx.mjs && node extract/saves.mjs",
+    "extract:check": "node extract/atlas.mjs --check && node extract/content.mjs --check && node extract/strings.mjs --check && node extract/fixtures.mjs --check && node extract/fonts.mjs --check && node extract/sfx.mjs --check"
+  }
+}

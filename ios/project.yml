@@ -1,0 +1,64 @@
+# XcodeGen 명세 — .xcodeproj는 커밋하지 않고 이 파일로 만든다.
+#   brew install xcodegen
+#   cd ios && xcodegen generate && open BagBoss.xcodeproj
+# 팀 ID · 번들 ID는 아래 두 줄만 바꾸면 된다.
+name: BagBoss
+options:
+  bundleIdPrefix: com.dijeong
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  developmentLanguage: ko
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: ""                 # ← Apple Developer 팀 ID (Xcode › Settings › Accounts)
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"                 # Swift 6 엄격 동시성은 1단계 범위 밖
+    SWIFT_STRICT_CONCURRENCY: minimal    # 바꾸면 WebKit 대리자 시그니처를 SDK와 다시 맞춰 볼 것
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+
+targets:
+  BagBoss:
+    type: application
+    platform: iOS
+    scheme: {}                           # 공유 스킴 생성 → xcodebuild -scheme BagBoss 가 새 체크아웃에서도 동작
+    sources:
+      - path: BagBoss
+        excludes:
+          - "Web/**"                     # 웹 코어는 아래 폴더 참조로 통째로 넣는다(평평하게 풀리지 않게)
+      - path: BagBoss/Web
+        type: folder                     # 번들 안에 Web/ 디렉터리 그대로 → AppSchemeHandler가 app://game/… 으로 서빙
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dijeong.bagboss   # ← 번들 ID
+        PRODUCT_NAME: BagBoss
+        TARGETED_DEVICE_FAMILY: "1"      # 아이폰 전용(1단계)
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: BagBoss/Info.plist
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+    info:
+      path: BagBoss/Info.plist
+      properties:
+        CFBundleDisplayName: BAG BOSS
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: LaunchBG
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIStatusBarHidden: true
+        UIViewControllerBasedStatusBarAppearance: true
+        CADisableMinimumFrameDurationOnPhone: true      # 프로모션 기기: 네이티브 쪽 120Hz 허용(웹 rAF는 WebKit이 정함 → 측정 항목)
+        UIFileSharingEnabled: true                      # 성능 기록 CSV를 '파일' 앱에서 꺼내 볼 수 있게
+        LSSupportsOpeningDocumentsInPlace: true
+        ITSAppUsesNonExemptEncryption: false

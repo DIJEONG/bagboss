@@ -1,0 +1,79 @@
+# XcodeGen 명세 — 완전 네이티브 앱(docs/06). .xcodeproj 는 커밋하지 않는다.
+#   cd native/App && xcodegen generate && open BagBossNative.xcodeproj
+# 코어는 로컬 패키지 BagBossKit(native/Package.swift). 웹 셸(ios/)과는 별개 타깃 · 별개 번들 ID.
+# (D8: 웹 셸을 먼저 출시하면 저장 이관을 위해 같은 번들 ID 로 바꾼다)
+name: BagBossNative
+options:
+  bundleIdPrefix: com.dijeong
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: ko
+
+packages:
+  BagBossKit:
+    path: ..
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: VQK8V9Q94V         # Apple Developer 팀 ID
+    MARKETING_VERSION: "0.0.1"
+    CURRENT_PROJECT_VERSION: "23"
+    SWIFT_VERSION: "6.0"                 # D2: 새 코드는 Swift 6 엄격 동시성
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    COMPRESS_PNG_FILES: NO               # 아틀라스 PNG 는 데이터 — iOS 용 재압축(알파 미리 곱하기)을 막는다
+    STRIP_PNG_TEXT: NO
+
+targets:
+  BagBossNative:
+    type: application
+    platform: iOS
+    scheme:
+      # 2단계 A: Xcode 에서 실행하면 로컬 StoreKit 구성으로 유료 스킨 결제를 시험한다(App Store Connect 없이 — 시뮬레이터 · 기기 디버그 실행)
+      storeKitConfiguration: StoreKit/BagBossSkins.storekit
+    sources:
+      - path: BagBossNative
+      - path: StoreKit/BagBossSkins.storekit   # 프로젝트에서 보이게만(번들에 넣지 않음)
+        buildPhase: none
+      - path: ../Tests/Fixtures/frames      # N1 렌더 뷰어용 웹 캡처 프레임(DEBUG 점검 — 게임이 생기면 뺀다)
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: BagBossKit
+        product: BagBossKit
+    # 실행 화면(UILaunchScreen): 첫 화면(불러오는 중 · 타이틀)과 같은 짙은 남보라 — 흰 번쩍임 없이 이어진다.
+    # 사전 값이라 INFOPLIST_KEY_ 로는 못 넣는다 → xcodegen 이 Info.plist 를 만들고 생성 키(GENERATE_INFOPLIST_FILE)와 합친다
+    info:
+      path: BagBossNative/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)   # 설정 › 버전 줄이 읽는다(xcodegen 기본 1.0 을 덮는다)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBG
+        ITSAppUsesNonExemptEncryption: false   # 표준 HTTPS 외 암호화 없음 — TestFlight 수출 규정 질문을 건너뛴다
+    # Game Center 권한(인앱 결제는 권한 파일이 필요 없다 — App Store Connect 앱 ID 에서 기능을 켠다)
+    entitlements:
+      path: BagBossNative/BagBossNative.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dijeong.bagboss.native
+        PRODUCT_NAME: BagBossNative
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: NO   # 생성기의 빈 실행 화면 대신 Info.plist(info:) 의 UILaunchScreen 을 쓴다
+        INFOPLIST_KEY_CFBundleDisplayName: "BAG BOSS N"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.action-games
+        # 성능(docs/06 §8): 빌드 때 셰이더 컴파일(default.metallib)을 켜려면 sources 에
+        #   - path: ../Sources/BBRender/Resources/Shaders.metal
+        #     buildPhase: sources
+        # 를 더한다 — FrameRenderer 가 번들 metallib 를 먼저 쓴다. 단 Xcode 26 은 Metal 도구 묶음이 따로라
+        # `xcodebuild -downloadComponent MetalToolchain` 이 없으면 빌드가 깨져 지금은 꺼 둔다(첫 설치 실행에만 뒤 스레드 컴파일 1.3초).
+        MTL_FAST_MATH: NO                    # 켰을 때: 웹 fract(sin()) 해시와 맞추려고 빠른 수학 끔(FrameRenderer.makeLibrary 의 mathMode .safe 와 같은 뜻)
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG

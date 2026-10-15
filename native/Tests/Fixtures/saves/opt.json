@@ -1,0 +1,21 @@
+{
+ "default": {
+  "autoSpc": false,
+  "shortCut": true,
+  "noFlash": false
+ },
+ "saved": {
+  "skin": "navy",
+  "vibe": false,
+  "shortCut": false,
+  "devFoo": 3
+ },
+ "loaded": {
+  "autoSpc": false,
+  "shortCut": false,
+  "noFlash": false,
+  "skin": "navy",
+  "vibe": false,
+  "devFoo": 3
+ }
+}

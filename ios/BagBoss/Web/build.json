@@ -1,0 +1,18 @@
+{
+ "source": "web/index.html",
+ "source_sha256": "20ef9c52ad3f72a20938e2226719c6d440a68a0a69ca250705336c419252ba0f",
+ "patches": [
+  "drop google fonts links (3)",
+  "viewport user-scalable=no",
+  "link app/fonts.css + app/app.css"
+ ],
+ "built_at": "2026-10-09T16:04:28",
+ "files": {
+  "index.html": "9ad3165494f5c8b3",
+  "app/app.css": "1979b2ef39f35189",
+  "app/bridge.js": "09a8448cd2274a54",
+  "app/fonts/OFL-Anton.txt": "9267baca92b7a7ce",
+  "app/fonts/anton-latin-400-normal.woff2": "d0fa07ff63dd60cb",
+  "app/fonts.css": "4e02cfa2dae728e3"
+ }
+}

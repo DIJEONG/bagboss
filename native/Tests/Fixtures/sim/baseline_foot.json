@@ -1,0 +1,4668 @@
+{
+ "_about": "tools/js/extract/simtrace.mjs — 시드 고정 웹 자동 전투 결과(통계 기준선)",
+ "seconds": 300,
+ "stage": 0,
+ "kit": "foot",
+ "results": [
+  {
+   "seed": 4001,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 75,
+   "max": 120,
+   "score": 66106,
+   "kills": 82,
+   "dealt": 4275,
+   "taken": 216,
+   "crits": 21,
+   "maxCombo": 28,
+   "links": 133,
+   "justs": 0,
+   "tokens": 55,
+   "combos": 0,
+   "outs": 5,
+   "walls": 16,
+   "bowls": 34,
+   "stag": 20,
+   "flanks": 2,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "rStomp": 23,
+    "rStomp†": 19,
+    "뜸:rSwept": 24,
+    "뜸:rKick": 26,
+    "hitB": 7,
+    "뜸:rKick†": 13,
+    "hit†": 4,
+    "뜸:rSpin†": 18,
+    "hit": 12,
+    "hitB†": 4,
+    "뜸:rSpin": 26,
+    "rHook": 6,
+    "뜸:fall": 14,
+    "뜸:fall†": 13,
+    "뜸:rSwept†": 3,
+    "공중:rSwept†": 1,
+    "공중:rKick†": 2,
+    "fall": 3,
+    "rSpin": 4
+   },
+   "snd": [
+    0,
+    73,
+    149
+   ],
+   "byCar": [
+    {
+     "taken": 36,
+     "dealt": 584,
+     "kills": 16,
+     "t": 46.427
+    },
+    {
+     "taken": 34,
+     "dealt": 423,
+     "kills": 13,
+     "t": 47.974
+    },
+    {
+     "taken": 29,
+     "dealt": 447,
+     "kills": 11,
+     "t": 38.437
+    },
+    {
+     "taken": 5,
+     "dealt": 636,
+     "kills": 12,
+     "t": 42.143
+    },
+    {
+     "taken": 33,
+     "dealt": 901,
+     "kills": 16,
+     "t": 56.134
+    },
+    {
+     "taken": 9,
+     "dealt": 612,
+     "kills": 9,
+     "t": 38.743
+    },
+    {
+     "taken": 70,
+     "dealt": 672,
+     "kills": 5,
+     "t": 36.142
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,bkick,fkick,coffee,duck,duck",
+   "stash": "elbow,upper",
+   "shops": [
+    "duck/pin/shoes",
+    "elbow/umb/earph",
+    "case/cuff/knuckle",
+    "duck/umb/shoes"
+   ]
+  },
+  {
+   "seed": 4002,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 91,
+   "max": 120,
+   "score": 63852,
+   "kills": 83,
+   "dealt": 4117,
+   "taken": 130,
+   "crits": 28,
+   "maxCombo": 40,
+   "links": 221,
+   "justs": 0,
+   "tokens": 54,
+   "combos": 31,
+   "outs": 4,
+   "walls": 17,
+   "bowls": 32,
+   "stag": 17,
+   "flanks": 1,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 28,
+   "throws": 0,
+   "chits": 16,
+   "rk": {
+    "뜸:rKick": 18,
+    "hitB": 34,
+    "hit": 5,
+    "rStomp†": 9,
+    "뜸:rSpin†": 29,
+    "뜸:rSwept": 49,
+    "rStomp": 20,
+    "공중:rBlast†": 7,
+    "hitB†": 6,
+    "뜸:rSpin": 16,
+    "뜸:rKick†": 12,
+    "공중:rBlast": 17,
+    "rHook†": 3,
+    "공중:hitB": 3,
+    "뜸:rBlast": 3,
+    "rHook": 9,
+    "뜸:fall†": 7,
+    "뜸:fall": 6,
+    "뜸:rSwept†": 3,
+    "공중:rSpin†": 3,
+    "공중:rSwept": 2,
+    "rCross": 1,
+    "rSwept": 1,
+    "rKick": 3,
+    "rSpin": 2
+   },
+   "snd": [
+    5,
+    93,
+    170
+   ],
+   "byCar": [
+    {
+     "taken": 18,
+     "dealt": 598,
+     "kills": 16,
+     "t": 42.466
+    },
+    {
+     "taken": 16,
+     "dealt": 485,
+     "kills": 13,
+     "t": 45.713
+    },
+    {
+     "taken": 6,
+     "dealt": 583,
+     "kills": 14,
+     "t": 46.325
+    },
+    {
+     "taken": 0,
+     "dealt": 607,
+     "kills": 12,
+     "t": 43.452
+    },
+    {
+     "taken": 54,
+     "dealt": 903,
+     "kills": 16,
+     "t": 59.228
+    },
+    {
+     "taken": 7,
+     "dealt": 582,
+     "kills": 9,
+     "t": 40.817
+    },
+    {
+     "taken": 29,
+     "dealt": 359,
+     "kills": 3,
+     "t": 27.999
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,sweep,ring,bfist,metro,duck,duck,cuff",
+   "stash": "bkick,knuckle,shoes",
+   "shops": [
+    "duck/paper/knuckle",
+    "umb/cycle/fkick",
+    "umb/case/suplex",
+    "skick/punch/coffee"
+   ]
+  },
+  {
+   "seed": 4003,
+   "t": 236.833,
+   "state": "over",
+   "stageIdx": 0,
+   "ci": 4,
+   "hp": 0,
+   "max": 120,
+   "score": 37011,
+   "kills": 60,
+   "dealt": 2468,
+   "taken": 401,
+   "crits": 9,
+   "maxCombo": 37,
+   "links": 51,
+   "justs": 0,
+   "tokens": 19,
+   "combos": 7,
+   "outs": 4,
+   "walls": 11,
+   "bowls": 26,
+   "stag": 14,
+   "flanks": 0,
+   "dodges": 4,
+   "onTime": 1,
+   "late": 3,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 9,
+   "rk": {
+    "뜸:rKick": 21,
+    "hit": 9,
+    "뜸:rSpin†": 17,
+    "rHook": 10,
+    "뜸:rKick†": 13,
+    "rStomp": 5,
+    "뜸:rSwept": 12,
+    "hitB": 3,
+    "rStomp†": 6,
+    "뜸:fall": 9,
+    "hitB†": 1,
+    "공중:rKick†": 2,
+    "rKnee": 4,
+    "뜸:rBlast†": 4,
+    "뜸:rSpin": 5,
+    "rKnee†": 3,
+    "뜸:rBlast": 9,
+    "뜸:fall†": 2,
+    "hit†": 1,
+    "rHook†": 1,
+    "crumple": 1,
+    "공중:rSwept": 1,
+    "공중:rSwept†": 1,
+    "공중:hit": 4,
+    "공중:rCross": 2,
+    "rCross": 1,
+    "공중:rHook†": 2,
+    "뜸:rSwept†": 1,
+    "공중:rCross†": 2,
+    "spinout": 1
+   },
+   "snd": [
+    5,
+    69,
+    79
+   ],
+   "byCar": [
+    {
+     "taken": 26,
+     "dealt": 575,
+     "kills": 18,
+     "t": 51.017
+    },
+    {
+     "taken": 63,
+     "dealt": 518,
+     "kills": 12,
+     "t": 56.491
+    },
+    {
+     "taken": 113,
+     "dealt": 433,
+     "kills": 10,
+     "t": 48.892
+    },
+    {
+     "taken": 113,
+     "dealt": 484,
+     "kills": 10,
+     "t": 49.487
+    },
+    {
+     "taken": 86,
+     "dealt": 458,
+     "kills": 10,
+     "t": 35.683
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,knee,watch,punch,earph,knuckle,earph",
+   "stash": "tetsu",
+   "shops": [
+    "duck/fkick/cycle"
+   ]
+  },
+  {
+   "seed": 4004,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 82,
+   "max": 120,
+   "score": 53319,
+   "kills": 76,
+   "dealt": 3418,
+   "taken": 329,
+   "crits": 9,
+   "maxCombo": 31,
+   "links": 109,
+   "justs": 0,
+   "tokens": 37,
+   "combos": 0,
+   "outs": 5,
+   "walls": 12,
+   "bowls": 21,
+   "stag": 16,
+   "flanks": 2,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 34,
+   "chits": 6,
+   "rk": {
+    "뜸:rKick": 30,
+    "hitB": 4,
+    "뜸:rSwept": 49,
+    "rStomp†": 6,
+    "hitB†": 2,
+    "뜸:rKick†": 14,
+    "hit": 6,
+    "뜸:rSpin†": 15,
+    "뜸:rSpin": 19,
+    "공중:rKick†": 1,
+    "rSlam†": 22,
+    "뜸:fall†": 1,
+    "뜸:fall": 9,
+    "rHook": 6,
+    "뜸:rSwept†": 8,
+    "rStomp": 10,
+    "rSlam": 13,
+    "공중:rSwept": 1,
+    "hit†": 1,
+    "rHook†": 1,
+    "rSpin": 1,
+    "rKick": 2,
+    "rSwept": 1
+   },
+   "snd": [
+    0,
+    60,
+    162
+   ],
+   "byCar": [
+    {
+     "taken": 86,
+     "dealt": 556,
+     "kills": 16,
+     "t": 51.884
+    },
+    {
+     "taken": 17,
+     "dealt": 493,
+     "kills": 15,
+     "t": 50.473
+    },
+    {
+     "taken": 55,
+     "dealt": 463,
+     "kills": 11,
+     "t": 43.299
+    },
+    {
+     "taken": 36,
+     "dealt": 479,
+     "kills": 9,
+     "t": 42.398
+    },
+    {
+     "taken": 35,
+     "dealt": 700,
+     "kills": 13,
+     "t": 53.941
+    },
+    {
+     "taken": 62,
+     "dealt": 517,
+     "kills": 9,
+     "t": 44.608
+    },
+    {
+     "taken": 38,
+     "dealt": 210,
+     "kills": 3,
+     "t": 19.397
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,throw,ring,coffee,duck,bandage,bandage,earph",
+   "stash": "throw,bkick",
+   "shops": [
+    "duck/round/pin",
+    "earph/sweep/coat",
+    "punch/bkick/tetsu",
+    "charge/charm/skick"
+   ]
+  },
+  {
+   "seed": 4005,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 79,
+   "max": 150,
+   "score": 63111,
+   "kills": 82,
+   "dealt": 4195,
+   "taken": 233,
+   "crits": 21,
+   "maxCombo": 40,
+   "links": 103,
+   "justs": 0,
+   "tokens": 42,
+   "combos": 8,
+   "outs": 5,
+   "walls": 10,
+   "bowls": 42,
+   "stag": 26,
+   "flanks": 3,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 35,
+    "hitB": 9,
+    "hit†": 2,
+    "뜸:rSpin†": 32,
+    "뜸:rSwept": 35,
+    "뜸:rKick†": 10,
+    "hit": 20,
+    "rStomp": 26,
+    "rStomp†": 12,
+    "뜸:fall": 5,
+    "뜸:rSwept†": 5,
+    "hitB†": 2,
+    "rHook": 6,
+    "rCross": 1,
+    "뜸:rSpin": 15,
+    "뜸:fall†": 3,
+    "공중:rKick†": 1,
+    "rHook†": 3,
+    "공중:launch": 9,
+    "공중:rBlast": 5,
+    "공중:rSpin†": 1,
+    "공중:rCross†": 1,
+    "뜸:rBlast": 1,
+    "공중:rCross": 5,
+    "공중:rHook†": 2,
+    "뜸:launch": 2,
+    "공중:hit": 5,
+    "공중:rHook": 2,
+    "공중:launch†": 1,
+    "공중:rBlast†": 2,
+    "rKick": 3,
+    "rSpin": 4,
+    "rSwept": 1
+   },
+   "snd": [
+    8,
+    93,
+    165
+   ],
+   "byCar": [
+    {
+     "taken": 18,
+     "dealt": 615,
+     "kills": 18,
+     "t": 43.452
+    },
+    {
+     "taken": 6,
+     "dealt": 515,
+     "kills": 13,
+     "t": 44.965
+    },
+    {
+     "taken": 22,
+     "dealt": 505,
+     "kills": 11,
+     "t": 39.508
+    },
+    {
+     "taken": 38,
+     "dealt": 468,
+     "kills": 9,
+     "t": 39.168
+    },
+    {
+     "taken": 72,
+     "dealt": 838,
+     "kills": 16,
+     "t": 56.219
+    },
+    {
+     "taken": 6,
+     "dealt": 685,
+     "kills": 12,
+     "t": 40.834
+    },
+    {
+     "taken": 71,
+     "dealt": 569,
+     "kills": 3,
+     "t": 41.854
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,earph,coat,duck,metro,coffee,punch",
+   "stash": "coat,cuff,gum",
+   "shops": [
+    "duck/coat/bkick",
+    "upper/coffee/charm",
+    "cuff/pin/knee",
+    "charm/round/upper"
+   ]
+  },
+  {
+   "seed": 4006,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 103,
+   "max": 120,
+   "score": 61518,
+   "kills": 82,
+   "dealt": 4101,
+   "taken": 241,
+   "crits": 15,
+   "maxCombo": 32,
+   "links": 105,
+   "justs": 0,
+   "tokens": 27,
+   "combos": 4,
+   "outs": 4,
+   "walls": 9,
+   "bowls": 32,
+   "stag": 15,
+   "flanks": 1,
+   "dodges": 10,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 16,
+   "rk": {
+    "뜸:rKick": 38,
+    "hitB": 7,
+    "뜸:rSpin†": 33,
+    "rHook": 11,
+    "뜸:rKick†": 15,
+    "뜸:rSwept": 27,
+    "뜸:fall": 8,
+    "hit": 8,
+    "뜸:rSwept†": 5,
+    "rStomp": 18,
+    "rStomp†": 15,
+    "뜸:rSpin": 18,
+    "hit†": 2,
+    "hitB†": 2,
+    "rHook†": 1,
+    "공중:rKick†": 1,
+    "rSpike": 3,
+    "공중:rSwept†": 1,
+    "rSpike†": 3,
+    "rSwept": 1,
+    "rSpin": 4,
+    "fall": 1
+   },
+   "snd": [
+    0,
+    78,
+    144
+   ],
+   "byCar": [
+    {
+     "taken": 45,
+     "dealt": 562,
+     "kills": 16,
+     "t": 52.819
+    },
+    {
+     "taken": 7,
+     "dealt": 568,
+     "kills": 15,
+     "t": 49.47
+    },
+    {
+     "taken": 38,
+     "dealt": 507,
+     "kills": 11,
+     "t": 44.336
+    },
+    {
+     "taken": 41,
+     "dealt": 571,
+     "kills": 12,
+     "t": 41.259
+    },
+    {
+     "taken": 58,
+     "dealt": 904,
+     "kills": 16,
+     "t": 54.519
+    },
+    {
+     "taken": 35,
+     "dealt": 595,
+     "kills": 9,
+     "t": 39.389
+    },
+    {
+     "taken": 17,
+     "dealt": 394,
+     "kills": 3,
+     "t": 24.208
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,coffee,duck,ring,gum,earph,bandage,axe,ring",
+   "stash": "throw,umb",
+   "shops": [
+    "duck/knee/elbow",
+    "throw/metro/elbow",
+    "umb/punch/bandage",
+    "bfist/knuckle/cycle"
+   ]
+  },
+  {
+   "seed": 4007,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 99,
+   "max": 120,
+   "score": 60106,
+   "kills": 75,
+   "dealt": 4087,
+   "taken": 207,
+   "crits": 18,
+   "maxCombo": 32,
+   "links": 78,
+   "justs": 0,
+   "tokens": 36,
+   "combos": 0,
+   "outs": 3,
+   "walls": 12,
+   "bowls": 34,
+   "stag": 20,
+   "flanks": 1,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 9,
+   "chits": 10,
+   "rk": {
+    "뜸:rKick": 35,
+    "hitB": 7,
+    "뜸:rSwept": 18,
+    "뜸:rKick†": 14,
+    "hitB†": 2,
+    "뜸:rSpin†": 29,
+    "hit": 12,
+    "뜸:fall": 11,
+    "rStomp": 40,
+    "rStomp†": 16,
+    "rHook": 10,
+    "뜸:fall†": 5,
+    "rSlam": 6,
+    "rSlam†": 4,
+    "뜸:rSpin": 8,
+    "crumple": 1,
+    "뜸:rSwept†": 2,
+    "rSpin": 5,
+    "rKick": 1
+   },
+   "snd": [
+    0,
+    83,
+    143
+   ],
+   "byCar": [
+    {
+     "taken": 19,
+     "dealt": 587,
+     "kills": 16,
+     "t": 45.628
+    },
+    {
+     "taken": 0,
+     "dealt": 461,
+     "kills": 13,
+     "t": 45.033
+    },
+    {
+     "taken": 52,
+     "dealt": 549,
+     "kills": 11,
+     "t": 43.996
+    },
+    {
+     "taken": 26,
+     "dealt": 454,
+     "kills": 9,
+     "t": 39.389
+    },
+    {
+     "taken": 64,
+     "dealt": 726,
+     "kills": 13,
+     "t": 50.949
+    },
+    {
+     "taken": 25,
+     "dealt": 632,
+     "kills": 9,
+     "t": 41.208
+    },
+    {
+     "taken": 21,
+     "dealt": 678,
+     "kills": 4,
+     "t": 39.797
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,metro,ring,duck,suplex,metro,cuff",
+   "stash": "umb,round",
+   "shops": [
+    "duck/throw/knuckle",
+    "umb/bkick/suplex",
+    "punch/umb/axe",
+    "cuff/sweep/skick"
+   ]
+  },
+  {
+   "seed": 4008,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 110,
+   "max": 120,
+   "score": 60103,
+   "kills": 79,
+   "dealt": 3779,
+   "taken": 245,
+   "crits": 21,
+   "maxCombo": 43,
+   "links": 84,
+   "justs": 0,
+   "tokens": 50,
+   "combos": 0,
+   "outs": 5,
+   "walls": 14,
+   "bowls": 17,
+   "stag": 22,
+   "flanks": 1,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 10,
+   "rk": {
+    "뜸:rKick": 28,
+    "hitB": 3,
+    "뜸:rSwept": 26,
+    "뜸:rKick†": 12,
+    "hitB†": 1,
+    "hit": 27,
+    "뜸:rSpin†": 20,
+    "rStomp": 31,
+    "rHook": 5,
+    "공중:hit†": 26,
+    "rStomp†": 9,
+    "뜸:rSpin": 30,
+    "뜸:fall": 3,
+    "공중:hit": 106,
+    "뜸:rSwept†": 4,
+    "공중:rSpin†": 1,
+    "공중:rSwept": 2,
+    "hit†": 1,
+    "rKick": 1,
+    "rSpin": 4,
+    "rSwept": 1
+   },
+   "snd": [
+    149,
+    57,
+    135
+   ],
+   "byCar": [
+    {
+     "taken": 40,
+     "dealt": 520,
+     "kills": 16,
+     "t": 48.518
+    },
+    {
+     "taken": 19,
+     "dealt": 466,
+     "kills": 15,
+     "t": 45.475
+    },
+    {
+     "taken": 5,
+     "dealt": 555,
+     "kills": 14,
+     "t": 38.896
+    },
+    {
+     "taken": 46,
+     "dealt": 444,
+     "kills": 9,
+     "t": 39.219
+    },
+    {
+     "taken": 110,
+     "dealt": 714,
+     "kills": 13,
+     "t": 56.117
+    },
+    {
+     "taken": 15,
+     "dealt": 576,
+     "kills": 9,
+     "t": 40.562
+    },
+    {
+     "taken": 10,
+     "dealt": 504,
+     "kills": 3,
+     "t": 37.213
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,paper,duck,earph",
+   "stash": "coat",
+   "shops": [
+    "duck/cuff/fkick",
+    "sweep/watch/gum",
+    "charge/duck/bkick",
+    "round/bandage/skick"
+   ]
+  },
+  {
+   "seed": 4009,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 83,
+   "max": 120,
+   "score": 72576,
+   "kills": 97,
+   "dealt": 5011,
+   "taken": 167,
+   "crits": 25,
+   "maxCombo": 43,
+   "links": 87,
+   "justs": 0,
+   "tokens": 39,
+   "combos": 0,
+   "outs": 4,
+   "walls": 9,
+   "bowls": 22,
+   "stag": 11,
+   "flanks": 1,
+   "dodges": 6,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 32,
+    "hit": 16,
+    "뜸:rSwept": 32,
+    "뜸:rSwept†": 4,
+    "뜸:rSpin†": 39,
+    "뜸:rKick†": 9,
+    "hitB": 4,
+    "hit†": 3,
+    "rStomp†": 9,
+    "공중:hit": 23,
+    "공중:rCross": 20,
+    "공중:rHook†": 12,
+    "rCross": 3,
+    "spinout†": 1,
+    "rHook": 6,
+    "spinout": 3,
+    "뜸:fall†": 1,
+    "뜸:fall": 5,
+    "rStomp": 20,
+    "뜸:rSpin": 15,
+    "공중:rCross†": 6,
+    "공중:launch†": 5,
+    "공중:rHook": 8,
+    "공중:launch": 3,
+    "공중:hit†": 3,
+    "rHook†": 1,
+    "rKick": 1,
+    "rSpin": 3
+   },
+   "snd": [
+    34,
+    112,
+    141
+   ],
+   "byCar": [
+    {
+     "taken": 10,
+     "dealt": 652,
+     "kills": 18,
+     "t": 46.835
+    },
+    {
+     "taken": 6,
+     "dealt": 604,
+     "kills": 15,
+     "t": 44.693
+    },
+    {
+     "taken": 6,
+     "dealt": 712,
+     "kills": 14,
+     "t": 37.859
+    },
+    {
+     "taken": 12,
+     "dealt": 748,
+     "kills": 15,
+     "t": 42.364
+    },
+    {
+     "taken": 52,
+     "dealt": 863,
+     "kills": 16,
+     "t": 49.878
+    },
+    {
+     "taken": 26,
+     "dealt": 708,
+     "kills": 12,
+     "t": 41.395
+    },
+    {
+     "taken": 55,
+     "dealt": 724,
+     "kills": 7,
+     "t": 42.976
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,knuckle,duck,punch,charm,shoes,shoes",
+   "stash": "coat,watch",
+   "shops": [
+    "punch/renkan/upper",
+    "shoes/watch/paper",
+    "cycle/pin/charge",
+    "charge/kick/watch"
+   ]
+  },
+  {
+   "seed": 4010,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 30,
+   "max": 120,
+   "score": 56048,
+   "kills": 75,
+   "dealt": 3474,
+   "taken": 386,
+   "crits": 11,
+   "maxCombo": 27,
+   "links": 89,
+   "justs": 0,
+   "tokens": 19,
+   "combos": 4,
+   "outs": 3,
+   "walls": 17,
+   "bowls": 25,
+   "stag": 20,
+   "flanks": 0,
+   "dodges": 12,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 9,
+   "rk": {
+    "뜸:rKick": 28,
+    "hit": 4,
+    "뜸:rSwept": 18,
+    "뜸:rSwept†": 4,
+    "뜸:rSpin†": 33,
+    "뜸:rKick†": 13,
+    "rStomp": 13,
+    "rStomp†": 9,
+    "hitB": 3,
+    "뜸:rSpin": 22,
+    "rHook": 12,
+    "뜸:fall†": 3,
+    "뜸:fall": 8,
+    "hit†": 3,
+    "공중:rKick": 1,
+    "공중:rSpin": 1,
+    "공중:rSpin†": 1,
+    "rKnee": 3,
+    "뜸:rBlast": 6,
+    "뜸:rBlast†": 2,
+    "rHook†": 2,
+    "공중:rSwept": 2,
+    "공중:rSwept†": 1,
+    "rKnee†": 1,
+    "rKick": 2
+   },
+   "snd": [
+    0,
+    93,
+    102
+   ],
+   "byCar": [
+    {
+     "taken": 42,
+     "dealt": 514,
+     "kills": 16,
+     "t": 45.679
+    },
+    {
+     "taken": 7,
+     "dealt": 449,
+     "kills": 13,
+     "t": 43.435
+    },
+    {
+     "taken": 26,
+     "dealt": 590,
+     "kills": 14,
+     "t": 44.88
+    },
+    {
+     "taken": 38,
+     "dealt": 455,
+     "kills": 9,
+     "t": 38.352
+    },
+    {
+     "taken": 74,
+     "dealt": 777,
+     "kills": 13,
+     "t": 52.377
+    },
+    {
+     "taken": 84,
+     "dealt": 571,
+     "kills": 9,
+     "t": 49.742
+    },
+    {
+     "taken": 115,
+     "dealt": 118,
+     "kills": 1,
+     "t": 31.535
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,case,metro,duck,duck,watch,knee,charm",
+   "stash": "bfist,renkan",
+   "shops": [
+    "duck/pin/sweep",
+    "watch/round/stomp",
+    "renkan/shoes/skick",
+    "charm/shoes/renkan"
+   ]
+  },
+  {
+   "seed": 4011,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 113,
+   "max": 120,
+   "score": 56029,
+   "kills": 80,
+   "dealt": 3778,
+   "taken": 213,
+   "crits": 15,
+   "maxCombo": 33,
+   "links": 136,
+   "justs": 0,
+   "tokens": 41,
+   "combos": 8,
+   "outs": 1,
+   "walls": 11,
+   "bowls": 23,
+   "stag": 15,
+   "flanks": 0,
+   "dodges": 17,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 30,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 29,
+    "hitB": 5,
+    "뜸:rSpin†": 24,
+    "rHook": 6,
+    "뜸:rKick†": 10,
+    "rStomp†": 10,
+    "뜸:rkPop": 6,
+    "공중:launch": 3,
+    "공중:rBlast†": 3,
+    "뜸:rBlast†": 1,
+    "뜸:rSpin": 13,
+    "hit": 6,
+    "뜸:rkPop†": 2,
+    "뜸:rSwept†": 7,
+    "공중:launch†": 3,
+    "뜸:rSwept": 37,
+    "rSlam†": 14,
+    "rStomp": 13,
+    "rSlam": 18,
+    "rHook†": 3,
+    "뜸:launch†": 1,
+    "공중:rSwept": 1,
+    "뜸:fall": 4,
+    "뜸:fall†": 1,
+    "rSwept": 1,
+    "rKick": 2,
+    "rkPop": 1,
+    "launch": 1
+   },
+   "snd": [
+    0,
+    63,
+    162
+   ],
+   "byCar": [
+    {
+     "taken": 5,
+     "dealt": 654,
+     "kills": 20,
+     "t": 45.39
+    },
+    {
+     "taken": 14,
+     "dealt": 482,
+     "kills": 15,
+     "t": 49.487
+    },
+    {
+     "taken": 55,
+     "dealt": 477,
+     "kills": 11,
+     "t": 43.996
+    },
+    {
+     "taken": 23,
+     "dealt": 517,
+     "kills": 9,
+     "t": 40.222
+    },
+    {
+     "taken": 52,
+     "dealt": 791,
+     "kills": 13,
+     "t": 56.066
+    },
+    {
+     "taken": 48,
+     "dealt": 572,
+     "kills": 9,
+     "t": 48.433
+    },
+    {
+     "taken": 16,
+     "dealt": 285,
+     "kills": 3,
+     "t": 22.406
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,renkan,throw,bandage,duck,cuff",
+   "stash": "charge,duck",
+   "shops": [
+    "duck/paper/renkan",
+    "cuff/kick/suplex",
+    "throw/suplex/coffee",
+    "case/bandage/gum"
+   ]
+  },
+  {
+   "seed": 4012,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 54,
+   "max": 120,
+   "score": 58419,
+   "kills": 80,
+   "dealt": 3759,
+   "taken": 219,
+   "crits": 23,
+   "maxCombo": 37,
+   "links": 196,
+   "justs": 0,
+   "tokens": 36,
+   "combos": 19,
+   "outs": 6,
+   "walls": 14,
+   "bowls": 33,
+   "stag": 21,
+   "flanks": 0,
+   "dodges": 11,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 17,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "rStomp": 15,
+    "rStomp†": 14,
+    "뜸:rSwept": 47,
+    "뜸:rKick": 30,
+    "hitB": 23,
+    "뜸:rKick†": 18,
+    "hit†": 2,
+    "뜸:rSpin": 15,
+    "뜸:rSwept†": 10,
+    "뜸:rSpin†": 25,
+    "rHook": 6,
+    "뜸:fall†": 1,
+    "뜸:fall": 3,
+    "hit": 7,
+    "공중:rBlast": 14,
+    "뜸:rBlast": 1,
+    "공중:hitB": 4,
+    "rHook†": 2,
+    "뜸:rBlast†": 1,
+    "공중:rSwept": 1,
+    "공중:rBlast†": 1,
+    "rSpin": 3,
+    "rKick": 2,
+    "rSwept": 1
+   },
+   "snd": [
+    0,
+    85,
+    161
+   ],
+   "byCar": [
+    {
+     "taken": 15,
+     "dealt": 538,
+     "kills": 16,
+     "t": 45.322
+    },
+    {
+     "taken": 10,
+     "dealt": 482,
+     "kills": 13,
+     "t": 46.359
+    },
+    {
+     "taken": 49,
+     "dealt": 443,
+     "kills": 11,
+     "t": 42.16
+    },
+    {
+     "taken": 27,
+     "dealt": 558,
+     "kills": 12,
+     "t": 45.254
+    },
+    {
+     "taken": 20,
+     "dealt": 810,
+     "kills": 16,
+     "t": 55.624
+    },
+    {
+     "taken": 24,
+     "dealt": 616,
+     "kills": 9,
+     "t": 41.633
+    },
+    {
+     "taken": 74,
+     "dealt": 312,
+     "kills": 3,
+     "t": 29.648
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,earph,bkick,duck,pin,coffee,sweep,earph",
+   "stash": "shoes,suplex,punch",
+   "shops": [
+    "duck/knee/bfist",
+    "sweep/kick/cuff",
+    "punch/renkan/coat",
+    "elbow/throw/pin"
+   ]
+  },
+  {
+   "seed": 4013,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 55,
+   "max": 120,
+   "score": 62099,
+   "kills": 86,
+   "dealt": 4252,
+   "taken": 157,
+   "crits": 25,
+   "maxCombo": 44,
+   "links": 106,
+   "justs": 0,
+   "tokens": 40,
+   "combos": 32,
+   "outs": 4,
+   "walls": 17,
+   "bowls": 37,
+   "stag": 17,
+   "flanks": 0,
+   "dodges": 7,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "뜸:rKick": 28,
+    "hitB": 6,
+    "뜸:rSwept": 39,
+    "뜸:rKick†": 7,
+    "rStomp†": 9,
+    "뜸:fall†": 4,
+    "뜸:fall": 3,
+    "hit": 15,
+    "뜸:rSpin†": 23,
+    "rHook†": 1,
+    "rStomp": 9,
+    "공중:hit†": 13,
+    "공중:hit": 49,
+    "뜸:rSpin": 20,
+    "rHook": 7,
+    "공중:rTetsu": 12,
+    "공중:rTetsu†": 8,
+    "rTetsu": 10,
+    "공중:rSwept": 1,
+    "rTetsu†": 3,
+    "공중:launch†": 4,
+    "공중:fall†": 2,
+    "뜸:rSwept†": 3,
+    "뜸:launch": 1,
+    "공중:rBlast": 1,
+    "공중:rBlast†": 2,
+    "뜸:launch†": 2,
+    "hit†": 1,
+    "rSwept": 1,
+    "rKick": 3,
+    "launch": 1,
+    "공중:launch": 1,
+    "rSpin": 1
+   },
+   "snd": [
+    66,
+    63,
+    161
+   ],
+   "byCar": [
+    {
+     "taken": 7,
+     "dealt": 546,
+     "kills": 16,
+     "t": 42.007
+    },
+    {
+     "taken": 5,
+     "dealt": 534,
+     "kills": 15,
+     "t": 46.376
+    },
+    {
+     "taken": 28,
+     "dealt": 644,
+     "kills": 14,
+     "t": 46.478
+    },
+    {
+     "taken": 30,
+     "dealt": 591,
+     "kills": 12,
+     "t": 42.891
+    },
+    {
+     "taken": 22,
+     "dealt": 937,
+     "kills": 16,
+     "t": 57.562
+    },
+    {
+     "taken": 0,
+     "dealt": 527,
+     "kills": 9,
+     "t": 37.672
+    },
+    {
+     "taken": 65,
+     "dealt": 473,
+     "kills": 4,
+     "t": 33.014
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,paper,duck,coffee,tetsu,upper",
+   "stash": "fkick,skick,knuckle",
+   "shops": [
+    "duck/charm/pin",
+    "upper/ring/throw",
+    "knuckle/cuff/cycle",
+    "coffee/skick/suplex"
+   ]
+  },
+  {
+   "seed": 4014,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 0,
+   "max": 120,
+   "score": 60391,
+   "kills": 85,
+   "dealt": 4112,
+   "taken": 256,
+   "crits": 27,
+   "maxCombo": 74,
+   "links": 90,
+   "justs": 0,
+   "tokens": 36,
+   "combos": 0,
+   "outs": 5,
+   "walls": 18,
+   "bowls": 27,
+   "stag": 25,
+   "flanks": 1,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "뜸:rKick": 27,
+    "hit": 12,
+    "뜸:rSpin†": 27,
+    "rHook†": 3,
+    "rStomp†": 8,
+    "뜸:rSpin": 44,
+    "뜸:rSwept†": 3,
+    "뜸:rSwept": 18,
+    "rStomp": 16,
+    "뜸:rKick†": 8,
+    "hitB": 3,
+    "rHook": 11,
+    "뜸:fall†": 3,
+    "뜸:fall": 8,
+    "공중:rKick†": 1,
+    "hit†": 3,
+    "공중:rSpin†": 3,
+    "공중:hit": 82,
+    "공중:hit†": 21,
+    "rCross": 1,
+    "rKick": 2,
+    "rSpin": 5,
+    "rSwept": 3
+   },
+   "snd": [
+    104,
+    74,
+    134
+   ],
+   "byCar": [
+    {
+     "taken": 35,
+     "dealt": 569,
+     "kills": 16,
+     "t": 46.036
+    },
+    {
+     "taken": 29,
+     "dealt": 460,
+     "kills": 13,
+     "t": 45.254
+    },
+    {
+     "taken": 8,
+     "dealt": 535,
+     "kills": 14,
+     "t": 38.709
+    },
+    {
+     "taken": 34,
+     "dealt": 510,
+     "kills": 12,
+     "t": 38.964
+    },
+    {
+     "taken": 7,
+     "dealt": 886,
+     "kills": 16,
+     "t": 53.431
+    },
+    {
+     "taken": 7,
+     "dealt": 672,
+     "kills": 12,
+     "t": 42.653
+    },
+    {
+     "taken": 136,
+     "dealt": 480,
+     "kills": 2,
+     "t": 40.953
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,case,pin,duck,shoes,paper,gum,coffee",
+   "stash": "fkick,knuckle,pin,coffee,coffee",
+   "shops": [
+    "duck/round/knee",
+    "pin/metro/cycle",
+    "coat/watch/fkick",
+    "paper/suplex/cycle"
+   ]
+  },
+  {
+   "seed": 4015,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 69,
+   "max": 120,
+   "score": 61238,
+   "kills": 77,
+   "dealt": 3928,
+   "taken": 243,
+   "crits": 8,
+   "maxCombo": 34,
+   "links": 130,
+   "justs": 0,
+   "tokens": 49,
+   "combos": 12,
+   "outs": 0,
+   "walls": 8,
+   "bowls": 21,
+   "stag": 11,
+   "flanks": 4,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 30,
+   "chits": 14,
+   "rk": {
+    "뜸:rKick": 28,
+    "rCross": 3,
+    "뜸:rSpin†": 19,
+    "rHook": 5,
+    "뜸:rKick†": 8,
+    "뜸:rSwept": 37,
+    "rSlam†": 14,
+    "뜸:rSwept†": 9,
+    "rSlam": 16,
+    "hitB": 4,
+    "뜸:rSpin": 17,
+    "공중:launch†": 1,
+    "뜸:launch": 4,
+    "공중:rBlast": 2,
+    "공중:rKick†": 1,
+    "공중:launch": 3,
+    "공중:rBlast†": 4,
+    "rHook†": 2,
+    "rStomp†": 10,
+    "뜸:fall†": 2,
+    "뜸:fall": 6,
+    "hit": 5,
+    "뜸:rBlast": 3,
+    "공중:fall†": 1,
+    "rStomp": 12,
+    "공중:rSpin†": 1,
+    "뜸:launch†": 4,
+    "뜸:rBlast†": 1,
+    "공중:rKick": 1,
+    "launch": 2,
+    "fall": 2,
+    "rSwept": 2,
+    "rSpin": 2
+   },
+   "snd": [
+    0,
+    52,
+    179
+   ],
+   "byCar": [
+    {
+     "taken": 52,
+     "dealt": 574,
+     "kills": 16,
+     "t": 48.96
+    },
+    {
+     "taken": 0,
+     "dealt": 474,
+     "kills": 13,
+     "t": 47.77
+    },
+    {
+     "taken": 32,
+     "dealt": 497,
+     "kills": 11,
+     "t": 38.233
+    },
+    {
+     "taken": 8,
+     "dealt": 592,
+     "kills": 12,
+     "t": 45.05
+    },
+    {
+     "taken": 51,
+     "dealt": 796,
+     "kills": 13,
+     "t": 50.218
+    },
+    {
+     "taken": 49,
+     "dealt": 569,
+     "kills": 9,
+     "t": 41.344
+    },
+    {
+     "taken": 51,
+     "dealt": 426,
+     "kills": 3,
+     "t": 34.425
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,throw,bandage,upper,duck,bandage",
+   "stash": "axe,shoes,watch",
+   "shops": [
+    "duck/stomp/suplex",
+    "charge/bkick/ring",
+    "axe/cuff/pin",
+    "watch/renkan/metro"
+   ]
+  },
+  {
+   "seed": 4016,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 77,
+   "max": 120,
+   "score": 63437,
+   "kills": 79,
+   "dealt": 3917,
+   "taken": 257,
+   "crits": 22,
+   "maxCombo": 28,
+   "links": 103,
+   "justs": 0,
+   "tokens": 55,
+   "combos": 0,
+   "outs": 5,
+   "walls": 11,
+   "bowls": 38,
+   "stag": 13,
+   "flanks": 1,
+   "dodges": 5,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "rStomp": 28,
+    "rStomp†": 17,
+    "뜸:fall": 9,
+    "hit": 8,
+    "뜸:rSpin†": 25,
+    "rHook": 13,
+    "뜸:rKick†": 18,
+    "뜸:rSwept": 19,
+    "hitB": 9,
+    "뜸:rKick": 47,
+    "rHook†": 1,
+    "rCross": 1,
+    "뜸:fall†": 1,
+    "공중:rKick†": 3,
+    "뜸:rSpin": 17,
+    "hit†": 4,
+    "뜸:rSwept†": 4,
+    "hitB†": 1,
+    "rSpin": 4,
+    "fall": 1,
+    "rSwept": 1,
+    "rKick": 1
+   },
+   "snd": [
+    0,
+    96,
+    136
+   ],
+   "byCar": [
+    {
+     "taken": 19,
+     "dealt": 576,
+     "kills": 16,
+     "t": 44.625
+    },
+    {
+     "taken": 4,
+     "dealt": 537,
+     "kills": 15,
+     "t": 48.484
+    },
+    {
+     "taken": 14,
+     "dealt": 457,
+     "kills": 11,
+     "t": 41.327
+    },
+    {
+     "taken": 53,
+     "dealt": 441,
+     "kills": 9,
+     "t": 40.851
+    },
+    {
+     "taken": 52,
+     "dealt": 841,
+     "kills": 16,
+     "t": 53.771
+    },
+    {
+     "taken": 47,
+     "dealt": 575,
+     "kills": 9,
+     "t": 41.14
+    },
+    {
+     "taken": 68,
+     "dealt": 490,
+     "kills": 3,
+     "t": 35.802
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,kick,duck",
+   "stash": "suplex,renkan",
+   "shops": [
+    "suplex/cycle/duck",
+    "umb/paper/upper",
+    "knee/charge/skick",
+    "throw/knee/tetsu"
+   ]
+  },
+  {
+   "seed": 4017,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 120,
+   "max": 120,
+   "score": 64862,
+   "kills": 81,
+   "dealt": 4159,
+   "taken": 248,
+   "crits": 19,
+   "maxCombo": 37,
+   "links": 71,
+   "justs": 0,
+   "tokens": 29,
+   "combos": 0,
+   "outs": 4,
+   "walls": 13,
+   "bowls": 44,
+   "stag": 16,
+   "flanks": 2,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 9,
+   "rk": {
+    "뜸:rKick": 19,
+    "hitB": 9,
+    "rStomp†": 9,
+    "뜸:rSpin†": 20,
+    "hit": 20,
+    "뜸:rSwept": 31,
+    "뜸:rSwept†": 6,
+    "공중:rSpin†": 1,
+    "rHook": 4,
+    "뜸:rKick†": 21,
+    "hit†": 4,
+    "뜸:fall†": 13,
+    "뜸:rSpin": 21,
+    "rStomp": 22,
+    "뜸:fall": 18,
+    "공중:fall": 1,
+    "rHook†": 2,
+    "공중:fall†": 1,
+    "rSpin": 5
+   },
+   "snd": [
+    0,
+    73,
+    154
+   ],
+   "byCar": [
+    {
+     "taken": 12,
+     "dealt": 581,
+     "kills": 18,
+     "t": 43.469
+    },
+    {
+     "taken": 14,
+     "dealt": 578,
+     "kills": 15,
+     "t": 51.697
+    },
+    {
+     "taken": 55,
+     "dealt": 431,
+     "kills": 11,
+     "t": 41.633
+    },
+    {
+     "taken": 56,
+     "dealt": 436,
+     "kills": 9,
+     "t": 37.451
+    },
+    {
+     "taken": 26,
+     "dealt": 958,
+     "kills": 16,
+     "t": 55.505
+    },
+    {
+     "taken": 85,
+     "dealt": 618,
+     "kills": 9,
+     "t": 43.384
+    },
+    {
+     "taken": 0,
+     "dealt": 557,
+     "kills": 3,
+     "t": 32.861
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,fkick,earph,ring,duck,case,coffee,earph",
+   "stash": "sweep,sweep,charm,cuff",
+   "shops": [
+    "duck/coffee/pin",
+    "earph/bandage/stomp",
+    "cuff/fkick/axe",
+    "charge/tetsu/bkick"
+   ]
+  },
+  {
+   "seed": 4018,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 84,
+   "max": 120,
+   "score": 63848,
+   "kills": 88,
+   "dealt": 3903,
+   "taken": 205,
+   "crits": 41,
+   "maxCombo": 44,
+   "links": 101,
+   "justs": 0,
+   "tokens": 51,
+   "combos": 23,
+   "outs": 5,
+   "walls": 17,
+   "bowls": 26,
+   "stag": 21,
+   "flanks": 1,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 15,
+   "rk": {
+    "뜸:rKick": 23,
+    "hit": 24,
+    "뜸:rSpin†": 19,
+    "rHook†": 2,
+    "rStomp†": 5,
+    "뜸:rSpin": 28,
+    "뜸:rSwept†": 1,
+    "rStomp": 7,
+    "rHook": 6,
+    "뜸:fall†": 2,
+    "뜸:fall": 8,
+    "뜸:rSwept": 40,
+    "뜸:rKick†": 12,
+    "hitB†": 4,
+    "공중:hit": 41,
+    "공중:rCross": 8,
+    "공중:rHook†": 6,
+    "공중:hit†": 9,
+    "공중:rCross†": 14,
+    "rCross": 2,
+    "공중:rSpin": 2,
+    "공중:launch†": 2,
+    "공중:rHook": 4,
+    "spinout†": 1,
+    "공중:rSwept": 1,
+    "공중:rBlast": 16,
+    "hitB": 3,
+    "공중:launch": 1,
+    "공중:rStomp": 1,
+    "공중:rBlast†": 3,
+    "뜸:rBlast": 2,
+    "rCross†": 1,
+    "공중:rSpin†": 1,
+    "hit†": 1,
+    "rSwept": 2,
+    "rKick": 1,
+    "fall": 1,
+    "rSpin": 3
+   },
+   "snd": [
+    48,
+    105,
+    154
+   ],
+   "byCar": [
+    {
+     "taken": 60,
+     "dealt": 511,
+     "kills": 16,
+     "t": 46.988
+    },
+    {
+     "taken": 24,
+     "dealt": 520,
+     "kills": 15,
+     "t": 49.759
+    },
+    {
+     "taken": 15,
+     "dealt": 549,
+     "kills": 14,
+     "t": 43.078
+    },
+    {
+     "taken": 31,
+     "dealt": 535,
+     "kills": 12,
+     "t": 43.282
+    },
+    {
+     "taken": 20,
+     "dealt": 936,
+     "kills": 19,
+     "t": 56.185
+    },
+    {
+     "taken": 19,
+     "dealt": 532,
+     "kills": 9,
+     "t": 40.069
+    },
+    {
+     "taken": 36,
+     "dealt": 320,
+     "kills": 3,
+     "t": 26.639
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,punch,duck,coffee,paper,knuckle,cuff",
+   "stash": "coat",
+   "shops": [
+    "duck/bfist/cuff",
+    "paper/cycle/umb",
+    "cuff/metro/punch",
+    "suplex/axe/kick"
+   ]
+  },
+  {
+   "seed": 4019,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 120,
+   "max": 120,
+   "score": 57166,
+   "kills": 76,
+   "dealt": 4069,
+   "taken": 235,
+   "crits": 17,
+   "maxCombo": 36,
+   "links": 96,
+   "justs": 0,
+   "tokens": 33,
+   "combos": 0,
+   "outs": 2,
+   "walls": 4,
+   "bowls": 34,
+   "stag": 20,
+   "flanks": 3,
+   "dodges": 11,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 16,
+   "chits": 10,
+   "rk": {
+    "rStomp": 25,
+    "뜸:rKick": 35,
+    "hit†": 1,
+    "hit": 10,
+    "뜸:rSpin†": 27,
+    "hitB": 9,
+    "뜸:rSwept": 19,
+    "뜸:rKick†": 12,
+    "rHook": 11,
+    "뜸:fall": 9,
+    "뜸:fall†": 3,
+    "rStomp†": 16,
+    "hitB†": 1,
+    "rSlam†": 9,
+    "rCross": 1,
+    "뜸:rSpin": 9,
+    "뜸:rSwept†": 4,
+    "rSlam": 8,
+    "공중:hit": 8,
+    "공중:hit†": 1,
+    "rSpin": 4
+   },
+   "snd": [
+    8,
+    78,
+    136
+   ],
+   "byCar": [
+    {
+     "taken": 15,
+     "dealt": 607,
+     "kills": 18,
+     "t": 48.994
+    },
+    {
+     "taken": 17,
+     "dealt": 513,
+     "kills": 13,
+     "t": 46.121
+    },
+    {
+     "taken": 40,
+     "dealt": 459,
+     "kills": 11,
+     "t": 43.35
+    },
+    {
+     "taken": 78,
+     "dealt": 507,
+     "kills": 9,
+     "t": 42.449
+    },
+    {
+     "taken": 32,
+     "dealt": 833,
+     "kills": 13,
+     "t": 52.19
+    },
+    {
+     "taken": 53,
+     "dealt": 575,
+     "kills": 9,
+     "t": 41.922
+    },
+    {
+     "taken": 0,
+     "dealt": 575,
+     "kills": 3,
+     "t": 30.974
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,suplex,cuff,duck,pin,coffee,charm,charm,paper",
+   "stash": "umb,kick",
+   "shops": [
+    "duck/kick/throw",
+    "bkick/charm/charge",
+    "charm/knee/renkan",
+    "bkick/duck/shoes"
+   ]
+  },
+  {
+   "seed": 4020,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 43,
+   "max": 120,
+   "score": 58201,
+   "kills": 82,
+   "dealt": 3908,
+   "taken": 230,
+   "crits": 28,
+   "maxCombo": 37,
+   "links": 136,
+   "justs": 0,
+   "tokens": 54,
+   "combos": 31,
+   "outs": 5,
+   "walls": 9,
+   "bowls": 40,
+   "stag": 19,
+   "flanks": 2,
+   "dodges": 5,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 26,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "뜸:rKick": 25,
+    "hitB": 31,
+    "hit†": 2,
+    "hit": 6,
+    "뜸:rSpin†": 28,
+    "rHook†": 3,
+    "뜸:rSwept": 50,
+    "rHook": 8,
+    "rStomp†": 9,
+    "뜸:rKick†": 9,
+    "뜸:rSpin": 11,
+    "뜸:rSwept†": 6,
+    "공중:rBlast": 17,
+    "공중:hitB": 7,
+    "rStomp": 16,
+    "공중:rSwept": 3,
+    "공중:fall": 1,
+    "뜸:rBlast": 3,
+    "뜸:fall†": 2,
+    "뜸:fall": 4,
+    "hitB†": 3,
+    "rKnee†": 1,
+    "공중:rBlast†": 5,
+    "공중:launch": 2,
+    "공중:hit": 3,
+    "공중:rCross": 4,
+    "공중:rHook†": 3,
+    "공중:hit†": 1,
+    "공중:launch†": 3,
+    "공중:rHook": 1,
+    "rKick": 2,
+    "fall": 1,
+    "rSwept": 3,
+    "rSpin": 1
+   },
+   "snd": [
+    1,
+    101,
+    172
+   ],
+   "byCar": [
+    {
+     "taken": 24,
+     "dealt": 589,
+     "kills": 18,
+     "t": 46.546
+    },
+    {
+     "taken": 4,
+     "dealt": 528,
+     "kills": 13,
+     "t": 49.997
+    },
+    {
+     "taken": 30,
+     "dealt": 449,
+     "kills": 11,
+     "t": 39.44
+    },
+    {
+     "taken": 16,
+     "dealt": 487,
+     "kills": 9,
+     "t": 39.032
+    },
+    {
+     "taken": 72,
+     "dealt": 783,
+     "kills": 16,
+     "t": 53.907
+    },
+    {
+     "taken": 7,
+     "dealt": 654,
+     "kills": 12,
+     "t": 43.044
+    },
+    {
+     "taken": 77,
+     "dealt": 418,
+     "kills": 3,
+     "t": 34.034
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,sweep,knee,duck,gum,pin,punch,duck",
+   "stash": "renkan,cycle",
+   "shops": [
+    "duck/knee/cuff",
+    "renkan/tetsu/shoes",
+    "kick/watch/earph",
+    "suplex/paper/bandage"
+   ]
+  },
+  {
+   "seed": 4021,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 90,
+   "max": 150,
+   "score": 63312,
+   "kills": 78,
+   "dealt": 3884,
+   "taken": 250,
+   "crits": 17,
+   "maxCombo": 29,
+   "links": 77,
+   "justs": 0,
+   "tokens": 36,
+   "combos": 0,
+   "outs": 8,
+   "walls": 14,
+   "bowls": 29,
+   "stag": 15,
+   "flanks": 0,
+   "dodges": 6,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "rStomp": 37,
+    "뜸:rKick": 37,
+    "hit": 7,
+    "뜸:rSpin†": 19,
+    "rHook": 5,
+    "뜸:rKick†": 16,
+    "뜸:rSwept": 32,
+    "hitB": 6,
+    "hit†": 5,
+    "뜸:fall": 6,
+    "rHook†": 2,
+    "rStomp†": 19,
+    "뜸:rSpin": 18,
+    "뜸:rSwept†": 3,
+    "공중:rSpin†": 1,
+    "hitB†": 2,
+    "뜸:fall†": 2,
+    "공중:rKick†": 1,
+    "fall": 2,
+    "rSpin": 5,
+    "rSwept": 1
+   },
+   "snd": [
+    0,
+    81,
+    145
+   ],
+   "byCar": [
+    {
+     "taken": 13,
+     "dealt": 580,
+     "kills": 16,
+     "t": 45.815
+    },
+    {
+     "taken": 0,
+     "dealt": 535,
+     "kills": 15,
+     "t": 46.988
+    },
+    {
+     "taken": 23,
+     "dealt": 405,
+     "kills": 11,
+     "t": 38.675
+    },
+    {
+     "taken": 33,
+     "dealt": 422,
+     "kills": 9,
+     "t": 39.049
+    },
+    {
+     "taken": 80,
+     "dealt": 675,
+     "kills": 13,
+     "t": 54.06
+    },
+    {
+     "taken": 23,
+     "dealt": 578,
+     "kills": 9,
+     "t": 37.621
+    },
+    {
+     "taken": 78,
+     "dealt": 689,
+     "kills": 5,
+     "t": 43.792
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,coat,bandage",
+   "stash": "cycle,kick",
+   "shops": [
+    "duck/bkick/skick",
+    "kick/ring/coat",
+    "bandage/ring/watch",
+    "round/axe/pin"
+   ]
+  },
+  {
+   "seed": 4022,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 68,
+   "max": 120,
+   "score": 64471,
+   "kills": 80,
+   "dealt": 4084,
+   "taken": 306,
+   "crits": 12,
+   "maxCombo": 28,
+   "links": 222,
+   "justs": 0,
+   "tokens": 36,
+   "combos": 20,
+   "outs": 3,
+   "walls": 7,
+   "bowls": 42,
+   "stag": 16,
+   "flanks": 1,
+   "dodges": 13,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "뜸:rKick": 33,
+    "hitB": 9,
+    "hit†": 2,
+    "hit": 13,
+    "뜸:rSpin†": 28,
+    "rHook†": 4,
+    "뜸:rSwept": 29,
+    "rStomp": 6,
+    "rStomp†": 11,
+    "rHook": 15,
+    "뜸:rKick†": 11,
+    "뜸:rSwept†": 2,
+    "뜸:fall†": 3,
+    "뜸:fall": 6,
+    "뜸:rSpin": 16,
+    "hitB†": 2,
+    "공중:launch": 9,
+    "공중:rBlast†": 8,
+    "공중:launch†": 5,
+    "공중:rBlast": 4,
+    "뜸:launch": 4,
+    "공중:fall†": 1,
+    "공중:rSpin": 1,
+    "rSwept": 3,
+    "rKick": 4,
+    "launch": 2,
+    "rSpin": 3,
+    "fall": 1
+   },
+   "snd": [
+    7,
+    81,
+    147
+   ],
+   "byCar": [
+    {
+     "taken": 11,
+     "dealt": 538,
+     "kills": 16,
+     "t": 42.704
+    },
+    {
+     "taken": 7,
+     "dealt": 516,
+     "kills": 13,
+     "t": 45.492
+    },
+    {
+     "taken": 36,
+     "dealt": 449,
+     "kills": 11,
+     "t": 40.392
+    },
+    {
+     "taken": 40,
+     "dealt": 447,
+     "kills": 9,
+     "t": 38.624
+    },
+    {
+     "taken": 106,
+     "dealt": 745,
+     "kills": 13,
+     "t": 49.844
+    },
+    {
+     "taken": 17,
+     "dealt": 556,
+     "kills": 9,
+     "t": 37.519
+    },
+    {
+     "taken": 89,
+     "dealt": 833,
+     "kills": 9,
+     "t": 51.425
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,coffee,duck,coffee,upper,bfist,knee,cuff",
+   "stash": "skick,bkick,earph",
+   "shops": [
+    "duck/skick/punch",
+    "bfist/axe/earph",
+    "bkick/renkan/bandage",
+    "earph/paper/punch"
+   ]
+  },
+  {
+   "seed": 4023,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 111,
+   "max": 120,
+   "score": 59634,
+   "kills": 83,
+   "dealt": 4001,
+   "taken": 220,
+   "crits": 19,
+   "maxCombo": 33,
+   "links": 85,
+   "justs": 0,
+   "tokens": 28,
+   "combos": 0,
+   "outs": 5,
+   "walls": 11,
+   "bowls": 16,
+   "stag": 19,
+   "flanks": 4,
+   "dodges": 5,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 37,
+    "hitB": 5,
+    "rStomp†": 18,
+    "뜸:rSwept": 22,
+    "뜸:rKick†": 17,
+    "뜸:fall": 8,
+    "뜸:rSpin": 31,
+    "hit": 7,
+    "뜸:rSwept†": 8,
+    "뜸:rSpin†": 14,
+    "rHook": 4,
+    "rStomp": 28,
+    "공중:hit": 18,
+    "공중:rCross": 12,
+    "공중:rHook†": 7,
+    "공중:rSpin": 1,
+    "공중:rCross†": 6,
+    "뜸:launch†": 1,
+    "공중:hit†": 6,
+    "공중:rHook": 4,
+    "spinout": 1,
+    "공중:launch†": 1,
+    "공중:launch": 1,
+    "rSpin": 6,
+    "rSwept": 2
+   },
+   "snd": [
+    23,
+    102,
+    140
+   ],
+   "byCar": [
+    {
+     "taken": 61,
+     "dealt": 556,
+     "kills": 16,
+     "t": 50.898
+    },
+    {
+     "taken": 22,
+     "dealt": 517,
+     "kills": 13,
+     "t": 45.067
+    },
+    {
+     "taken": 12,
+     "dealt": 526,
+     "kills": 14,
+     "t": 40.001
+    },
+    {
+     "taken": 45,
+     "dealt": 551,
+     "kills": 12,
+     "t": 43.656
+    },
+    {
+     "taken": 34,
+     "dealt": 795,
+     "kills": 16,
+     "t": 52.496
+    },
+    {
+     "taken": 28,
+     "dealt": 518,
+     "kills": 9,
+     "t": 37.808
+    },
+    {
+     "taken": 18,
+     "dealt": 538,
+     "kills": 3,
+     "t": 36.074
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,cuff,kick,duck,charm,punch,pin,earph,knuckle",
+   "stash": "tetsu,stomp",
+   "shops": [
+    "duck/earph/tetsu",
+    "pin/fkick/paper",
+    "knuckle/axe/fkick",
+    "stomp/kick/renkan"
+   ]
+  },
+  {
+   "seed": 4024,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 78,
+   "max": 120,
+   "score": 58664,
+   "kills": 81,
+   "dealt": 4008,
+   "taken": 251,
+   "crits": 28,
+   "maxCombo": 36,
+   "links": 253,
+   "justs": 0,
+   "tokens": 34,
+   "combos": 23,
+   "outs": 5,
+   "walls": 11,
+   "bowls": 36,
+   "stag": 28,
+   "flanks": 1,
+   "dodges": 10,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 19,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "뜸:rKick": 19,
+    "hit": 8,
+    "뜸:rSpin†": 17,
+    "rHook†": 3,
+    "rStomp†": 11,
+    "뜸:rSwept": 38,
+    "뜸:fall†": 2,
+    "뜸:fall": 7,
+    "뜸:rKick†": 22,
+    "hitB": 23,
+    "hit†": 4,
+    "hitB†": 7,
+    "뜸:rSwept†": 5,
+    "rHook": 13,
+    "rStomp": 21,
+    "뜸:rSpin": 22,
+    "공중:rBlast": 12,
+    "crumple": 2,
+    "뜸:rBlast": 3,
+    "공중:rBlast†": 3,
+    "뜸:rBlast†": 1,
+    "공중:hitB": 1,
+    "공중:rSpin†": 1,
+    "rSpin": 5,
+    "rSwept": 2,
+    "fall": 1,
+    "rKick": 1
+   },
+   "snd": [
+    8,
+    99,
+    147
+   ],
+   "byCar": [
+    {
+     "taken": 32,
+     "dealt": 554,
+     "kills": 16,
+     "t": 46.087
+    },
+    {
+     "taken": 31,
+     "dealt": 513,
+     "kills": 13,
+     "t": 48.722
+    },
+    {
+     "taken": 26,
+     "dealt": 422,
+     "kills": 11,
+     "t": 41.531
+    },
+    {
+     "taken": 8,
+     "dealt": 567,
+     "kills": 12,
+     "t": 41.497
+    },
+    {
+     "taken": 96,
+     "dealt": 872,
+     "kills": 16,
+     "t": 55.063
+    },
+    {
+     "taken": 16,
+     "dealt": 552,
+     "kills": 9,
+     "t": 38.403
+    },
+    {
+     "taken": 42,
+     "dealt": 528,
+     "kills": 4,
+     "t": 34.697
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,ring,cuff,duck,bfist,case,stomp",
+   "stash": "charm,earph,duck,fkick,gum,charm",
+   "shops": [
+    "duck/watch/punch",
+    "charm/kick/coat",
+    "punch/gum/kick",
+    "charm/kick/stomp"
+   ]
+  },
+  {
+   "seed": 4025,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 60,
+   "max": 120,
+   "score": 62829,
+   "kills": 82,
+   "dealt": 3731,
+   "taken": 232,
+   "crits": 22,
+   "maxCombo": 39,
+   "links": 151,
+   "justs": 0,
+   "tokens": 34,
+   "combos": 27,
+   "outs": 3,
+   "walls": 15,
+   "bowls": 28,
+   "stag": 19,
+   "flanks": 1,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "뜸:rKick": 22,
+    "hitB": 8,
+    "뜸:rSpin†": 15,
+    "rHook": 6,
+    "뜸:rKick†": 18,
+    "rStomp": 14,
+    "뜸:rSpin": 26,
+    "공중:rKick†": 1,
+    "hit": 16,
+    "rStomp†": 8,
+    "뜸:rSwept": 37,
+    "rCross": 1,
+    "rHook†": 1,
+    "공중:hit†": 4,
+    "공중:hit": 23,
+    "공중:launch†": 6,
+    "뜸:rBlast†": 2,
+    "공중:rBlast†": 9,
+    "공중:launch": 15,
+    "공중:rBlast": 7,
+    "공중:rCross†": 5,
+    "뜸:rSwept†": 2,
+    "hit†": 1,
+    "공중:rCross": 6,
+    "공중:rHook†": 3,
+    "뜸:fall": 5,
+    "hitB†": 1,
+    "공중:rSwept": 1,
+    "뜸:launch": 3,
+    "spinout†": 1,
+    "뜸:rBlast": 1,
+    "spinout": 1,
+    "뜸:launch†": 1,
+    "공중:rHook": 1,
+    "뜸:fall†": 1,
+    "rSwept": 4,
+    "fall": 1,
+    "rSpin": 2
+   },
+   "snd": [
+    41,
+    78,
+    160
+   ],
+   "byCar": [
+    {
+     "taken": 38,
+     "dealt": 509,
+     "kills": 16,
+     "t": 47.617
+    },
+    {
+     "taken": 7,
+     "dealt": 499,
+     "kills": 15,
+     "t": 49.504
+    },
+    {
+     "taken": 33,
+     "dealt": 566,
+     "kills": 14,
+     "t": 43.775
+    },
+    {
+     "taken": 7,
+     "dealt": 553,
+     "kills": 12,
+     "t": 42.772
+    },
+    {
+     "taken": 37,
+     "dealt": 739,
+     "kills": 13,
+     "t": 51.476
+    },
+    {
+     "taken": 43,
+     "dealt": 553,
+     "kills": 9,
+     "t": 42.483
+    },
+    {
+     "taken": 67,
+     "dealt": 312,
+     "kills": 3,
+     "t": 28.373
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,cycle,duck,stomp,punch",
+   "stash": "throw,charge",
+   "shops": [
+    "duck/metro/bandage",
+    "throw/fkick/punch",
+    "pin/punch/cuff",
+    "cuff/shoes/charm"
+   ]
+  },
+  {
+   "seed": 4026,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 75,
+   "max": 120,
+   "score": 63281,
+   "kills": 88,
+   "dealt": 4302,
+   "taken": 175,
+   "crits": 23,
+   "maxCombo": 37,
+   "links": 98,
+   "justs": 0,
+   "tokens": 45,
+   "combos": 31,
+   "outs": 2,
+   "walls": 19,
+   "bowls": 34,
+   "stag": 22,
+   "flanks": 0,
+   "dodges": 13,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 37,
+    "hitB": 8,
+    "rStomp†": 10,
+    "뜸:rSpin†": 20,
+    "hit": 20,
+    "뜸:rSwept": 13,
+    "rStomp": 14,
+    "뜸:fall": 10,
+    "rHook": 9,
+    "뜸:rKick†": 8,
+    "뜸:fall†": 1,
+    "뜸:rkPop†": 8,
+    "뜸:rkPop": 23,
+    "공중:launch†": 9,
+    "뜸:launch†": 6,
+    "공중:launch": 11,
+    "공중:rBlast†": 12,
+    "뜸:launch": 4,
+    "공중:hit†": 1,
+    "뜸:rSpin": 7,
+    "뜸:rSwept†": 3,
+    "rCross": 1,
+    "뜸:rBlast†": 3,
+    "뜸:rBlast": 5,
+    "공중:hit": 1,
+    "공중:rBlast": 2,
+    "공중:rkPop†": 1,
+    "rHook†": 1,
+    "공중:rSwept": 1,
+    "공중:rSwept†": 1,
+    "공중:rKick†": 2,
+    "rkPop": 2,
+    "launch": 3,
+    "rKick": 2,
+    "rSpin": 1,
+    "rSwept": 1
+   },
+   "snd": [
+    0,
+    144,
+    117
+   ],
+   "byCar": [
+    {
+     "taken": 43,
+     "dealt": 562,
+     "kills": 16,
+     "t": 46.002
+    },
+    {
+     "taken": 15,
+     "dealt": 541,
+     "kills": 15,
+     "t": 49.487
+    },
+    {
+     "taken": 24,
+     "dealt": 558,
+     "kills": 14,
+     "t": 46.648
+    },
+    {
+     "taken": 8,
+     "dealt": 640,
+     "kills": 12,
+     "t": 40.477
+    },
+    {
+     "taken": 25,
+     "dealt": 891,
+     "kills": 16,
+     "t": 51.017
+    },
+    {
+     "taken": 7,
+     "dealt": 706,
+     "kills": 12,
+     "t": 42.959
+    },
+    {
+     "taken": 53,
+     "dealt": 404,
+     "kills": 3,
+     "t": 29.41
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,renkan,duck,umb,earph,shoes,pin",
+   "stash": "knee,earph,bkick",
+   "shops": [
+    "duck/bkick/punch",
+    "knee/round/bkick",
+    "knee/kick/bandage",
+    "paper/round/charge"
+   ]
+  },
+  {
+   "seed": 4027,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 93,
+   "max": 120,
+   "score": 64669,
+   "kills": 80,
+   "dealt": 4217,
+   "taken": 195,
+   "crits": 63,
+   "maxCombo": 30,
+   "links": 89,
+   "justs": 0,
+   "tokens": 58,
+   "combos": 27,
+   "outs": 1,
+   "walls": 11,
+   "bowls": 30,
+   "stag": 13,
+   "flanks": 2,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 14,
+   "rk": {
+    "뜸:rKick": 32,
+    "hitB": 9,
+    "공중:rSpin†": 3,
+    "rHook": 10,
+    "공중:rKick†": 1,
+    "뜸:rSpin†": 16,
+    "뜸:rKick†": 13,
+    "rStomp†": 10,
+    "뜸:rSpin": 13,
+    "뜸:rSwept": 27,
+    "뜸:fall†": 3,
+    "뜸:fall": 5,
+    "뜸:rSwept†": 3,
+    "hit†": 5,
+    "rElbow": 34,
+    "hitB†": 1,
+    "rElbow†": 14,
+    "rStomp": 12,
+    "뜸:rBlast†": 9,
+    "crumple": 1,
+    "뜸:rBlast": 4,
+    "hit": 3,
+    "공중:rElbow": 1,
+    "공중:rBlast†": 1,
+    "공중:rKick": 1,
+    "rCross": 1,
+    "rSpin": 4,
+    "rKick": 4,
+    "fall": 1
+   },
+   "snd": [
+    0,
+    126,
+    115
+   ],
+   "byCar": [
+    {
+     "taken": 29,
+     "dealt": 556,
+     "kills": 16,
+     "t": 43.52
+    },
+    {
+     "taken": 14,
+     "dealt": 519,
+     "kills": 13,
+     "t": 48.382
+    },
+    {
+     "taken": 41,
+     "dealt": 471,
+     "kills": 11,
+     "t": 41.582
+    },
+    {
+     "taken": 13,
+     "dealt": 477,
+     "kills": 9,
+     "t": 38.352
+    },
+    {
+     "taken": 21,
+     "dealt": 974,
+     "kills": 16,
+     "t": 56.134
+    },
+    {
+     "taken": 25,
+     "dealt": 544,
+     "kills": 9,
+     "t": 36.822
+    },
+    {
+     "taken": 52,
+     "dealt": 676,
+     "kills": 6,
+     "t": 41.208
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,watch,duck,bandage,elbow,elbow",
+   "stash": "throw,charge",
+   "shops": [
+    "duck/paper/upper",
+    "case/skick/punch",
+    "coat/bandage/axe",
+    "tetsu/axe/fkick"
+   ]
+  },
+  {
+   "seed": 4028,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 94,
+   "max": 120,
+   "score": 54313,
+   "kills": 77,
+   "dealt": 3703,
+   "taken": 240,
+   "crits": 15,
+   "maxCombo": 32,
+   "links": 124,
+   "justs": 0,
+   "tokens": 33,
+   "combos": 26,
+   "outs": 4,
+   "walls": 20,
+   "bowls": 42,
+   "stag": 18,
+   "flanks": 2,
+   "dodges": 10,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 15,
+   "rk": {
+    "rStomp": 19,
+    "뜸:rKick": 26,
+    "hit": 11,
+    "뜸:rSpin†": 24,
+    "rHook": 9,
+    "뜸:rKick†": 20,
+    "hitB": 9,
+    "뜸:rSpin": 17,
+    "뜸:rSwept†": 3,
+    "rHook†": 2,
+    "뜸:rSwept": 36,
+    "뜸:fall": 5,
+    "crumple": 1,
+    "rStomp†": 10,
+    "공중:rCharge": 20,
+    "rCharge": 8,
+    "공중:rCharge†": 5,
+    "rCharge†": 5,
+    "hit†": 2,
+    "hitB†": 1,
+    "공중:rSwept": 2,
+    "공중:rKick†": 1,
+    "rSwept": 4,
+    "rSpin": 2,
+    "fall": 1,
+    "rKick": 3
+   },
+   "snd": [
+    0,
+    75,
+    171
+   ],
+   "byCar": [
+    {
+     "taken": 37,
+     "dealt": 556,
+     "kills": 16,
+     "t": 44.523
+    },
+    {
+     "taken": 12,
+     "dealt": 443,
+     "kills": 13,
+     "t": 44.982
+    },
+    {
+     "taken": 28,
+     "dealt": 449,
+     "kills": 11,
+     "t": 43.01
+    },
+    {
+     "taken": 19,
+     "dealt": 587,
+     "kills": 12,
+     "t": 44.965
+    },
+    {
+     "taken": 83,
+     "dealt": 734,
+     "kills": 13,
+     "t": 54.213
+    },
+    {
+     "taken": 35,
+     "dealt": 545,
+     "kills": 9,
+     "t": 41.123
+    },
+    {
+     "taken": 26,
+     "dealt": 389,
+     "kills": 3,
+     "t": 33.184
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,bandage,cuff,coffee,charge,watch,cuff",
+   "stash": "fkick,sweep,stomp",
+   "shops": [
+    "duck/cycle/paper",
+    "charge/elbow/skick",
+    "case/knuckle/umb",
+    "cuff/ring/charge"
+   ]
+  },
+  {
+   "seed": 4029,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 21,
+   "max": 120,
+   "score": 61003,
+   "kills": 82,
+   "dealt": 4166,
+   "taken": 281,
+   "crits": 27,
+   "maxCombo": 38,
+   "links": 76,
+   "justs": 0,
+   "tokens": 48,
+   "combos": 26,
+   "outs": 2,
+   "walls": 17,
+   "bowls": 28,
+   "stag": 18,
+   "flanks": 3,
+   "dodges": 4,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "뜸:rKick": 21,
+    "hit": 51,
+    "뜸:rSwept": 19,
+    "뜸:rSwept†": 1,
+    "뜸:rKick†": 13,
+    "hitB": 2,
+    "뜸:rSpin†": 17,
+    "rStomp": 17,
+    "rHook": 14,
+    "rStomp†": 6,
+    "공중:hit": 70,
+    "공중:hit†": 11,
+    "공중:rSpin†": 3,
+    "hit†": 6,
+    "뜸:rSpin": 14,
+    "뜸:rBlast†": 19,
+    "rCross": 1,
+    "뜸:rBlast": 13,
+    "뜸:fall": 1,
+    "뜸:fall†": 2,
+    "rHook†": 2,
+    "rKick": 1,
+    "rSpin": 3,
+    "fall": 2
+   },
+   "snd": [
+    91,
+    81,
+    137
+   ],
+   "byCar": [
+    {
+     "taken": 57,
+     "dealt": 557,
+     "kills": 16,
+     "t": 44.03
+    },
+    {
+     "taken": 5,
+     "dealt": 545,
+     "kills": 15,
+     "t": 45.934
+    },
+    {
+     "taken": 20,
+     "dealt": 460,
+     "kills": 11,
+     "t": 37.825
+    },
+    {
+     "taken": 27,
+     "dealt": 631,
+     "kills": 12,
+     "t": 43.044
+    },
+    {
+     "taken": 29,
+     "dealt": 872,
+     "kills": 16,
+     "t": 55.726
+    },
+    {
+     "taken": 44,
+     "dealt": 555,
+     "kills": 9,
+     "t": 39.95
+    },
+    {
+     "taken": 99,
+     "dealt": 546,
+     "kills": 3,
+     "t": 39.491
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,paper,earph,duck,umb,earph,coffee,duck,earph,coffee",
+   "stash": "skick,bfist",
+   "shops": [
+    "duck/metro/watch",
+    "duck/bfist/axe",
+    "earph/skick/coffee",
+    "coffee/elbow/bfist"
+   ]
+  },
+  {
+   "seed": 4030,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 3,
+   "max": 120,
+   "score": 57665,
+   "kills": 83,
+   "dealt": 3952,
+   "taken": 288,
+   "crits": 29,
+   "maxCombo": 44,
+   "links": 121,
+   "justs": 0,
+   "tokens": 41,
+   "combos": 25,
+   "outs": 0,
+   "walls": 10,
+   "bowls": 27,
+   "stag": 22,
+   "flanks": 2,
+   "dodges": 8,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 12,
+   "rk": {
+    "뜸:rKick": 33,
+    "hit": 12,
+    "뜸:rSpin†": 22,
+    "rHook†": 2,
+    "rStomp": 8,
+    "rStomp†": 10,
+    "뜸:rKick†": 9,
+    "hitB": 7,
+    "rHook": 6,
+    "뜸:rSwept": 33,
+    "공중:rSpin†": 2,
+    "뜸:rSwept†": 4,
+    "뜸:fall†": 2,
+    "뜸:rSpin": 17,
+    "공중:launch": 20,
+    "공중:hit": 16,
+    "공중:rCross": 11,
+    "공중:rHook†": 7,
+    "뜸:launch": 3,
+    "공중:rCross†": 6,
+    "뜸:fall": 5,
+    "공중:launch†": 7,
+    "뜸:launch†": 1,
+    "rCross†": 2,
+    "공중:hit†": 7,
+    "공중:rHook": 5,
+    "spinout": 2,
+    "rCross": 2,
+    "crumple": 1,
+    "rKnee†": 1,
+    "rSwept": 4,
+    "rSpin": 2,
+    "fall": 2,
+    "hit†": 1
+   },
+   "snd": [
+    23,
+    100,
+    149
+   ],
+   "byCar": [
+    {
+     "taken": 33,
+     "dealt": 652,
+     "kills": 18,
+     "t": 45.458
+    },
+    {
+     "taken": 37,
+     "dealt": 459,
+     "kills": 11,
+     "t": 45.101
+    },
+    {
+     "taken": 41,
+     "dealt": 449,
+     "kills": 11,
+     "t": 41.191
+    },
+    {
+     "taken": 5,
+     "dealt": 653,
+     "kills": 15,
+     "t": 44.659
+    },
+    {
+     "taken": 32,
+     "dealt": 790,
+     "kills": 16,
+     "t": 52.666
+    },
+    {
+     "taken": 23,
+     "dealt": 577,
+     "kills": 9,
+     "t": 43.979
+    },
+    {
+     "taken": 117,
+     "dealt": 372,
+     "kills": 3,
+     "t": 32.946
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,gum,duck,knee,punch,metro,metro,cuff,cuff,knee",
+   "stash": "round",
+   "shops": [
+    "duck/metro/kick",
+    "round/bfist/coffee",
+    "cuff/bandage/earph",
+    "fkick/round/renkan"
+   ]
+  },
+  {
+   "seed": 4031,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 91,
+   "max": 120,
+   "score": 61311,
+   "kills": 83,
+   "dealt": 4121,
+   "taken": 206,
+   "crits": 20,
+   "maxCombo": 58,
+   "links": 130,
+   "justs": 0,
+   "tokens": 35,
+   "combos": 36,
+   "outs": 0,
+   "walls": 15,
+   "bowls": 25,
+   "stag": 23,
+   "flanks": 1,
+   "dodges": 10,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 9,
+   "rk": {
+    "뜸:rKick": 27,
+    "rCross": 2,
+    "뜸:rSpin†": 27,
+    "rHook": 8,
+    "뜸:rSwept†": 6,
+    "뜸:rSwept": 37,
+    "뜸:rKick†": 11,
+    "hit": 14,
+    "rStomp": 13,
+    "rStomp†": 6,
+    "뜸:fall": 4,
+    "공중:launch†": 8,
+    "hitB": 7,
+    "공중:launch": 23,
+    "뜸:launch": 7,
+    "공중:rBlast†": 16,
+    "뜸:fall†": 2,
+    "뜸:rSpin": 10,
+    "hit†": 2,
+    "공중:rBlast": 5,
+    "hitB†": 1,
+    "뜸:rBlast": 2,
+    "공중:hit†": 4,
+    "공중:hit": 12,
+    "rSwept": 1,
+    "rSpin": 2,
+    "fall": 1,
+    "rKick": 1,
+    "launch": 1
+   },
+   "snd": [
+    23,
+    62,
+    175
+   ],
+   "byCar": [
+    {
+     "taken": 34,
+     "dealt": 552,
+     "kills": 16,
+     "t": 45.288
+    },
+    {
+     "taken": 7,
+     "dealt": 477,
+     "kills": 13,
+     "t": 45.577
+    },
+    {
+     "taken": 30,
+     "dealt": 498,
+     "kills": 11,
+     "t": 44.353
+    },
+    {
+     "taken": 35,
+     "dealt": 597,
+     "kills": 12,
+     "t": 44.54
+    },
+    {
+     "taken": 29,
+     "dealt": 898,
+     "kills": 16,
+     "t": 53.108
+    },
+    {
+     "taken": 24,
+     "dealt": 700,
+     "kills": 12,
+     "t": 43.554
+    },
+    {
+     "taken": 47,
+     "dealt": 399,
+     "kills": 3,
+     "t": 29.58
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,skick,watch,duck,charm,paper,coffee,gum,metro",
+   "stash": "watch,renkan,duck,bandage",
+   "shops": [
+    "duck/pin/kick",
+    "paper/coat/upper",
+    "duck/stomp/shoes",
+    "bandage/stomp/case"
+   ]
+  },
+  {
+   "seed": 4032,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 10,
+   "max": 120,
+   "score": 57262,
+   "kills": 81,
+   "dealt": 3776,
+   "taken": 270,
+   "crits": 18,
+   "maxCombo": 42,
+   "links": 86,
+   "justs": 0,
+   "tokens": 92,
+   "combos": 29,
+   "outs": 2,
+   "walls": 11,
+   "bowls": 31,
+   "stag": 21,
+   "flanks": 2,
+   "dodges": 11,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 25,
+    "hit": 12,
+    "뜸:rSwept": 40,
+    "뜸:rSwept†": 8,
+    "뜸:rSpin†": 18,
+    "뜸:rKick†": 8,
+    "뜸:rSpin": 16,
+    "rStomp": 19,
+    "rStomp†": 9,
+    "rHook": 7,
+    "뜸:fall": 9,
+    "crumple": 1,
+    "공중:hit†": 6,
+    "hitB": 9,
+    "공중:hit": 47,
+    "공중:launch†": 9,
+    "공중:launch": 11,
+    "공중:rBlast†": 8,
+    "뜸:rBlast†": 8,
+    "공중:rKnee†": 1,
+    "공중:rBlast": 4,
+    "뜸:fall†": 3,
+    "hitB†": 1,
+    "rCross": 1,
+    "뜸:rBlast": 1,
+    "rKick": 1,
+    "rSpin": 1,
+    "rSwept": 2,
+    "fall": 1
+   },
+   "snd": [
+    68,
+    75,
+    143
+   ],
+   "byCar": [
+    {
+     "taken": 24,
+     "dealt": 537,
+     "kills": 16,
+     "t": 43.741
+    },
+    {
+     "taken": 14,
+     "dealt": 403,
+     "kills": 13,
+     "t": 45.509
+    },
+    {
+     "taken": 7,
+     "dealt": 593,
+     "kills": 14,
+     "t": 41.327
+    },
+    {
+     "taken": 21,
+     "dealt": 567,
+     "kills": 12,
+     "t": 41.752
+    },
+    {
+     "taken": 49,
+     "dealt": 728,
+     "kills": 13,
+     "t": 53.72
+    },
+    {
+     "taken": 45,
+     "dealt": 532,
+     "kills": 9,
+     "t": 41.021
+    },
+    {
+     "taken": 110,
+     "dealt": 416,
+     "kills": 4,
+     "t": 38.93
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,cycle,knee,duck",
+   "stash": "throw,renkan",
+   "shops": [
+    "duck/tetsu/axe",
+    "watch/elbow/punch",
+    "elbow/throw/watch",
+    "skick/axe/bkick"
+   ]
+  },
+  {
+   "seed": 4033,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 66,
+   "max": 120,
+   "score": 65791,
+   "kills": 94,
+   "dealt": 4442,
+   "taken": 198,
+   "crits": 48,
+   "maxCombo": 64,
+   "links": 85,
+   "justs": 0,
+   "tokens": 57,
+   "combos": 28,
+   "outs": 5,
+   "walls": 16,
+   "bowls": 24,
+   "stag": 18,
+   "flanks": 1,
+   "dodges": 6,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 31,
+    "hitB": 5,
+    "hit†": 1,
+    "hit": 14,
+    "뜸:rSpin†": 17,
+    "rHook†": 1,
+    "rStomp†": 10,
+    "rStomp": 7,
+    "뜸:rSpin": 14,
+    "뜸:rSwept": 21,
+    "뜸:fall†": 1,
+    "rHook": 9,
+    "뜸:rSwept†": 2,
+    "공중:hit†": 24,
+    "공중:hit": 68,
+    "뜸:rKick†": 7,
+    "뜸:rkPop": 26,
+    "공중:launch": 19,
+    "공중:rBlast†": 14,
+    "뜸:rkPop†": 4,
+    "뜸:fall": 4,
+    "뜸:launch": 4,
+    "공중:rBlast": 8,
+    "rCross": 1,
+    "공중:launch†": 4,
+    "뜸:rBlast": 3,
+    "hitB†": 2,
+    "공중:rSpin†": 1,
+    "rSpin": 6,
+    "fall": 1,
+    "rkPop": 1,
+    "rSwept": 2,
+    "공중:rSwept†": 1,
+    "launch": 3
+   },
+   "snd": [
+    83,
+    130,
+    123
+   ],
+   "byCar": [
+    {
+     "taken": 12,
+     "dealt": 576,
+     "kills": 16,
+     "t": 40.375
+    },
+    {
+     "taken": 5,
+     "dealt": 506,
+     "kills": 15,
+     "t": 43.52
+    },
+    {
+     "taken": 8,
+     "dealt": 678,
+     "kills": 17,
+     "t": 44.88
+    },
+    {
+     "taken": 30,
+     "dealt": 658,
+     "kills": 15,
+     "t": 43.809
+    },
+    {
+     "taken": 40,
+     "dealt": 887,
+     "kills": 19,
+     "t": 56.542
+    },
+    {
+     "taken": 24,
+     "dealt": 577,
+     "kills": 9,
+     "t": 39.491
+    },
+    {
+     "taken": 79,
+     "dealt": 560,
+     "kills": 3,
+     "t": 37.383
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,paper,duck,renkan,gum,pin,pin,bandage",
+   "stash": "charge,cycle",
+   "shops": [
+    "duck/ring/axe",
+    "pin/throw/watch",
+    "bandage/stomp/umb",
+    "fkick/coat/knuckle"
+   ]
+  },
+  {
+   "seed": 4034,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 111,
+   "max": 120,
+   "score": 61538,
+   "kills": 88,
+   "dealt": 4238,
+   "taken": 130,
+   "crits": 15,
+   "maxCombo": 35,
+   "links": 102,
+   "justs": 0,
+   "tokens": 53,
+   "combos": 29,
+   "outs": 0,
+   "walls": 33,
+   "bowls": 24,
+   "stag": 23,
+   "flanks": 0,
+   "dodges": 6,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 8,
+   "rk": {
+    "뜸:rKick": 22,
+    "hitB": 8,
+    "뜸:rSwept": 17,
+    "뜸:rKick†": 15,
+    "hitB†": 1,
+    "뜸:rSpin†": 17,
+    "rCross": 2,
+    "rStomp": 17,
+    "rStomp†": 14,
+    "hit": 34,
+    "뜸:fall": 6,
+    "뜸:rSpin": 10,
+    "뜸:rBlast†": 22,
+    "뜸:rBlast": 16,
+    "공중:rKick†": 5,
+    "rHook": 8,
+    "뜸:fall†": 4,
+    "hit†": 5,
+    "crumple": 1,
+    "뜸:rSwept†": 2,
+    "공중:rSpin": 1,
+    "공중:rBlast†": 2,
+    "fall": 1,
+    "rSpin": 2,
+    "rKick": 3
+   },
+   "snd": [
+    0,
+    100,
+    135
+   ],
+   "byCar": [
+    {
+     "taken": 28,
+     "dealt": 525,
+     "kills": 16,
+     "t": 48.365
+    },
+    {
+     "taken": 5,
+     "dealt": 574,
+     "kills": 15,
+     "t": 48.28
+    },
+    {
+     "taken": 22,
+     "dealt": 581,
+     "kills": 14,
+     "t": 43.469
+    },
+    {
+     "taken": 22,
+     "dealt": 681,
+     "kills": 15,
+     "t": 44.71
+    },
+    {
+     "taken": 25,
+     "dealt": 916,
+     "kills": 16,
+     "t": 52.819
+    },
+    {
+     "taken": 19,
+     "dealt": 558,
+     "kills": 9,
+     "t": 40.851
+    },
+    {
+     "taken": 9,
+     "dealt": 403,
+     "kills": 3,
+     "t": 27.506
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,cuff,umb,duck,charm,duck,bandage,stomp",
+   "stash": "suplex,upper",
+   "shops": [
+    "duck/pin/coat",
+    "suplex/bkick/paper",
+    "cycle/knuckle/round",
+    "throw/stomp/punch"
+   ]
+  },
+  {
+   "seed": 4035,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 105,
+   "max": 120,
+   "score": 57520,
+   "kills": 83,
+   "dealt": 3880,
+   "taken": 293,
+   "crits": 16,
+   "maxCombo": 27,
+   "links": 125,
+   "justs": 0,
+   "tokens": 34,
+   "combos": 0,
+   "outs": 5,
+   "walls": 11,
+   "bowls": 31,
+   "stag": 23,
+   "flanks": 1,
+   "dodges": 7,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "rStomp": 21,
+    "rStomp†": 23,
+    "뜸:rSwept": 33,
+    "뜸:rKick": 41,
+    "hitB": 9,
+    "뜸:rSwept†": 4,
+    "뜸:rSpin†": 28,
+    "rHook": 7,
+    "뜸:fall": 8,
+    "뜸:rKick†": 17,
+    "뜸:rSpin": 21,
+    "hit": 8,
+    "hitB†": 2,
+    "hit†": 1,
+    "공중:rKick†": 1,
+    "rHook†": 2,
+    "rKick": 1
+   },
+   "snd": [
+    0,
+    84,
+    143
+   ],
+   "byCar": [
+    {
+     "taken": 54,
+     "dealt": 556,
+     "kills": 16,
+     "t": 49.402
+    },
+    {
+     "taken": 19,
+     "dealt": 491,
+     "kills": 13,
+     "t": 46.376
+    },
+    {
+     "taken": 40,
+     "dealt": 572,
+     "kills": 14,
+     "t": 45.56
+    },
+    {
+     "taken": 30,
+     "dealt": 633,
+     "kills": 12,
+     "t": 44.132
+    },
+    {
+     "taken": 65,
+     "dealt": 842,
+     "kills": 16,
+     "t": 56.457
+    },
+    {
+     "taken": 70,
+     "dealt": 613,
+     "kills": 9,
+     "t": 48.229
+    },
+    {
+     "taken": 15,
+     "dealt": 173,
+     "kills": 3,
+     "t": 15.844
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,bkick,earph,coffee,duck,metro",
+   "stash": "suplex,skick",
+   "shops": [
+    "duck/suplex/bandage",
+    "metro/upper/charge",
+    "kick/metro/duck",
+    "axe/skick/stomp"
+   ]
+  },
+  {
+   "seed": 4036,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 65,
+   "max": 120,
+   "score": 62329,
+   "kills": 86,
+   "dealt": 4264,
+   "taken": 263,
+   "crits": 17,
+   "maxCombo": 35,
+   "links": 70,
+   "justs": 0,
+   "tokens": 41,
+   "combos": 0,
+   "outs": 6,
+   "walls": 17,
+   "bowls": 25,
+   "stag": 15,
+   "flanks": 1,
+   "dodges": 4,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 10,
+   "rk": {
+    "뜸:rKick": 27,
+    "hit": 23,
+    "뜸:rSpin†": 22,
+    "rHook": 8,
+    "hitB†": 1,
+    "뜸:rSwept": 21,
+    "뜸:fall": 12,
+    "뜸:fall†": 17,
+    "뜸:rSpin": 21,
+    "rStomp†": 11,
+    "뜸:rKick†": 10,
+    "rStomp": 15,
+    "hitB": 3,
+    "공중:hit†": 12,
+    "공중:hit": 76,
+    "hit†": 1,
+    "뜸:rSwept†": 5,
+    "rHook†": 1,
+    "fall": 2,
+    "rSpin": 2,
+    "rSwept": 1
+   },
+   "snd": [
+    96,
+    61,
+    134
+   ],
+   "byCar": [
+    {
+     "taken": 7,
+     "dealt": 595,
+     "kills": 18,
+     "t": 43.537
+    },
+    {
+     "taken": 12,
+     "dealt": 497,
+     "kills": 13,
+     "t": 45.05
+    },
+    {
+     "taken": 14,
+     "dealt": 489,
+     "kills": 14,
+     "t": 38.607
+    },
+    {
+     "taken": 36,
+     "dealt": 583,
+     "kills": 12,
+     "t": 45.424
+    },
+    {
+     "taken": 26,
+     "dealt": 834,
+     "kills": 16,
+     "t": 50.677
+    },
+    {
+     "taken": 88,
+     "dealt": 613,
+     "kills": 9,
+     "t": 44.387
+    },
+    {
+     "taken": 80,
+     "dealt": 653,
+     "kills": 4,
+     "t": 38.318
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,charm,paper,fkick,duck,duck,coffee",
+   "stash": "sweep,axe,cuff",
+   "shops": [
+    "duck/knuckle/knee",
+    "sweep/stomp/case",
+    "fkick/pin/knuckle",
+    "paper/cycle/stomp"
+   ]
+  },
+  {
+   "seed": 4037,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 7,
+   "max": 120,
+   "score": 54934,
+   "kills": 76,
+   "dealt": 3714,
+   "taken": 332,
+   "crits": 18,
+   "maxCombo": 42,
+   "links": 147,
+   "justs": 0,
+   "tokens": 48,
+   "combos": 32,
+   "outs": 1,
+   "walls": 6,
+   "bowls": 32,
+   "stag": 23,
+   "flanks": 3,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "뜸:rKick": 21,
+    "hitB": 10,
+    "뜸:rSwept": 49,
+    "뜸:rKick†": 12,
+    "hitB†": 2,
+    "뜸:rSpin†": 24,
+    "hit": 13,
+    "뜸:fall": 10,
+    "rHook†": 4,
+    "rStomp†": 9,
+    "뜸:rSpin": 17,
+    "rHook": 10,
+    "rSpike†": 17,
+    "rStomp": 11,
+    "뜸:rSwept†": 4,
+    "rSpike": 12,
+    "공중:rBlast": 3,
+    "공중:rBlast†": 2,
+    "뜸:fall†": 1,
+    "rSpin": 1,
+    "rKick": 1,
+    "fall": 1
+   },
+   "snd": [
+    7,
+    72,
+    155
+   ],
+   "byCar": [
+    {
+     "taken": 19,
+     "dealt": 519,
+     "kills": 16,
+     "t": 45.832
+    },
+    {
+     "taken": 10,
+     "dealt": 512,
+     "kills": 13,
+     "t": 48.297
+    },
+    {
+     "taken": 35,
+     "dealt": 457,
+     "kills": 11,
+     "t": 42.959
+    },
+    {
+     "taken": 30,
+     "dealt": 515,
+     "kills": 9,
+     "t": 39.049
+    },
+    {
+     "taken": 55,
+     "dealt": 851,
+     "kills": 16,
+     "t": 59.245
+    },
+    {
+     "taken": 96,
+     "dealt": 641,
+     "kills": 9,
+     "t": 49.606
+    },
+    {
+     "taken": 87,
+     "dealt": 219,
+     "kills": 2,
+     "t": 21.012
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,cuff,axe,duck,sweep,bfist",
+   "stash": "shoes,gum,punch,knuckle",
+   "shops": [
+    "duck/suplex/cycle",
+    "gum/coffee/stomp",
+    "watch/cuff/upper",
+    "paper/fkick/bandage"
+   ]
+  },
+  {
+   "seed": 4038,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 38,
+   "max": 120,
+   "score": 58155,
+   "kills": 79,
+   "dealt": 3963,
+   "taken": 245,
+   "crits": 25,
+   "maxCombo": 49,
+   "links": 101,
+   "justs": 0,
+   "tokens": 41,
+   "combos": 18,
+   "outs": 1,
+   "walls": 11,
+   "bowls": 28,
+   "stag": 22,
+   "flanks": 2,
+   "dodges": 12,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 15,
+   "rk": {
+    "뜸:rKick†": 17,
+    "hitB": 10,
+    "뜸:rKick": 32,
+    "뜸:rSpin†": 26,
+    "rHook": 9,
+    "뜸:rSwept": 22,
+    "rStomp†": 9,
+    "뜸:rSwept†": 3,
+    "뜸:rSpin": 20,
+    "rStomp": 19,
+    "뜸:fall": 9,
+    "hit": 3,
+    "hitB†": 1,
+    "뜸:fall†": 4,
+    "hit†": 2,
+    "공중:hit": 30,
+    "공중:launch": 11,
+    "공중:rBlast†": 1,
+    "뜸:rBlast†": 2,
+    "공중:hit†": 11,
+    "공중:rSwept": 2,
+    "공중:launch†": 2,
+    "rKick": 2,
+    "rSpin": 2,
+    "fall": 1,
+    "rSwept": 4
+   },
+   "snd": [
+    50,
+    82,
+    122
+   ],
+   "byCar": [
+    {
+     "taken": 15,
+     "dealt": 632,
+     "kills": 18,
+     "t": 47.736
+    },
+    {
+     "taken": 7,
+     "dealt": 460,
+     "kills": 13,
+     "t": 48.654
+    },
+    {
+     "taken": 12,
+     "dealt": 544,
+     "kills": 11,
+     "t": 38.403
+    },
+    {
+     "taken": 16,
+     "dealt": 566,
+     "kills": 12,
+     "t": 40.647
+    },
+    {
+     "taken": 99,
+     "dealt": 798,
+     "kills": 13,
+     "t": 53.618
+    },
+    {
+     "taken": 14,
+     "dealt": 548,
+     "kills": 9,
+     "t": 39.916
+    },
+    {
+     "taken": 82,
+     "dealt": 415,
+     "kills": 3,
+     "t": 37.026
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,duck,watch,cycle,cycle,earph,cuff",
+   "stash": "renkan,paper",
+   "shops": [
+    "duck/coffee/skick",
+    "renkan/axe/case",
+    "stomp/coat/charge",
+    "case/elbow/throw"
+   ]
+  },
+  {
+   "seed": 4039,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 91,
+   "max": 120,
+   "score": 67341,
+   "kills": 85,
+   "dealt": 4127,
+   "taken": 134,
+   "crits": 12,
+   "maxCombo": 37,
+   "links": 111,
+   "justs": 0,
+   "tokens": 45,
+   "combos": 39,
+   "outs": 3,
+   "walls": 16,
+   "bowls": 43,
+   "stag": 16,
+   "flanks": 0,
+   "dodges": 11,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 13,
+   "rk": {
+    "뜸:rKick": 21,
+    "rCross": 3,
+    "뜸:rSpin†": 16,
+    "rHook": 12,
+    "뜸:rSwept†": 6,
+    "뜸:rSwept": 47,
+    "뜸:rKick†": 6,
+    "hitB": 2,
+    "rStomp†": 7,
+    "공중:rTetsu†": 19,
+    "rTetsu": 14,
+    "뜸:fall": 5,
+    "hit": 10,
+    "뜸:launch": 3,
+    "공중:hit": 16,
+    "공중:rCross†": 5,
+    "뜸:rSpin": 21,
+    "뜸:fall†": 1,
+    "공중:rBlast†": 3,
+    "rTetsu†": 3,
+    "공중:hit†": 5,
+    "공중:rTetsu": 13,
+    "공중:launch": 5,
+    "공중:rBlast": 2,
+    "공중:launch†": 3,
+    "rHook†": 3,
+    "공중:rCross": 11,
+    "spinout†": 1,
+    "공중:rHook†": 3,
+    "rStomp": 5,
+    "공중:rHook": 5,
+    "공중:rSwept": 2,
+    "hit†": 1,
+    "fall": 1,
+    "rSpin": 2,
+    "rSwept": 2,
+    "rKick": 2
+   },
+   "snd": [
+    22,
+    74,
+    190
+   ],
+   "byCar": [
+    {
+     "taken": 19,
+     "dealt": 554,
+     "kills": 16,
+     "t": 44.302
+    },
+    {
+     "taken": 0,
+     "dealt": 569,
+     "kills": 15,
+     "t": 50.235
+    },
+    {
+     "taken": 8,
+     "dealt": 549,
+     "kills": 14,
+     "t": 39.865
+    },
+    {
+     "taken": 6,
+     "dealt": 593,
+     "kills": 12,
+     "t": 42.143
+    },
+    {
+     "taken": 63,
+     "dealt": 863,
+     "kills": 16,
+     "t": 54.145
+    },
+    {
+     "taken": 0,
+     "dealt": 562,
+     "kills": 9,
+     "t": 42.024
+    },
+    {
+     "taken": 38,
+     "dealt": 437,
+     "kills": 3,
+     "t": 33.286
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,tetsu,sweep,punch,duck,duck,duck",
+   "stash": "suplex,elbow,charm",
+   "shops": [
+    "duck/earph/suplex",
+    "charm/stomp/knee",
+    "stomp/punch/tetsu",
+    "umb/sweep/charm"
+   ]
+  },
+  {
+   "seed": 4040,
+   "t": 300,
+   "state": "fight",
+   "stageIdx": 0,
+   "ci": 6,
+   "hp": 77,
+   "max": 120,
+   "score": 69598,
+   "kills": 86,
+   "dealt": 4616,
+   "taken": 167,
+   "crits": 35,
+   "maxCombo": 29,
+   "links": 80,
+   "justs": 0,
+   "tokens": 43,
+   "combos": 18,
+   "outs": 2,
+   "walls": 21,
+   "bowls": 32,
+   "stag": 14,
+   "flanks": 2,
+   "dodges": 9,
+   "onTime": 6,
+   "late": 0,
+   "sigs": 0,
+   "throws": 0,
+   "chits": 11,
+   "rk": {
+    "뜸:rKick": 32,
+    "hitB": 8,
+    "뜸:rSpin†": 34,
+    "rHook": 10,
+    "뜸:rKick†": 10,
+    "뜸:rSwept": 15,
+    "뜸:rSwept†": 4,
+    "뜸:rSpin": 19,
+    "뜸:fall": 2,
+    "hit": 7,
+    "hitB†": 1,
+    "rStomp": 12,
+    "rStomp†": 7,
+    "뜸:fall†": 1,
+    "공중:rSpin†": 8,
+    "rElbow": 17,
+    "뜸:rBlast†": 11,
+    "crumple": 1,
+    "rElbow†": 1,
+    "뜸:rBlast": 9,
+    "rCross": 1,
+    "rHook†": 4,
+    "공중:rElbow†": 2,
+    "공중:rElbow": 1,
+    "공중:rBlast†": 1,
+    "rKick": 3,
+    "rSpin": 6
+   },
+   "snd": [
+    0,
+    82,
+    145
+   ],
+   "byCar": [
+    {
+     "taken": 47,
+     "dealt": 552,
+     "kills": 16,
+     "t": 48.654
+    },
+    {
+     "taken": 5,
+     "dealt": 488,
+     "kills": 13,
+     "t": 44.285
+    },
+    {
+     "taken": 6,
+     "dealt": 654,
+     "kills": 14,
+     "t": 38.828
+    },
+    {
+     "taken": 0,
+     "dealt": 788,
+     "kills": 15,
+     "t": 45.781
+    },
+    {
+     "taken": 29,
+     "dealt": 941,
+     "kills": 16,
+     "t": 51.493
+    },
+    {
+     "taken": 8,
+     "dealt": 624,
+     "kills": 9,
+     "t": 37.57
+    },
+    {
+     "taken": 72,
+     "dealt": 569,
+     "kills": 3,
+     "t": 39.389
+    }
+   ],
+   "sp": 100,
+   "bag": "kick,stomp,round,sweep,bandage,duck,round,shoes,elbow,charm",
+   "stash": "elbow,duck,throw",
+   "shops": [
+    "duck/case/skick",
+    "charm/sweep/bandage",
+    "gum/pin/punch",
+    "upper/pin/coat"
+   ]
+  }
+ ]
+}

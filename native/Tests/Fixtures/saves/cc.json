@@ -1,0 +1,32 @@
+{
+ "default": [
+  "punch:3",
+  "punch:0",
+  "punch:1",
+  "punch:2",
+  "round"
+ ],
+ "max": 8,
+ "saved": [
+  "punch:0",
+  "kick:1",
+  "round",
+  "punch:0",
+  "punch:1",
+  "punch:2",
+  "punch:3",
+  "kick:0",
+  "kick:2",
+  "round"
+ ],
+ "loaded": [
+  "punch:0",
+  "kick:1",
+  "round",
+  "punch:0",
+  "punch:1",
+  "punch:2",
+  "punch:3",
+  "kick:0"
+ ]
+}

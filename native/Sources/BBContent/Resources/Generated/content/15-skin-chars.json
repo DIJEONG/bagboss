@@ -1,0 +1,110 @@
+{
+ "KNIGHT": {
+  "name": "기사",
+  "x": 88,
+  "y": 101,
+  "flip": false,
+  "rig": {
+   "hip": -14,
+   "head": [
+    0,
+    -8
+   ],
+   "shF": [
+    4,
+    -7
+   ],
+   "shB": [
+    -1,
+    -7
+   ],
+   "legF": [
+    2,
+    0
+   ],
+   "legB": [
+    -3,
+    0
+   ],
+   "armLenF": 9,
+   "armLenB": 9,
+   "thigh": 5,
+   "shin": 9,
+   "scarf": [
+    -5,
+    -8
+   ],
+   "glowLen": 13,
+   "a0": {}
+  },
+  "smear": "smearK_",
+  "p": {
+   "head": "k_head",
+   "torso": "k_torso",
+   "armF": "k_arm",
+   "armB": "k_armB",
+   "thighF": "k_thigh",
+   "shinF": "k_shin",
+   "thighB": "k_thighB",
+   "shinB": "k_shinB",
+   "wpn": "k_sword",
+   "off": "k_shield",
+   "scarf": "k_scarf"
+  },
+  "eye": null,
+  "glow": true
+ },
+ "SKEL": {
+  "name": "해골",
+  "x": 168,
+  "y": 101,
+  "flip": true,
+  "rig": {
+   "hip": -13,
+   "head": [
+    0,
+    -9
+   ],
+   "shF": [
+    4,
+    -9
+   ],
+   "shB": [
+    -1,
+    -9
+   ],
+   "legF": [
+    2,
+    0
+   ],
+   "legB": [
+    -2,
+    0
+   ],
+   "armLenF": 9,
+   "armLenB": 9,
+   "thigh": 5,
+   "shin": 8,
+   "glowLen": 12,
+   "a0": {}
+  },
+  "smear": "smearS_",
+  "p": {
+   "head": "s_skull",
+   "torso": "s_rib",
+   "armF": "s_arm",
+   "armB": "s_armB",
+   "thighF": "s_thigh",
+   "shinF": "s_shin",
+   "thighB": "s_thighB",
+   "shinB": "s_shinB",
+   "wpn": "s_axe",
+   "off": "s_shield"
+  },
+  "eye": [
+   4,
+   -7
+  ],
+  "glow": false
+ }
+}

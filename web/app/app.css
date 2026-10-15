@@ -1,0 +1,11 @@
+/* 앱 셸 전용 보정 (tools/build_web.py가 index.html에 링크를 넣는다 · 원본 HTML은 그대로) */
+html, body {
+  background: #000;                       /* 로딩 · 고무줄 스크롤 순간에 흰 화면이 비치지 않게 */
+  -webkit-touch-callout: none;            /* 길게 누르기 메뉴(복사 · 공유) 막기 */
+  -webkit-user-select: none; user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;         /* 시스템 글자 크기 설정이 도트 UI를 키우지 않게 */
+  overscroll-behavior: none;
+  touch-action: manipulation;             /* 두 번 탭 확대 막기 (무대는 게임 CSS가 touch-action:none) */
+}
+input, textarea, [contenteditable] { -webkit-user-select: text; user-select: text; }

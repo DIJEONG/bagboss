@@ -1,0 +1,68 @@
+{
+ "SPC": {
+  "fist": {
+   "n": "막차 러시",
+   "en": "LAST TRAIN RUSH",
+   "fx": "KA-POW!",
+   "art": "fist:x"
+  },
+  "foot": {
+   "n": "회전 폭풍",
+   "en": "SPIN STORM",
+   "fx": "WHOOOSH!",
+   "art": "shoe:x"
+  },
+  "grap": {
+   "n": "종착역",
+   "en": "END OF THE LINE",
+   "fx": "KA-BOOM!",
+   "art": "fist:x"
+  }
+ },
+ "BOSS_INFO": {
+  "boss": {
+   "n": "기관실 두목",
+   "nick": "D선의 주인",
+   "col": "#ff6319",
+   "rage": "…이제 진짜다."
+  },
+  "boss2": {
+   "n": "기어단 두목",
+   "nick": "고가선의 톱니",
+   "col": "#00933c",
+   "rage": "톱니가 맞물렸군!"
+  },
+  "boss4": {
+   "n": "바이퍼 두목",
+   "nick": "퀸스의 네온",
+   "col": "#b933ad",
+   "rage": "네온이 꺼지기 전에 끝내 주지!"
+  },
+  "kaneB": {
+   "n": "빅터 케인",
+   "nick": "배신자",
+   "col": "#e8e2d0",
+   "rage": "보스도 끝까지 너를 믿었지. 그래서 졌다."
+  },
+  "mgr": {
+   "n": "빌딩 관리인",
+   "nick": "열쇠 꾸러미",
+   "col": "#c9a24a",
+   "rage": "이 건물 열쇠는 전부 내 거다!"
+  },
+  "headchef": {
+   "n": "총주방장",
+   "nick": "불꽃의 주방",
+   "col": "#ff7a2e",
+   "rage": "주방에서 버틴 놈은 처음이군!"
+  },
+  "boss3": {
+   "n": "청룡방 두목",
+   "nick": "시티 홀의 그림자",
+   "col": "#e8322a",
+   "rage": "놀이는 끝이다."
+  }
+ },
+ "SPC_LIFT": 2,
+ "UIS": 3
+}

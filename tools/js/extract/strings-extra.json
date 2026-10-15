@@ -1,0 +1,303 @@
+{
+  "_about": "손으로 다듬은 영어 보충(strings.mjs 가 합친다). 키 = 한국어 원문, 자리표시는 {0} {1} … (카탈로그에선 %1$@). 값은 영어 문자열 또는 { en, override?, note? }. 웹 번역(EN_DICT · KE · 웹 삼항 · 콘텐츠 en)이 있으면 그쪽이 이긴다 — override: true 만 덮는다. 말투: 짧고 건조한 누아르 만화체, 기존 EN_DICT 용어(Briefcase · Holding · Kiosk · Starter ▶ · Link ● · Finisher ■ · Tokens · Carve · Merge) 그대로.",
+  "sections": {
+    "talk-cast": {
+      "노 차장": "Conductor Noh",
+      "차장": "Conductor",
+      "사보": "Sabo",
+      "미니": "Minnie",
+      "나": "Me"
+    },
+    "talk-intro": {
+      "막차에 오신 걸 환영해요. 이 열차는 <b>종점</b>까지 가요. 서는 역은 몇 안 되고요.": "Welcome to the last train. This one runs to the <b>end of the line</b>. Not many stops on the way.",
+      "호외요, 호외! <b>보스의 가방</b>이 막차에서 터졌대요! …손님 거죠, 그 가방?": "Extra, extra! <b>The Boss's briefcase</b> burst open on the last train! …That's yours, mister, isn't it?",
+      "…짧게.": "…Make it short.",
+      "네네! 서류가 <b>칸마다</b> 흩어졌어요. 싸워서 줍거나, 매점에서 되사면 돼요!": "Sure thing! The pages are scattered <b>car to car</b>. Fight for 'em, or buy 'em back at the kiosk!",
+      "그래서?": "So?",
+      "그래서 제가 있죠. 흩어진 서류 <b>주워 오는 게 제 전문</b>이에요. 값만 맞으면.": "That's where I come in. <b>Picking up loose pages is my specialty</b>. For the right price.",
+      "저는 사보. 매점에서 뵙죠. 금니는 덤이고요.": "Name's Sabo. See you at the kiosk. The gold tooth comes free.",
+      "정리하면 — <b>붙어 있는 서류는 순서대로 이어져요.</b> 시작기 ▶가 맞으면, 경로를 따라 콤보가 나가요.": "In short — <b>touching pages chain in order.</b> Land a starter ▶ and the combo runs down the route."
+    },
+    "talk-fork": {
+      "갈림길이네요. 서류가 상황에 따라 <b>다른 쪽으로 갈라질</b> 수 있어요.": "A fork. Depending on the situation, the pages can <b>split the other way</b>.",
+      "한쪽으로만 가게 해.": "Make it go one way.",
+      "블록을 누르면 <b>갈림</b> 단추가 나와요. 누르면 그쪽으로 고정, 다시 누르면 풀려요.": "Tap the block and a <b>Fork</b> button shows up. Tap it to lock that way, tap again to free it.",
+      "알아서 가겠지.": "It'll find its own way.",
+      "그럼 열차가 알아서 갑니다. 적이 떠 있으면 위로, 쓰러져 있으면 아래로요.": "Then the train decides. Enemy in the air, it goes up. Enemy on the floor, it goes down.",
+      "정리하면 — 갈림길은 <b>상황</b>이 고르고, 고정은 <b>손님</b>이 골라요.": "In short — the <b>situation</b> picks the fork, unless <b>you</b> lock it."
+    },
+    "talk-starter": {
+      "<b>시작기 ▶</b>를 얻으셨네요. 이게 맞으면 <b>콤보 창</b>이 열려요.": "You got a <b>starter ▶</b>. Land it and the <b>combo window</b> opens.",
+      "▶ 한 장이면 서류 석 장 값은 하죠. 파실 생각 있으시면…": "One ▶ is worth three pages, easy. If you ever feel like selling…",
+      "안 팔아.": "Not selling.",
+      "네네, 농담이에요. 반쯤은.": "Sure, sure. Just kidding. Half kidding.",
+      "어디에 둬?": "Where does it go?",
+      "옆에 이음기 ●나 마무리기 ■를 붙이세요. 붙은 순서대로 이어져요.": "Put a link ● or a finisher ■ next to it. They chain in the order they touch.",
+      "정리하면 — ▶ 옆에 ●·■를 붙이면 <b>새 콤보 경로</b>가 생겨요.": "In short — put ●/■ next to a ▶ and you get a <b>new combo route</b>."
+    },
+    "talk-finisher": {
+      "<b>마무리기 ■</b>다! 마무리가 들어가면 무조건 1면이에요!": "A <b>finisher ■</b>! Land the finish and you're front page, guaranteed!",
+      "1면은 관심 없어.": "Not interested in the front page.",
+      "에이, 그래도 박수는 받잖아요!": "Aw, c'mon — you still get the applause!",
+      "경로 <b>끝</b>에요. 집어 들면 <b>금색 칸</b>이 추천 자리예요.": "At the <b>end</b> of the route. Pick it up and the <b>gold cells</b> mark the best spot.",
+      "정리하면 — ■는 경로를 <b>완성</b>해요. 집으면 금색 칸을 보세요.": "In short — ■ <b>completes</b> a route. Pick it up and look for the gold cells."
+    },
+    "talk-shop": {
+      "어서 오세요. 오늘 밤 주운 서류들이에요. <b>하나만</b> 고르실 수 있어요.": "Welcome. Tonight's pickings. You get to choose <b>just one</b>.",
+      "비싸군.": "Pricey.",
+      "토큰 2개면 <b>목록을 새로</b> 뽑아 드리죠. 제 전문이에요.": "Two tokens and I'll <b>deal you a fresh list</b>. Specialty of the house.",
+      "뭐가 좋지?": "What's good?",
+      "카드 아래 <b>금색 줄</b>을 보세요. 손님 콤보가 어떻게 바뀌는지 적어 놨어요.": "Check the <b>gold lines</b> under each card. I wrote down how it changes your combos.",
+      "정리하면 — 고른 서류는 <b>보류함</b>으로 가요. 가방에 끌어 넣으면 경로가 이어져요.": "In short — your pick goes to <b>Holding</b>. Drag it into the bag to extend a route."
+    },
+    "talk-book": {
+      "호외요! <b>{0}</b>, 콤보 도감 첫 완성이에요!": "Extra! <b>{0}</b> — first entry in your combo codex!",
+      "…그래서?": "…And?",
+      "열 개를 다 채우면 — <b>1면 통째로</b> 손님 거예요!": "Fill all ten and the <b>whole front page</b> is yours!",
+      "다음은?": "What's next?",
+      "도감에 아직 흐린 콤보가 아홉 개나 남았어요!": "Nine combos in the codex are still blurry!",
+      "정리하면 — 도감은 <b>실전에서 성공한 콤보</b>만 채워져요.": "In short — the codex only fills with <b>combos you land for real</b>."
+    },
+    "hints": {
+      "저스트 받아치기": "Just Counter",
+      "적 머리 위 고리가 작아져 하얗게 빛나는 순간 그쪽 화면을 누르면 저스트 받아치기 — 빨간 고리는 아래쪽을 눌러 숙여요": "When the ring over an enemy's head shrinks and flashes white, tap that side for a Just Counter — for a red ring, tap low to duck",
+      "도움말": "Tip"
+    },
+    "comic-sfx": {
+      "꽉!": "SQUEEZE!",
+      "낙뢰!": "THUNDER!",
+      "돌진!": "CHARGE!",
+      "딱!": "CRACK!",
+      "번쩍!": "FLASH!",
+      "빡!": "WHACK!",
+      "솟구쳐!": "UPPP!",
+      "슈욱!": "SWOOSH!",
+      "슥!": "SHFF!",
+      "월광!": "MOONLIGHT!",
+      "찰싹!": "SLAP!",
+      "콰직!": "CRUNCH!",
+      "콱!": "WHAM!",
+      "쿠웅!": "KA-THOOM!",
+      "쿵쿵쿵!": "STOMP STOMP!",
+      "튕!": "BOING!",
+      "팍!": "POW!",
+      "팍팍팍!": "POW POW POW!",
+      "퍼억!": "THWACK!",
+      "퍽!": "WHUMP!",
+      "푹!": "THUNK!",
+      "회오리!": "CYCLONE!",
+      "휙!": "WHOOSH!",
+      "결재!": "SIGNED!",
+      "와장창!": "SMASH!",
+      "부욱!": "RRRIP!",
+      "쿵!": "THUD!",
+      "지이잉!": "BZZZT!",
+      "콰지직!": "KRZZAK!",
+      "빠악!": "BONK!",
+      "따르릉!": "RING RING!",
+      "이리 와!": "GET OVER HERE!",
+      "뻥!": "PUNT!"
+    },
+    "combo": {
+      "걸어 넘기기": "Trip",
+      "끌어치기": "Pull",
+      "등 돌리기": "Spin-out",
+      "날리기": "Launch",
+      "연속": "Chain",
+      "장도리 {0}연격": "Hammer {0}-hit finish",
+      "콤보 잇기 · {0}": "Combo link · {0}",
+      "콤보 잇기 ·": "Combo link ·",
+      "바닥 충격파 · 주변 넘어뜨림": "ground shockwave · knocks down nearby",
+      "팔꿈치": "Elbow",
+      "올려 꽂기 · 연환퇴 → 도끼 차기": "Kick Drop · Renkantai → Axe Kick",
+      "철산 마무리 · 다리걸기 → 밟기 → 철산고": "Tetsuzan Finish · Leg Sweep → Stomp → Tetsuzanko",
+      "낙뢰 · 어퍼컷 → 공중 자전거 차기 → 도끼 차기": "Thunderbolt · Uppercut → Bicycle Kick → Axe Kick",
+      "무너뜨려 꽂기 · 니킥 → 잽 → 저먼 수플렉스": "Crumple Drop · Knee Strike → Jab → German Suplex",
+      "{0}타 중 {1}타 적중 · 공중 {2}타 · 최고 {3}": "{1}/{0} hits landed · {2} in the air · peak {3}"
+    },
+    "train-tower-hud": {
+      "잠시 정차합니다": "Brief stop",
+      "{0}구간 돌파!": "Zone {0} cleared!",
+      "토큰 +4 · 매점에서 하나 골라요 — {0}층부터 다음 구간": "Tokens +4 · pick one at the kiosk — next zone starts at {0}F",
+      "엘리베이터 타워 · 야근 {0}단계": "Elevator Tower · Overtime {0}",
+      "오늘의 타워 · {0}": "Daily Tower · {0}",
+      "{0}F · {1}": "{0}F · {1}",
+      "야근 {0}단계가 열렸어요": "Overtime {0} unlocked",
+      "필살": "SPECIAL",
+      "정리 시간 {0}초 — 가방을 손보고 출발": "Packing time {0}s — fix up the bag, then roll",
+      "다음 노선": "Next line"
+    },
+    "bag": {
+      "{0} 세트 · 피해 +20% · 쿨다운 −10%{1}": "{0} set · Damage +20% · Cooldown −10%{1}",
+      "· 받는 피해 −15%": "· Damage taken −15%",
+      "· 버리면 토큰 {0}": "· Discard for {0} tokens",
+      "{0}단": "{0}-hit",
+      "재료 옵션({0})은 사라져요 — 지금 옵션 유지": "Ingredient option ({0}) is lost — current option stays",
+      "쿨 {0} → {1}초": "CD {0} → {1}s",
+      "쿨 {0}초": "CD {0}s",
+      "토큰 {0}개로 성공 +{1}%  보유 {2}": "{0} tokens: success +{1}%  have {2}",
+      "이 칸에 걸친 기술": "Skills on this cell",
+      "총": {
+        "en": "H",
+        "note": "각인 표시 — 총집(holster)"
+      },
+      "주": {
+        "en": "P",
+        "note": "각인 표시 — 주머니(pocket)"
+      },
+      "해": {
+        "en": "W",
+        "note": "각인 표시 — 해짐(worn)"
+      },
+      "돌리기": "Rotate",
+      "되돌리기": "Undo",
+      "버리기 — 타일을 여기로 끌어 놓기": "Discard — drag a tile here",
+      "보관 중": "In Holding",
+      "보관함": "Holding",
+      "시작기 ▶ 옆에 ●·■를 붙이면 콤보가 생겨요": "Put Link ● · Finisher ■ next to a Starter ▶ to make a combo",
+      "콤보 없음 — 눌러서 가방 열기": "No combo — tap to open the Briefcase",
+      "콤보 경로": "Combo route",
+      "눌러서 가방 열기": "tap to open the Briefcase",
+      "두 번 누르면 돌리기 · 같은 ★끼리 겹치면 합성 · 버리면 토큰 {0}": "Double-tap to rotate · stack same ★ to Merge · discard for {0} Tokens"
+    },
+    "shop": {
+      "역 매점": "Station Kiosk",
+      "하나를 고르면 보류함에 들어가요 · 토큰 {0}": "Pick one — it goes to Holding · Tokens {0}",
+      "각인 (4)": "Carve (4)",
+      "새로고침 (2)": "Reroll (2)"
+    },
+    "menu-flow": {
+      "일시정지": "Paused",
+      "타이틀로": "To Title",
+      "포기하기": "Abandon",
+      "취소": "Cancel",
+      "새로 시작": "Start Over",
+      "새로 시작할까요?": "Start over?",
+      "이 판을 포기할까요?": "Abandon this run?",
+      "불러오는 중…": "Loading…",
+      "건너뛰기": "Skip",
+      "콤보 연구실": "Combo Lab",
+      "중간 노선에서 시작하면 아이템 하나와 토큰 6개를 더 받아요.": "Start from a later line and get one extra item plus 6 tokens.",
+      "선까지": {
+        "en": " line",
+        "note": "MenuView 머리 줄 조각: '최고 N점 · D선까지 · N판'"
+      },
+      "판": {
+        "en": " runs",
+        "note": "조각: 'N판'"
+      },
+      "판째": {
+        "en": " runs",
+        "note": "조각: 'N판째'"
+      },
+      "번 사용": {
+        "en": " uses",
+        "note": "도감 필살기 조각: 'N번 사용'"
+      }
+    },
+    "codex": {
+      "만남": "Met",
+      "쓰러뜨림": "Defeated",
+      "아직 안 들렀어요": "Not visited yet",
+      "어떤 조합일까요?": "What's the combo?",
+      "위주로 가방을 짜면 나와요": "-heavy bags turn this up",
+      "도감 적": "Codex foes"
+    },
+    "result": {
+      "보도 사진": "Press photo",
+      "새로 열림": "Unlocked"
+    },
+    "native-moves": {
+      "플리커 잽": "Flicker Jab",
+      "앞손을 허리께로 늘어뜨린 채 채찍처럼 휘둘러 멀리서 빠르게 쳐요. 콤보를 여는 데 좋아요": "Lead hand hangs low, then snaps out like a whip — fast and long. Good for opening combos",
+      "리버 블로": "Liver Blow",
+      "몸을 숙여 파고들며 옆구리에 훅을 꽂아요. 맞은 적은 숨이 막혀 무릎부터 무너져요": "Dip in and bury a hook under the ribs. They lose their breath and fold at the knees",
+      "코크스크루 블로": "Corkscrew Blow",
+      "주먹을 비틀어 꽂는 스트레이트. 가드 · 막기를 꿰뚫고 반드시 치명타, 맞은 적은 일직선으로 날아가요": "A straight that twists on impact. Pierces guards and parries, always crits, and sends them flying straight back",
+      "숄더 롤 카운터": "Shoulder Roll Counter",
+      "적이 치려는 순간 앞어깨를 올려 흘려 보내고, 되돌아오는 힘으로 뒷손을 꽂아요. 흘리는 동안은 맞지 않아요": "As they swing, roll it off the lead shoulder and come back with the rear hand. Nothing lands while you roll",
+      "피카부 러시": "Peekaboo Rush",
+      "플리커로 거리를 재고 연타를 넣은 뒤 코크스크루로 꿰뚫어요": "Measure with the flicker, pour in the combo, drill through with the corkscrew",
+      "간 찌르고 퍼 올리기": "Liver and Lift",
+      "리버 블로로 무너뜨리고 두들긴 뒤 어퍼컷으로 띄워요": "Fold them with a liver blow, work them over, then launch them with an uppercut",
+      "흘리고 꿰뚫기": "Slip and Drill",
+      "숄더 롤로 흘리고 옆구리를 찌른 뒤 코크스크루로 날려요": "Roll it off, dig the body, corkscrew them away",
+      "팍!": "POW!",
+      "팍팍!": "POW POW!",
+      "파바박!": "BA-BAM!",
+      "두두두둑!": "RAT-TAT-TAT!",
+      "다다다다닥!": "DA-DA-DA-DAK!",
+      "우다다다다!": "UDADADADA!",
+      "흘렸다!": "SLIPPED!",
+      "욱…!": "OOF…!",
+      "막차 러시(뎀프시)": "Last Train Rush (Dempsey)",
+      "플리커 잽 → 원투 → 코크스크루": "Flicker Jab → One-two → Corkscrew",
+      "리버 블로 → 훅 → 어퍼컷": "Liver Blow → Hook → Uppercut",
+      "숄더 롤 → 리버 블로 → 코크스크루": "Shoulder Roll → Liver Blow → Corkscrew",
+      "복싱 가방 1": "Boxing Bag 1",
+      "복싱 가방 2": "Boxing Bag 2",
+      "스파링꾼": "Sparring Partner",
+      "라인배커": "Linebacker",
+      "신문팔이 소년": "Newsboy",
+      "퇴근 승천권": "Clock-Out Ascension",
+      "몸을 비틀며 주먹째 솟구쳐 한 바퀴 돌아요. 막는 중에도 튀어 오르고, 뛰어드는 적을 떨어뜨려요. 뜨는 순간은 맞지 않지만 내려오면 빈틈이 커요": "Twist and rocket up fist-first, spinning a full turn. Works straight out of a block and swats jump-ins. Untouchable on the way up — wide open on the way down",
+      "칼퇴!": "Clock out!",
+      "퇴근해라!!": "Go home!!",
+      "무릎 올려치기": "Rising Knee",
+      "바짝 붙어 뒷무릎을 차올려 가슴을 올려 쳐요. 무릎을 든 채 버티는 사이 적은 높이 떠올라 공중 콤보로 이어 가요": "Get in tight and drive the rear knee up into their chest. Hold the knee high while they sail up — then take it to the air",
+      "파고들어 올려치기": "Duck-In Uppercut",
+      "크게 내디디며 깊이 숙여 앞손으로 몸통을 찌르고, 웅크린 채 튀어 오르며 뒷손 어퍼컷으로 띄워요. 조금 떨어진 적에게도 파고들어요": "Lunge in low and dig the body with the lead hand, then spring up out of the crouch with a rear uppercut that launches them. Closes a little distance too",
+      "…쿵": "…thud",
+      "벽꿍!": "WALL SLAM!",
+      "야근 광선": "Overtime Beam",
+      "두 손가락을 안경에 대고 광선을 쏴요. 앞에 늘어선 적을 모두 꿰뚫어 밀어내고, 끊기 전 마지막 한 방에 날려 보내요. 떠 있는 적에겐 위로 꺾어 쏴요": "Two fingers to the glasses and fire. The beam pierces every foe in line and shoves them back, then a last burst sends them flying. Angles up at airborne foes",
+      "서류가방 내려찍기": "Briefcase Slam",
+      "뛰어올라 서류가방을 머리 위에서 내려찍어요. 떠 있든 서 있든 바닥에 꽂혀 높이 튀어 오르고, 가방에서 서류가 흩날려요": "Leap up and bring the briefcase down from overhead. Airborne or standing, they're driven into the floor and bounce high — papers burst from the case",
+      "결재 쌍장": "Rubber-Stamp Palms",
+      "크게 미끄러져 들어가 두 손바닥으로 밀어 쳐요. 맞은 적은 일직선으로 날아가 벽에 박히고, 박혀 있는 동안 더 때릴 수 있어요": "Slide in deep and drive both palms home. They fly straight back and splat against the wall — keep hitting while they're stuck",
+      "멱살 박치기": "Collar Headbutt",
+      "멱살을 잡아 끌어당긴 뒤 큰 머리로 두 번 박아요. 잡기라 가드를 무시하고, 맞은 적은 어질어질 휘청여요": "Grab them by the collar, pull them in and headbutt twice. It's a grab, so guards don't matter — they're left reeling and dizzy",
+      "결재 라인": "Approval Line",
+      "멱살 박치기로 어지럽히고 옆구리를 찌른 뒤 결재 쌍장으로 벽에 박아요": "Daze them with a headbutt, dig the body, then stamp them into the wall",
+      "서류 폭풍": "Paper Storm",
+      "무릎으로 띄우고 서류가방으로 바닥에 꽂아 다시 띄운 뒤 결재 쌍장으로 날려요": "Knee them up, slam them into the floor with the briefcase to bounce them again, then send them flying with the palms",
+      "멱살 박치기 → 리버 블로 → 결재 쌍장": "Collar Headbutt → Liver Blow → Rubber-Stamp Palms",
+      "무릎 올려치기 → 서류가방 내려찍기 → 어퍼컷 → 결재 쌍장": "Rising Knee → Briefcase Slam → Uppercut → Rubber-Stamp Palms",
+      "내선 연결": "Extension Call",
+      "유선 전화 수화기를 던져 멀리 있는 적을 낚아채 끌어와요. 날아가는 적도, 벽에 박힌 적도 끌어오고, 끌려온 적은 비틀거려 어퍼컷으로 이어 가요": "Hurl a corded desk-phone handset to hook a distant foe and reel them in. Works on foes in mid-air or stuck to the wall — they stagger in, ready for an uppercut",
+      "핫라인": "Hotline",
+      "수화기를 던져 멀리 있는 적을 끌어온 뒤 어퍼컷으로 띄워요": "Reel them in with the handset, then launch them with an uppercut",
+      "내선 연결 → 어퍼컷": "Extension Call → Uppercut",
+      "구두 슛": "Wingtip Punt",
+      "쓰러진 적을 구두 앞코로 축구공처럼 차요. 낮게 데굴데굴 굴러가며 멀리 날아가고, 서 있는 다른 적을 볼링처럼 넘어뜨려요": "Punt a downed foe like a football with the toe of your dress shoe. They tumble low and far, bowling over anyone standing in the way",
+      "킥오프": "Kickoff",
+      "다리를 걸어 넘어뜨리고 구두로 차 멀리 보낸 뒤 수화기로 다시 끌어와 어퍼컷으로 띄워요": "Trip them, punt them away, reel them back with the handset, then launch them with an uppercut",
+      "다리걸기 → 구두 슛 → 내선 연결 → 어퍼컷": "Leg Sweep → Wingtip Punt → Extension Call → Uppercut"
+    },
+    "native-guard": {
+      "막!": "BLOCK!",
+      "휙": "WHIFF",
+      "쳐냄!": "PARRY!",
+      "덤벼!": "Come on!",
+      "JUST GUARD": "JUST GUARD"
+    },
+    "native-snow": {
+      "폭설 · {0}": "Blizzard · {0}",
+      "눈 때문에 열차가 멈췄다 — 고가 승강장에서 싸운다": "Snow stopped the train — fight it out on the elevated platform",
+      "열차 출발": "Train departing",
+      "다시 열차에 올랐다 — 남은 구간을 달린다": "Back on board — on to the next stop",
+      "눈 승강장": "Snowy Platform"
+    },
+    "native-pose-editor": {
+      "몸 전체 기울기": "Whole-body lean",
+      "고개 숙임": "Head nod",
+      "고개 돌림": "Head turn",
+      "질주": "Sprint"
+    },
+    "native-beach": {
+      "해변 · 오후": "Beach · Afternoon",
+      "해변 · 노을": "Beach · Sunset",
+      "해변 · 밤": "Beach · Night"
+    }
+  }
+}

@@ -1,0 +1,553 @@
+{
+ "PANEL_SET": {
+  "punch": {
+   "0,0": "jab",
+   "0,1": "hitface"
+  },
+  "kick": {
+   "0,0": "guard",
+   "0,1": "chamber",
+   "1,1": "sole"
+  },
+  "knee": {
+   "0,0": "grab",
+   "0,1": "kneeup"
+  },
+  "elbow": {
+   "0,0": "stare",
+   "1,0": "elbow",
+   "1,1": "hitbald"
+  },
+  "round": {
+   "0,0": "fistup",
+   "1,0": "spin",
+   "2,0": "hitbald",
+   "1,1": "sfx:WHAM!"
+  },
+  "upper": {
+   "0,0": "sfx:POW!",
+   "0,1": "jawUp",
+   "0,2": "upperRise"
+  },
+  "sweep": {
+   "0,0": "sweepLow",
+   "1,0": "feetUp",
+   "2,0": "sfx:BAM!"
+  },
+  "charge": {
+   "0,1": "stare",
+   "1,1": "shoulder",
+   "1,0": "hitface",
+   "2,0": "sfx:WHAM!"
+  },
+  "throw": {
+   "0,0": "grab",
+   "1,0": "overhead",
+   "0,1": "floorhit",
+   "1,1": "sfx:SLAM!",
+   "0,2": "feetUp"
+  },
+  "stomp": {
+   "0,0": "stompDown",
+   "1,0": "sfx:STOMP!"
+  },
+  "bkick": {
+   "0,0": "lookback",
+   "1,0": "heel",
+   "2,0": "hitbald<",
+   "2,1": "sfx:THWAK!"
+  },
+  "bfist": {
+   "0,0": "lookback",
+   "1,0": "backfistP",
+   "0,1": "hitface<",
+   "1,1": "sfx:THWAK!"
+  },
+  "duck": {
+   "0,0": "duckP"
+  },
+  "fkick": {
+   "0,0": "chamber",
+   "1,0": "flyKick",
+   "2,0": "sfx:WHAM!"
+  }
+ },
+ "PANEL_FX": {
+  "flyKick": "h",
+  "stare": null,
+  "fistup": "radial",
+  "hitbald": "radial",
+  "jab": "h",
+  "hook": "arc",
+  "hitface": "radial",
+  "chamber": "arc",
+  "sole": "radial",
+  "kneeup": "diag",
+  "elbow": "h",
+  "upperRise": "v",
+  "jawUp": "radial",
+  "sweepLow": "h",
+  "feetUp": "radial",
+  "shoulder": "h",
+  "grab": "radial",
+  "overhead": "arc",
+  "floorhit": "radial",
+  "stompDown": "v",
+  "backfistP": "h",
+  "heel": "h",
+  "duckP": "h",
+  "spin": "arc"
+ },
+ "FAM_BG": {
+  "fist": [
+   "#a8443a",
+   "#c85c4a"
+  ],
+  "foot": [
+   "#3a6ab0",
+   "#5486cc"
+  ],
+  "grap": [
+   "#2e8656",
+   "#46a46c"
+  ],
+  "none": [
+   "#7a6a9a",
+   "#9484b4"
+  ]
+ },
+ "COMBO_ROLE": {
+  "upper": {
+   "r": "S",
+   "i": "*",
+   "o": "A"
+  },
+  "skick": {
+   "r": "S",
+   "i": "*",
+   "o": "A"
+  },
+  "sweep": {
+   "r": "S",
+   "i": "G",
+   "o": "T"
+  },
+  "knee": {
+   "r": "S",
+   "i": "G",
+   "o": "C"
+  },
+  "elbow": {
+   "r": "S",
+   "i": "G",
+   "o": "Z"
+  },
+  "umb": {
+   "r": "S",
+   "i": "G",
+   "o": "P"
+  },
+  "punch": {
+   "r": "L",
+   "i": "*",
+   "o": "="
+  },
+  "paper": {
+   "r": "L",
+   "i": "*",
+   "o": "="
+  },
+  "stomp": {
+   "r": "L",
+   "i": "D",
+   "o": "A"
+  },
+  "bfist": {
+   "r": "L",
+   "i": "B",
+   "o": "="
+  },
+  "round": {
+   "r": "F",
+   "i": "*",
+   "o": "K"
+  },
+  "charge": {
+   "r": "F",
+   "i": "*",
+   "o": "K"
+  },
+  "throw": {
+   "r": "F",
+   "i": "*",
+   "o": "D"
+  },
+  "kick": {
+   "r": "F",
+   "i": "*",
+   "o": "K"
+  },
+  "fkick": {
+   "r": "F",
+   "i": "G",
+   "o": "K"
+  },
+  "bkick": {
+   "r": "F",
+   "i": "B",
+   "o": "K"
+  },
+  "case": {
+   "r": "F",
+   "i": "G",
+   "o": "D"
+  },
+  "cycle": {
+   "r": "L",
+   "i": "A",
+   "o": "A"
+  },
+  "axe": {
+   "r": "F",
+   "i": "A",
+   "o": "D"
+  },
+  "hmup": {
+   "r": "S",
+   "i": "*",
+   "o": "A"
+  },
+  "hmswing": {
+   "r": "L",
+   "i": "*",
+   "o": "="
+  },
+  "hmback": {
+   "r": "L",
+   "i": "*",
+   "o": "="
+  },
+  "hmdown": {
+   "r": "F",
+   "i": "*",
+   "o": "D"
+  },
+  "suplex": {
+   "r": "F",
+   "i": "G",
+   "o": "D"
+  },
+  "tetsu": {
+   "r": "F",
+   "i": "*",
+   "o": "K"
+  },
+  "renkan": {
+   "r": "S",
+   "i": "G",
+   "o": "A"
+  },
+  "duck": {
+   "r": "X"
+  }
+ },
+ "RT_COL": [
+  "#ff9a3c",
+  "#5fc8ff",
+  "#8dff7a"
+ ],
+ "ST_OK": {
+  "T": [
+   "T",
+   "D",
+   "A"
+  ],
+  "C": [
+   "C",
+   "G"
+  ],
+  "Z": [
+   "Z",
+   "G"
+  ],
+  "P": [
+   "P",
+   "G"
+  ],
+  "B": [
+   "B",
+   "G"
+  ],
+  "K": [
+   "K",
+   "A"
+  ],
+  "A": [
+   "A",
+   "D"
+  ],
+  "D": [
+   "D"
+  ],
+  "G": [
+   "G"
+  ]
+ },
+ "CN": {
+  "A": "공중",
+  "T": "걸어 넘기기",
+  "C": "무너뜨리기",
+  "Z": "반격",
+  "P": "끌어치기",
+  "D": "다운",
+  "B": "등 돌리기",
+  "K": "날리기",
+  "G": "연속"
+ },
+ "COMBO_BOOK": [
+  {
+   "id": "airrush",
+   "n": "하늘 난타",
+   "r": [
+    "upper",
+    "punch",
+    "round"
+   ],
+   "d": "어퍼로 띄우고 주먹으로 두들긴 뒤 돌려차기로 날려 보내요"
+  },
+  {
+   "id": "moonlit",
+   "n": "월광 질풍",
+   "r": [
+    "skick",
+    "punch",
+    "paper",
+    "round"
+   ],
+   "d": "섬머솔트로 띄워 주먹 · 신문을 몰아치고 돌려차기로 끝내요"
+  },
+  {
+   "id": "airgrab",
+   "n": "공중 잡아 꽂기",
+   "r": [
+    "upper",
+    "punch",
+    "throw"
+   ],
+   "d": "띄운 적을 두들기다 뛰어올라 잡아 바닥에 꽂아요"
+  },
+  {
+   "id": "scoop",
+   "n": "걸고 퍼올리기",
+   "r": [
+    "sweep",
+    "upper",
+    "punch"
+   ],
+   "d": "다리를 걸어 낮게 띄우고 바닥에서 퍼 올려 이어 쳐요"
+  },
+  {
+   "id": "trample",
+   "n": "짓밟기 3단",
+   "r": [
+    "sweep",
+    "stomp",
+    "kick"
+   ],
+   "d": "걸어 넘기고 밟아 튕긴 뒤 앞차기로 날려요"
+  },
+  {
+   "id": "fbounce",
+   "n": "바닥 튕겨 올리기",
+   "r": [
+    "upper",
+    "punch",
+    "stomp",
+    "skick"
+   ],
+   "d": "떨어지는 적을 밟아 튕기고 섬머솔트로 다시 띄워요"
+  },
+  {
+   "id": "crumple",
+   "n": "무너뜨려 띄우기",
+   "r": [
+    "knee",
+    "punch",
+    "upper"
+   ],
+   "d": "니킥으로 무너뜨리고 두들긴 뒤 어퍼로 띄워요"
+  },
+  {
+   "id": "counter",
+   "n": "받아치기 연격",
+   "r": [
+    "elbow",
+    "knee",
+    "punch"
+   ],
+   "d": "팔꿈치로 끊고 니킥 · 주먹으로 몰아쳐요"
+  },
+  {
+   "id": "hookrush",
+   "n": "끌어치기 돌진",
+   "r": [
+    "umb",
+    "punch",
+    "charge"
+   ],
+   "d": "우산으로 끌어당겨 두들기고 어깨로 들이받아요"
+  },
+  {
+   "id": "kickdrop",
+   "n": "올려 꽂기",
+   "r": [
+    "renkan",
+    "axe"
+   ],
+   "d": "땅에서 두 번 차올려 높이 띄운 뒤 발뒤꿈치로 바닥에 내리꽂아요"
+  },
+  {
+   "id": "thunder",
+   "n": "낙뢰",
+   "r": [
+    "upper",
+    "cycle",
+    "axe"
+   ],
+   "d": "띄우고 공중에서 두 다리로 몰아친 뒤 발뒤꿈치로 내리꽂아요"
+  },
+  {
+   "id": "bridge",
+   "n": "무너뜨려 꽂기",
+   "r": [
+    "knee",
+    "punch",
+    "suplex"
+   ],
+   "d": "니킥으로 무너뜨리고 두들긴 뒤 저먼 수플렉스로 꽂아요"
+  },
+  {
+   "id": "signoff",
+   "n": "서류가방 결재",
+   "r": [
+    "knee",
+    "paper",
+    "case"
+   ],
+   "d": "무너뜨리고 신문으로 찰싹, 서류가방으로 마무리 결재"
+  }
+ ],
+ "ST_NAME": {
+  "G": "지상",
+  "A": "공중",
+  "T": "걸림",
+  "C": "무너짐",
+  "D": "다운",
+  "B": "등 돌림",
+  "K": "날림",
+  "P": "끌림",
+  "Z": "경직"
+ },
+ "SIG": {
+  "airrush": {
+   "w": "회오리!",
+   "k": "ring",
+   "r": 72,
+   "dmg": 6,
+   "react": "launch",
+   "d": "이중 고리 충격파 · 주변 적 띄움"
+  },
+  "moonlit": {
+   "w": "월광!",
+   "k": "moon",
+   "r": 84,
+   "dmg": 8,
+   "d": "거대 초승달 · 주변 베기"
+  },
+  "airgrab": {
+   "w": "쾅!",
+   "k": "quake",
+   "r": 64,
+   "dmg": 8,
+   "d": "바닥 균열 · 충격파"
+  },
+  "scoop": {
+   "w": "퍼억!",
+   "k": "burst",
+   "r": 54,
+   "dmg": 6,
+   "d": "폭발 선 · 주변 타격"
+  },
+  "trample": {
+   "w": "쿵쿵쿵!",
+   "k": "quake",
+   "r": 92,
+   "dmg": 6,
+   "react": "sweep",
+   "d": "바닥 충격파 · 주변 적 넘어뜨림"
+  },
+  "fbounce": {
+   "w": "튕!",
+   "k": "moon2",
+   "r": 66,
+   "dmg": 6,
+   "d": "이중 초승달"
+  },
+  "crumple": {
+   "w": "솟구쳐!",
+   "k": "pillar",
+   "r": 52,
+   "dmg": 6,
+   "react": "launch",
+   "d": "빛기둥 · 주변 띄움"
+  },
+  "counter": {
+   "w": "딱!",
+   "k": "flash",
+   "r": 84,
+   "dmg": 4,
+   "stun": 1.2,
+   "d": "섬광 · 주변 적 경직"
+  },
+  "hookrush": {
+   "w": "돌진!",
+   "k": "trail",
+   "r": 96,
+   "dmg": 7,
+   "d": "잔상 돌진 · 밀쳐내기"
+  },
+  "signoff": {
+   "w": "결재!",
+   "k": "stamp",
+   "r": 72,
+   "dmg": 8,
+   "d": "결재 도장 · 서류 흩날림"
+  },
+  "kickdrop": {
+   "w": "올려 꽂기!",
+   "k": "quake",
+   "r": 76,
+   "dmg": 7,
+   "react": "sweep",
+   "d": "바닥 충격파 · 주변 넘어뜨림"
+  },
+  "thunder": {
+   "w": "낙뢰!",
+   "k": "pillar",
+   "r": 70,
+   "dmg": 8,
+   "react": "launch",
+   "d": "번개 기둥 · 주변 띄움"
+  },
+  "bridge": {
+   "w": "쿠웅!",
+   "k": "quake",
+   "r": 86,
+   "dmg": 7,
+   "react": "sweep",
+   "d": "바닥 충격파 · 주변 넘어뜨림"
+  }
+ },
+ "SEP_HF": 20,
+ "SEP_FF": 14
+}

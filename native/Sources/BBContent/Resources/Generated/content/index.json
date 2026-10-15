@@ -1,0 +1,3758 @@
+{
+ "_about": "tools/js/extract/content.mjs 로 생성 — 직접 고치지 않는다.",
+ "sourceSha16": "20ef9c52ad3f72a2",
+ "names": {
+  "STEPS": {
+   "file": "01-core",
+   "shape": "number",
+   "bytes": 1
+  },
+  "NMAT": {
+   "file": "01-core",
+   "shape": "number",
+   "bytes": 2
+  },
+  "NPAL": {
+   "file": "01-core",
+   "shape": "number",
+   "bytes": 1
+  },
+  "ART": {
+   "file": "03-art-base",
+   "shape": "object{16}",
+   "bytes": 2618,
+   "keyOrder": [
+    "k_head",
+    "k_torso",
+    "k_shield",
+    "k_scarf0",
+    "k_scarf1",
+    "k_scarf2",
+    "s_skull",
+    "s_rib",
+    "mk_head",
+    "mk_torso",
+    "mk_shield",
+    "ms_skull",
+    "ms_rib",
+    "ms_shield",
+    "f_head",
+    "f_torso"
+   ]
+  },
+  "LIMB": {
+   "file": "03-art-base",
+   "shape": "object{20}",
+   "bytes": 1925,
+   "keyOrder": [
+    "k_arm",
+    "k_thigh",
+    "k_shin",
+    "k_sword",
+    "s_arm",
+    "s_thigh",
+    "s_shin",
+    "s_axe",
+    "mk_arm",
+    "mk_thigh",
+    "mk_shin",
+    "mk_sword",
+    "ms_arm",
+    "ms_thigh",
+    "ms_shin",
+    "ms_axe",
+    "f_upper",
+    "f_fore",
+    "f_thigh",
+    "f_shin"
+   ]
+  },
+  "DK": {
+   "file": "03-art-base",
+   "shape": "object{10}",
+   "bytes": 81,
+   "keyOrder": [
+    "!",
+    "A",
+    "a",
+    "q",
+    "^",
+    "B",
+    "b",
+    "*",
+    "S",
+    "s"
+   ]
+  },
+  "GLYPH": {
+   "file": "03-art-base",
+   "shape": "object{41}",
+   "bytes": 1447,
+   "keyOrder": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "R",
+    ":",
+    "P",
+    "S",
+    "T",
+    "A",
+    "G",
+    "E",
+    "O",
+    "I",
+    "J",
+    "M",
+    ">",
+    "Q",
+    "V",
+    "Z",
+    "C",
+    "H",
+    "B",
+    "!",
+    "F",
+    "Y",
+    "D",
+    "W",
+    "X",
+    "U",
+    "N",
+    "L",
+    "+",
+    ".",
+    "K"
+   ]
+  },
+  "F2ART": {
+   "file": "04-art-figure",
+   "shape": "object{8}",
+   "bytes": 2215,
+   "keyOrder": [
+    "f2_torso_1",
+    "f2_torso_2",
+    "f2_head",
+    "f2_torso",
+    "f2_upper",
+    "f2_fore",
+    "f2_thigh",
+    "f2_shin"
+   ]
+  },
+  "BRART": {
+   "file": "04-art-figure",
+   "shape": "object{3}",
+   "bytes": 297,
+   "keyOrder": [
+    "br_fore",
+    "it_bat",
+    "it_knife"
+   ]
+  },
+  "NART": {
+   "file": "04-art-figure",
+   "shape": "object{3}",
+   "bytes": 836,
+   "keyOrder": [
+    "n_head_fed",
+    "n_head_cap",
+    "n_tail"
+   ]
+  },
+  "T6": {
+   "file": "05-art-city",
+   "shape": "array[6]",
+   "bytes": 30
+  },
+  "CITY_CFG": {
+   "file": "05-art-city",
+   "shape": "object{2}",
+   "bytes": 4220,
+   "keyOrder": [
+    "city",
+    "cityV"
+   ]
+  },
+  "OW": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "OH": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "BW": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 4
+  },
+  "BFLOOR": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "F57": {
+   "file": "06-art-arenas",
+   "shape": "object{40}",
+   "bytes": 2481,
+   "keyOrder": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "&",
+    ".",
+    "-",
+    " "
+   ]
+  },
+  "NVW": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "NVH": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "NBW": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 4
+  },
+  "NFLOOR": {
+   "file": "06-art-arenas",
+   "shape": "number",
+   "bytes": 3
+  },
+  "NLAMPS": {
+   "file": "06-art-arenas",
+   "shape": "array[5]",
+   "bytes": 23
+  },
+  "NOIR_LIGHTS": {
+   "file": "06-art-arenas",
+   "shape": "array[15]",
+   "bytes": 485
+  },
+  "SB": {
+   "file": "07-art-subway-defs",
+   "shape": "object{6}",
+   "bytes": 67,
+   "keyOrder": [
+    "W",
+    "H",
+    "CAR_Y",
+    "FLOOR",
+    "WIN_Y0",
+    "WIN_Y1"
+   ]
+  },
+  "DOORS": {
+   "file": "07-art-subway-defs",
+   "shape": "array[2]",
+   "bytes": 21
+  },
+  "CAR_CONCEPTS": {
+   "file": "07-art-subway-defs",
+   "shape": "array[19]",
+   "bytes": 3472
+  },
+  "DJ_POLES": {
+   "file": "08-art-dojo",
+   "shape": "array[2]",
+   "bytes": 8
+  },
+  "DJ_WIN": {
+   "file": "08-art-dojo",
+   "shape": "array[2]",
+   "bytes": 21
+  },
+  "DJ_ANDON": {
+   "file": "08-art-dojo",
+   "shape": "array[2]",
+   "bytes": 9
+  },
+  "DJ_PROPS": {
+   "file": "08-art-dojo",
+   "shape": "array[5]",
+   "bytes": 193
+  },
+  "DJ_SIGN_A": {
+   "file": "08-art-dojo",
+   "shape": "array[9]",
+   "bytes": 33
+  },
+  "DJ_LAMP_A": {
+   "file": "08-art-dojo",
+   "shape": "array[7]",
+   "bytes": 22
+  },
+  "DJ_BAG_A": {
+   "file": "08-art-dojo",
+   "shape": "array[11]",
+   "bytes": 36
+  },
+  "XC_SUN": {
+   "file": "08-art-dojo",
+   "shape": "array[2]",
+   "bytes": 9
+  },
+  "XC_TY": {
+   "file": "08-art-dojo",
+   "shape": "number",
+   "bytes": 3
+  },
+  "XC_CW": {
+   "file": "08-art-dojo",
+   "shape": "number",
+   "bytes": 3
+  },
+  "XC_CS": {
+   "file": "08-art-dojo",
+   "shape": "array[3]",
+   "bytes": 12
+  },
+  "XC_CAR": {
+   "file": "08-art-dojo",
+   "shape": "object{8}",
+   "bytes": 189,
+   "keyOrder": [
+    "W",
+    "H",
+    "wy0",
+    "wy1",
+    "wins",
+    "doors",
+    "panto",
+    "bog"
+   ]
+  },
+  "TW_NEEDLE": {
+   "file": "09-art-tower",
+   "shape": "array[17]",
+   "bytes": 59
+  },
+  "TW_LAMP_A": {
+   "file": "09-art-tower",
+   "shape": "array[13]",
+   "bytes": 43
+  },
+  "TW_LAMPX": {
+   "file": "09-art-tower",
+   "shape": "array[2]",
+   "bytes": 9
+  },
+  "NYC_COL": {
+   "file": "11-art-stations",
+   "shape": "object{26}",
+   "bytes": 515,
+   "keyOrder": [
+    "mustard",
+    "terracotta",
+    "gold",
+    "burgundy",
+    "maroon",
+    "purple",
+    "orchid",
+    "ultramarine",
+    "midnight",
+    "blue",
+    "marine",
+    "dkgreen",
+    "reddishpurple",
+    "black",
+    "white",
+    "royalblue",
+    "grassgreen",
+    "chromegreen",
+    "lightgreen",
+    "truegreen",
+    "deepyellow",
+    "ochre",
+    "scarlet",
+    "darkbrown",
+    "royalpurple",
+    "teal"
+   ]
+  },
+  "STN": {
+   "file": "11-art-stations",
+   "shape": "object{80}",
+   "bytes": 10979,
+   "keyOrder": [
+    "s14",
+    "s23",
+    "s34",
+    "s42",
+    "s50",
+    "s59",
+    "s72",
+    "s81",
+    "s96",
+    "s110",
+    "s125",
+    "s135",
+    "s145",
+    "s155",
+    "s163",
+    "s168",
+    "atl",
+    "grand",
+    "bwl",
+    "w4",
+    "s14f",
+    "s23f",
+    "s34h",
+    "s42b",
+    "s47",
+    "gc42",
+    "s33l",
+    "s28l",
+    "s23l",
+    "s14l",
+    "astor",
+    "bleecker",
+    "spring",
+    "canal",
+    "bbch",
+    "cityhall",
+    "y161",
+    "s167",
+    "s170",
+    "mteden",
+    "s176",
+    "burn",
+    "s183",
+    "ford",
+    "kings",
+    "bedpk",
+    "mosh",
+    "wood",
+    "s7a",
+    "qbp",
+    "s33r",
+    "s40",
+    "s46",
+    "s52",
+    "woodside",
+    "s69",
+    "s74",
+    "s82",
+    "s90",
+    "junction",
+    "s103",
+    "s111",
+    "mets",
+    "flushing",
+    "s3av",
+    "s1av",
+    "bedford",
+    "lorimer",
+    "graham",
+    "grandl",
+    "montrose",
+    "morgan",
+    "jefferson",
+    "dekalbl",
+    "myrtle",
+    "halsey",
+    "wilson",
+    "bwayjct",
+    "canarsie",
+    "ghost"
+   ]
+  },
+  "NY": {
+   "file": "11-art-stations",
+   "shape": "object{7}",
+   "bytes": 73,
+   "keyOrder": [
+    "CEIL",
+    "BAND",
+    "TAB",
+    "DIR",
+    "CAP",
+    "FLOOR",
+    "LEN"
+   ]
+  },
+  "BR": {
+   "file": "11-art-stations",
+   "shape": "object{2}",
+   "bytes": 26,
+   "keyOrder": [
+    "HZ",
+    "SUN"
+   ]
+  },
+  "EL": {
+   "file": "11-art-stations",
+   "shape": "object{1}",
+   "bytes": 10,
+   "keyOrder": [
+    "HZ"
+   ]
+  },
+  "VS_SPRITE": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 368
+  },
+  "FS_SPRITE": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 2308
+  },
+  "VS_FULL": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 154
+  },
+  "FS_BLIT": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 635
+  },
+  "PRELUDE": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 5589
+  },
+  "FS_DEBUG": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 6054
+  },
+  "USER_REG_H": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 4
+  },
+  "FS_BRIGHT": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 451
+  },
+  "FS_BLUR": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 370
+  },
+  "FS_POST": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 4835
+  },
+  "VS_3D": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 410
+  },
+  "FS_3D": {
+   "file": "12-webgl",
+   "shape": "string",
+   "bytes": 300
+  },
+  "F3": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 2
+  },
+  "MAX3": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 5
+  },
+  "FACES": {
+   "file": "12-webgl",
+   "shape": "object{5}",
+   "bytes": 215,
+   "keyOrder": [
+    "neutral",
+    "blink",
+    "atk",
+    "hurt",
+    "ko"
+   ]
+  },
+  "FACE_EYE": {
+   "file": "12-webgl",
+   "shape": "object{5}",
+   "bytes": 47,
+   "keyOrder": [
+    "neutral",
+    "blink",
+    "atk",
+    "hurt",
+    "ko"
+   ]
+  },
+  "FACE_LEG": {
+   "file": "12-webgl",
+   "shape": "object{10}",
+   "bytes": 135,
+   "keyOrder": [
+    "b",
+    "w",
+    "e",
+    "x",
+    "n",
+    "m",
+    "o",
+    "t",
+    "s",
+    "g"
+   ]
+  },
+  "M3_CACHE": {
+   "file": "12-webgl",
+   "shape": "map[0]",
+   "bytes": 11
+  },
+  "YAW": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 18
+  },
+  "CY": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 18
+  },
+  "SY": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 19
+  },
+  "PIT": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 19
+  },
+  "CP": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 18
+  },
+  "SP": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 19
+  },
+  "FPV": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 1
+  },
+  "MAXQ": {
+   "file": "12-webgl",
+   "shape": "number",
+   "bytes": 3
+  },
+  "sprU": {
+   "file": "12-webgl",
+   "shape": "object{9}",
+   "bytes": 95,
+   "keyOrder": [
+    "uA",
+    "uN",
+    "uTime",
+    "uFix",
+    "uShadow",
+    "uRes",
+    "uShake",
+    "uWin",
+    "uRemap"
+   ]
+  },
+  "POSES": {
+   "file": "13-rig-grammar",
+   "shape": "object{301}",
+   "bytes": 43204,
+   "keyOrder": [
+    "idle0",
+    "idle1",
+    "windup",
+    "strike",
+    "follow",
+    "recover",
+    "hit",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "block",
+    "cast0",
+    "cast1",
+    "cast2",
+    "death0",
+    "death1",
+    "death2",
+    "m_idle0",
+    "m_idle1",
+    "m_jabW",
+    "m_jab",
+    "m_crossW",
+    "m_cross",
+    "m_kickW",
+    "m_kick",
+    "st0",
+    "gx_rel",
+    "gx_b1",
+    "gx_b2",
+    "gx_c1",
+    "gx_c2",
+    "gx_h1",
+    "gx_h2",
+    "gx_t1",
+    "gx_t2",
+    "st1",
+    "st2",
+    "st3",
+    "c_load",
+    "c_pull",
+    "c_smear",
+    "c_hit",
+    "c_fol",
+    "c_rec",
+    "c_over",
+    "j_load",
+    "j_smear",
+    "j_hit",
+    "j_rec",
+    "h_load",
+    "h_smear",
+    "h_hit",
+    "u_load",
+    "u_smear",
+    "u_hit",
+    "k_load",
+    "k_smear",
+    "k_hit",
+    "k_rec",
+    "r_load",
+    "r_smear",
+    "r_hit",
+    "r_rec",
+    "rc0",
+    "rc1",
+    "rh0",
+    "rh1",
+    "ru0",
+    "rk0",
+    "rk1",
+    "rk2",
+    "rkc0",
+    "rs0",
+    "rs1",
+    "rsw0",
+    "rsw1",
+    "slm0",
+    "stp0",
+    "dz0",
+    "dz1",
+    "dfw0",
+    "dfw1",
+    "hl0",
+    "hl1",
+    "hl1b",
+    "hl2",
+    "bk_load",
+    "bk_hit",
+    "bk_rec",
+    "bf_load",
+    "bf_hit",
+    "bf_rec",
+    "hm_wind",
+    "hm_hit",
+    "hm_rec",
+    "hm_bload",
+    "hm_bhit",
+    "hm_uload",
+    "hm_uhit",
+    "hm_dload",
+    "hm_dhit",
+    "ps0",
+    "ps1",
+    "ps2",
+    "ps3",
+    "hk0",
+    "hk1",
+    "hk2",
+    "gt0",
+    "gt1",
+    "pr0",
+    "ev0",
+    "dk0",
+    "dk1",
+    "dk2",
+    "e_load",
+    "e_hit",
+    "n_load",
+    "n_hit",
+    "n_rec",
+    "sw_load",
+    "sw_hit",
+    "sw_rec",
+    "ch_load",
+    "ch_run",
+    "ch_hit",
+    "gr_reach",
+    "gr_hold",
+    "gr_lift",
+    "gr_throw",
+    "st_load",
+    "st_hit",
+    "hh0",
+    "hh1",
+    "hbd0",
+    "kd0",
+    "kd1",
+    "kd2",
+    "kd3",
+    "kd4",
+    "kd5",
+    "gu0",
+    "gu1",
+    "hookW",
+    "hook",
+    "upW",
+    "up",
+    "elbW",
+    "elb",
+    "knW",
+    "kn",
+    "rhW",
+    "rh",
+    "swW",
+    "sw",
+    "hbW",
+    "hb",
+    "batW",
+    "batS",
+    "batF",
+    "m_hitB",
+    "m_lift",
+    "sb_sitc",
+    "sb_sit",
+    "sb_strap",
+    "b_walk0",
+    "b_walk1",
+    "b_walk2",
+    "b_walk3",
+    "b_jkW",
+    "b_jk",
+    "b_jkL",
+    "m_hit",
+    "j_hit_ft",
+    "j_hit_rt",
+    "bf_hit_ft",
+    "bf_hit_rt",
+    "e_hit_ft",
+    "e_hit_rt",
+    "c_hit_ft",
+    "c_hit_rt",
+    "h_hit_ft",
+    "h_hit_rt",
+    "k_hit_ft",
+    "k_hit_rt",
+    "n_hit_ft",
+    "n_hit_rt",
+    "bk_hit_ft",
+    "bk_hit_rt",
+    "u_hit_ft",
+    "u_hit_rt",
+    "r_hit_ft",
+    "r_hit_rt",
+    "sw_hit_ft",
+    "sw_hit_rt",
+    "st_hit_ft",
+    "st_hit_rt",
+    "ut_load",
+    "ut_smear",
+    "ut_hit",
+    "np_load",
+    "np_smear",
+    "np_hit",
+    "np_hit_ft",
+    "np_hit_rt",
+    "ut_hit_ft",
+    "ut_hit_rt",
+    "air_up",
+    "air_hit",
+    "air_back",
+    "air_blow",
+    "air_fall",
+    "air_jerk",
+    "air_arch",
+    "air_trip",
+    "dig",
+    "cr0",
+    "cr1",
+    "cr2",
+    "cr3",
+    "so0",
+    "so1",
+    "so2",
+    "pl0",
+    "pl1",
+    "rk_crouch",
+    "rk_k1",
+    "rk_sw",
+    "rk_k2",
+    "rk_fall",
+    "rk_land",
+    "ts_set",
+    "ts_step",
+    "ts_hit",
+    "ts_ft",
+    "ts_rt",
+    "sp_dive",
+    "sp_hit",
+    "sp_bounce",
+    "sp_land",
+    "sp_lie",
+    "pp0",
+    "pp1",
+    "stg0",
+    "stg1",
+    "stg2",
+    "stg3",
+    "air_wall",
+    "wl0",
+    "wl1",
+    "cy_crouch",
+    "cy_jump",
+    "cy_k1",
+    "cy_k2",
+    "cy_k3",
+    "cy_fall",
+    "cy_land",
+    "ax_load",
+    "ax_up",
+    "ax_top",
+    "ax_smear",
+    "ax_hit",
+    "ax_ft",
+    "ax_rt",
+    "axa_up",
+    "axa_top",
+    "axa_smear",
+    "axa_hit",
+    "axa_fall",
+    "sx_reach",
+    "sx_grab",
+    "sx_lift",
+    "sx_arch",
+    "sx_slam",
+    "sx_rise",
+    "sk_crouch",
+    "sk_jump",
+    "sk_tuck",
+    "sk_lean",
+    "sk_kick",
+    "sk_over",
+    "sk_tuck2",
+    "sk_fall",
+    "sk_land",
+    "land_q",
+    "fk_ready",
+    "fk_jump",
+    "fk_tuck",
+    "fk_smear",
+    "fk_hit",
+    "fk_fall",
+    "fk_land",
+    "lean0",
+    "u_dip",
+    "r_chm",
+    "r_turn",
+    "r_spin1",
+    "r_spin2",
+    "gr_ft",
+    "gr_rt"
+   ]
+  },
+  "POSE_LABEL": {
+   "file": "13-rig-grammar",
+   "shape": "object{27}",
+   "bytes": 429,
+   "keyOrder": [
+    "idle0",
+    "idle1",
+    "windup",
+    "strike",
+    "follow",
+    "recover",
+    "hit",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "block",
+    "cast0",
+    "cast1",
+    "cast2",
+    "death0",
+    "death1",
+    "death2",
+    "m_idle0",
+    "m_idle1",
+    "m_jabW",
+    "m_jab",
+    "m_crossW",
+    "m_cross",
+    "m_kickW",
+    "m_kick",
+    "m_hit"
+   ]
+  },
+  "POSE_DEFAULT": {
+   "file": "13-rig-grammar",
+   "shape": "object{174}",
+   "bytes": 22915,
+   "keyOrder": [
+    "idle0",
+    "idle1",
+    "windup",
+    "strike",
+    "follow",
+    "recover",
+    "hit",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "block",
+    "cast0",
+    "cast1",
+    "cast2",
+    "death0",
+    "death1",
+    "death2",
+    "m_idle0",
+    "m_idle1",
+    "m_jabW",
+    "m_jab",
+    "m_crossW",
+    "m_cross",
+    "m_kickW",
+    "m_kick",
+    "st0",
+    "gx_rel",
+    "gx_b1",
+    "gx_b2",
+    "gx_c1",
+    "gx_c2",
+    "gx_h1",
+    "gx_h2",
+    "gx_t1",
+    "gx_t2",
+    "st1",
+    "st2",
+    "st3",
+    "c_load",
+    "c_pull",
+    "c_smear",
+    "c_hit",
+    "c_fol",
+    "c_rec",
+    "c_over",
+    "j_load",
+    "j_smear",
+    "j_hit",
+    "j_rec",
+    "h_load",
+    "h_smear",
+    "h_hit",
+    "u_load",
+    "u_smear",
+    "u_hit",
+    "k_load",
+    "k_smear",
+    "k_hit",
+    "k_rec",
+    "r_load",
+    "r_smear",
+    "r_hit",
+    "r_rec",
+    "rc0",
+    "rc1",
+    "rh0",
+    "rh1",
+    "ru0",
+    "rk0",
+    "rk1",
+    "rk2",
+    "rkc0",
+    "rs0",
+    "rs1",
+    "rsw0",
+    "rsw1",
+    "slm0",
+    "stp0",
+    "dz0",
+    "dz1",
+    "dfw0",
+    "dfw1",
+    "hl0",
+    "hl1",
+    "hl1b",
+    "hl2",
+    "bk_load",
+    "bk_hit",
+    "bk_rec",
+    "bf_load",
+    "bf_hit",
+    "bf_rec",
+    "hm_wind",
+    "hm_hit",
+    "hm_rec",
+    "hm_bload",
+    "hm_bhit",
+    "hm_uload",
+    "hm_uhit",
+    "hm_dload",
+    "hm_dhit",
+    "ps0",
+    "ps1",
+    "ps2",
+    "ps3",
+    "hk0",
+    "hk1",
+    "hk2",
+    "gt0",
+    "gt1",
+    "pr0",
+    "ev0",
+    "dk0",
+    "dk1",
+    "dk2",
+    "e_load",
+    "e_hit",
+    "n_load",
+    "n_hit",
+    "n_rec",
+    "sw_load",
+    "sw_hit",
+    "sw_rec",
+    "ch_load",
+    "ch_run",
+    "ch_hit",
+    "gr_reach",
+    "gr_hold",
+    "gr_lift",
+    "gr_throw",
+    "st_load",
+    "st_hit",
+    "hh0",
+    "hh1",
+    "hbd0",
+    "kd0",
+    "kd1",
+    "kd2",
+    "kd3",
+    "kd4",
+    "kd5",
+    "gu0",
+    "gu1",
+    "hookW",
+    "hook",
+    "upW",
+    "up",
+    "elbW",
+    "elb",
+    "knW",
+    "kn",
+    "rhW",
+    "rh",
+    "swW",
+    "sw",
+    "hbW",
+    "hb",
+    "batW",
+    "batS",
+    "batF",
+    "m_hitB",
+    "m_lift",
+    "sb_sitc",
+    "sb_sit",
+    "sb_strap",
+    "b_walk0",
+    "b_walk1",
+    "b_walk2",
+    "b_walk3",
+    "b_jkW",
+    "b_jk",
+    "b_jkL",
+    "m_hit"
+   ]
+  },
+  "LOOP": {
+   "file": "13-rig-grammar",
+   "shape": "set[5]",
+   "bytes": 47
+  },
+  "GRAMMAR": {
+   "file": "13-rig-grammar",
+   "shape": "array[5]",
+   "bytes": 287
+  },
+  "G": {
+   "file": "13-rig-grammar",
+   "shape": "object{5}",
+   "bytes": 42,
+   "keyOrder": [
+    "pre",
+    "hit",
+    "stop",
+    "fol",
+    "rec"
+   ]
+  },
+  "JW_SEQ": {
+   "file": "13-rig-grammar",
+   "shape": "object{92}",
+   "bytes": 7491,
+   "keyOrder": [
+    "jug",
+    "jland",
+    "spcHold",
+    "spcLift",
+    "spcSlam",
+    "uthrust",
+    "swat",
+    "fkick",
+    "gx_jw",
+    "gx_gala",
+    "gx_rain",
+    "gx_chicago",
+    "idle",
+    "cross",
+    "jab",
+    "hook",
+    "upper",
+    "kick",
+    "round",
+    "bat",
+    "hbutt",
+    "hit",
+    "hitB",
+    "fall",
+    "launch",
+    "rCross",
+    "rHook",
+    "rKnee",
+    "rElbow",
+    "rKick",
+    "rSpin",
+    "rSwept",
+    "rCharge",
+    "rSlam",
+    "rSpike",
+    "rStomp",
+    "deathFwd",
+    "getup",
+    "elbow",
+    "knee",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp",
+    "held",
+    "rest_sit",
+    "rest_lean",
+    "duck",
+    "evade",
+    "parry",
+    "hm_swing",
+    "hm_back",
+    "hm_up",
+    "hm_down",
+    "polespin",
+    "hangkick",
+    "busk",
+    "run",
+    "bkick",
+    "bfist",
+    "death",
+    "jlandD",
+    "fallD",
+    "rKickD",
+    "rSpinD",
+    "rSweptD",
+    "rChargeD",
+    "rSlamD",
+    "launchD",
+    "rTetsu",
+    "rSpikeD",
+    "rTetsuD",
+    "getupP",
+    "stagger",
+    "staggerX",
+    "rWall",
+    "rBlast",
+    "rBlastD",
+    "spinout",
+    "pulled",
+    "cycle",
+    "axe",
+    "axe_air",
+    "suplex",
+    "renkan",
+    "tetsu",
+    "skick",
+    "scoop",
+    "round_air",
+    "charge_air",
+    "crumple",
+    "crumpleD"
+   ]
+  },
+  "FALLS": {
+   "file": "13-rig-grammar",
+   "shape": "set[13]",
+   "bytes": 123
+  },
+  "REACTS": {
+   "file": "13-rig-grammar",
+   "shape": "set[38]",
+   "bytes": 346
+  },
+  "JUG": {
+   "file": "13-rig-grammar",
+   "shape": "object{8}",
+   "bytes": 101,
+   "keyOrder": [
+    "G",
+    "decay",
+    "gUp",
+    "limit",
+    "scaleK",
+    "scaleMin",
+    "bounceV",
+    "hitPose"
+   ]
+  },
+  "LAUNCH": {
+   "file": "13-rig-grammar",
+   "shape": "object{7}",
+   "bytes": 535,
+   "keyOrder": [
+    "launch",
+    "rkPop",
+    "rKick",
+    "rBlast",
+    "rSwept",
+    "rSpin",
+    "fall"
+   ]
+  },
+  "AIRPOP": {
+   "file": "13-rig-grammar",
+   "shape": "object{3}",
+   "bytes": 95,
+   "keyOrder": [
+    "L",
+    "M",
+    "H"
+   ]
+  },
+  "REACT_KB": {
+   "file": "13-rig-grammar",
+   "shape": "object{19}",
+   "bytes": 222,
+   "keyOrder": [
+    "crumple",
+    "spinout",
+    "pulled",
+    "hit",
+    "hitB",
+    "rCross",
+    "rHook",
+    "rKnee",
+    "rElbow",
+    "rKick",
+    "rSpin",
+    "rSwept",
+    "rCharge",
+    "rSlam",
+    "rStomp",
+    "rSpike",
+    "rTetsu",
+    "launch",
+    "fall"
+   ]
+  },
+  "RIG_K": {
+   "file": "13-rig-grammar",
+   "shape": "object{13}",
+   "bytes": 159,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "legF",
+    "legB",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "scarf",
+    "glowLen",
+    "a0"
+   ]
+  },
+  "RIG_S": {
+   "file": "13-rig-grammar",
+   "shape": "object{12}",
+   "bytes": 143,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "legF",
+    "legB",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0"
+   ]
+  },
+  "RIG_KM": {
+   "file": "13-rig-grammar",
+   "shape": "object{16}",
+   "bytes": 185,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "legF",
+    "legB",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0",
+    "sc",
+    "popY",
+    "sparkY",
+    "sparkX"
+   ]
+  },
+  "RIG_SM": {
+   "file": "13-rig-grammar",
+   "shape": "object{16}",
+   "bytes": 185,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "legF",
+    "legB",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0",
+    "sc",
+    "popY",
+    "sparkY",
+    "sparkX"
+   ]
+  },
+  "KNIGHT_MINI": {
+   "file": "13-rig-grammar",
+   "shape": "object{9}",
+   "bytes": 477,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "SKEL_MINI": {
+   "file": "13-rig-grammar",
+   "shape": "object{9}",
+   "bytes": 476,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "RIG_F": {
+   "file": "13-rig-grammar",
+   "shape": "object{20}",
+   "bytes": 331,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "views",
+    "legF",
+    "legB",
+    "upper",
+    "fore",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0",
+    "upright",
+    "sc",
+    "popY",
+    "sparkY",
+    "sparkX"
+   ]
+  },
+  "FP": {
+   "file": "13-rig-grammar",
+   "shape": "object{14}",
+   "bytes": 276,
+   "keyOrder": [
+    "head",
+    "torso",
+    "torsoV",
+    "armF",
+    "foreF",
+    "armB",
+    "foreB",
+    "thighF",
+    "shinF",
+    "thighB",
+    "shinB",
+    "wpn",
+    "off",
+    "scarf"
+   ]
+  },
+  "FIGHTER_A": {
+   "file": "13-rig-grammar",
+   "shape": "object{11}",
+   "bytes": 724,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "mma",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "FIGHTER_B": {
+   "file": "13-rig-grammar",
+   "shape": "object{11}",
+   "bytes": 723,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "mma",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "NP": {
+   "file": "13-rig-grammar",
+   "shape": "object{15}",
+   "bytes": 287,
+   "keyOrder": [
+    "head",
+    "torso",
+    "torsoV",
+    "armF",
+    "foreF",
+    "armB",
+    "foreB",
+    "thighF",
+    "shinF",
+    "thighB",
+    "shinB",
+    "wpn",
+    "off",
+    "scarf",
+    "tail"
+   ]
+  },
+  "RIG_N": {
+   "file": "13-rig-grammar",
+   "shape": "object{20}",
+   "bytes": 331,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "views",
+    "legF",
+    "legB",
+    "upper",
+    "fore",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0",
+    "upright",
+    "sc",
+    "popY",
+    "sparkY",
+    "sparkX"
+   ]
+  },
+  "RIG_3D": {
+   "file": "13-rig-grammar",
+   "shape": "object{21}",
+   "bytes": 261,
+   "keyOrder": [
+    "hip",
+    "head",
+    "shF",
+    "shB",
+    "views",
+    "legF",
+    "legB",
+    "upper",
+    "fore",
+    "armLenF",
+    "armLenB",
+    "thigh",
+    "shin",
+    "glowLen",
+    "a0",
+    "upright",
+    "sc",
+    "popY",
+    "sparkY",
+    "sparkX",
+    "leanK"
+   ]
+  },
+  "NOIR_HERO": {
+   "file": "13-rig-grammar",
+   "shape": "object{13}",
+   "bytes": 25798,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "model3",
+    "mma",
+    "gait",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "NOIR_THUG": {
+   "file": "13-rig-grammar",
+   "shape": "object{13}",
+   "bytes": 25113,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "model3",
+    "mma",
+    "gait",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p"
+   ]
+  },
+  "JW_HERO": {
+   "file": "13-rig-grammar",
+   "shape": "object{16}",
+   "bytes": 30788,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "model3",
+    "mma",
+    "gait",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p",
+    "jw",
+    "msT",
+    "face"
+   ]
+  },
+  "JW_THUG": {
+   "file": "13-rig-grammar",
+   "shape": "object{16}",
+   "bytes": 29945,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "model3",
+    "mma",
+    "gait",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p",
+    "jw",
+    "msT",
+    "face"
+   ]
+  },
+  "JW_BOSS": {
+   "file": "13-rig-grammar",
+   "shape": "object{16}",
+   "bytes": 30789,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "model3",
+    "mma",
+    "gait",
+    "lines",
+    "smear",
+    "eye",
+    "glow",
+    "p",
+    "jw",
+    "msT",
+    "face"
+   ]
+  },
+  "JW_BASE_MODEL": {
+   "file": "13-rig-grammar",
+   "shape": "object{24}",
+   "bytes": 30066,
+   "keyOrder": [
+    "head",
+    "torso",
+    "skirtF",
+    "skirtB",
+    "uarmF",
+    "farmF",
+    "uarmB",
+    "farmB",
+    "thighF",
+    "shinF",
+    "footF",
+    "thighB",
+    "shinB",
+    "footB",
+    "bat",
+    "paper",
+    "umb",
+    "case",
+    "hammer",
+    "guitar",
+    "pan",
+    "cleaver",
+    "wrench",
+    "knife"
+   ]
+  },
+  "SKINS": {
+   "file": "13-rig-grammar",
+   "shape": "object{4}",
+   "bytes": 562,
+   "keyOrder": [
+    "jw",
+    "gala",
+    "rain",
+    "chicago"
+   ]
+  },
+  "PE_LS": {
+   "file": "14-pose-editor",
+   "shape": "string",
+   "bytes": 18
+  },
+  "PE_FIELDS": {
+   "file": "14-pose-editor",
+   "shape": "array[18]",
+   "bytes": 110
+  },
+  "PE_CTL": {
+   "file": "14-pose-editor",
+   "shape": "array[3]",
+   "bytes": 1162,
+   "fns": 30
+  },
+  "KNIGHT": {
+   "file": "15-skin-chars",
+   "shape": "object{9}",
+   "bytes": 444,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "smear",
+    "p",
+    "eye",
+    "glow"
+   ]
+  },
+  "SKEL": {
+   "file": "15-skin-chars",
+   "shape": "object{9}",
+   "bytes": 410,
+   "keyOrder": [
+    "name",
+    "x",
+    "y",
+    "flip",
+    "rig",
+    "smear",
+    "p",
+    "eye",
+    "glow"
+   ]
+  },
+  "torch": {
+   "file": "17-light-frame",
+   "shape": "object{2}",
+   "bytes": 15,
+   "keyOrder": [
+    "x",
+    "y"
+   ]
+  },
+  "flies": {
+   "file": "17-light-frame",
+   "shape": "array[7]",
+   "bytes": 504
+  },
+  "SCN": {
+   "file": "18-render-loop",
+   "shape": "object{7}",
+   "bytes": 4561,
+   "keyOrder": [
+    "forest",
+    "city",
+    "cityV",
+    "octagon",
+    "brawl",
+    "noir",
+    "subway"
+   ]
+  },
+  "NOIR_KIND": {
+   "file": "18-render-loop",
+   "shape": "object{9}",
+   "bytes": 451,
+   "keyOrder": [
+    "lamp",
+    "tube",
+    "neonO",
+    "neonT",
+    "neonR",
+    "neonP",
+    "shop",
+    "bulb",
+    "door"
+   ]
+  },
+  "OCT": {
+   "file": "18-render-loop",
+   "shape": "object{7}",
+   "bytes": 81,
+   "keyOrder": [
+    "hp",
+    "st",
+    "time",
+    "round",
+    "dist",
+    "flashes",
+    "kd"
+   ]
+  },
+  "dogs": {
+   "file": "18-render-loop",
+   "shape": "array[3]",
+   "bytes": 75
+  },
+  "birds": {
+   "file": "18-render-loop",
+   "shape": "array[6]",
+   "bytes": 419
+  },
+  "F": {
+   "file": "19-lab-nodes",
+   "shape": "string",
+   "bytes": 7
+  },
+  "V3": {
+   "file": "19-lab-nodes",
+   "shape": "string",
+   "bytes": 6
+  },
+  "TYPES": {
+   "file": "19-lab-nodes",
+   "shape": "object{26}",
+   "bytes": 7689,
+   "fns": 26,
+   "keyOrder": [
+    "gbuf",
+    "lights",
+    "relief",
+    "rim",
+    "value",
+    "color",
+    "add",
+    "mul",
+    "invert",
+    "lumOf",
+    "mulc",
+    "mulcc",
+    "addc",
+    "mixc",
+    "levels",
+    "posterize",
+    "ramp",
+    "dither",
+    "matdither",
+    "edgeval",
+    "fog",
+    "twotone",
+    "grad4",
+    "charline",
+    "outline",
+    "output"
+   ]
+  },
+  "CAT_LABEL": {
+   "file": "19-lab-nodes",
+   "shape": "object{5}",
+   "bytes": 60,
+   "keyOrder": [
+    "in",
+    "light",
+    "math",
+    "style",
+    "out"
+   ]
+  },
+  "PRESETS": {
+   "file": "19-lab-nodes",
+   "shape": "array[7]",
+   "bytes": 7039
+  },
+  "WS_W": {
+   "file": "19-lab-nodes",
+   "shape": "number",
+   "bytes": 4
+  },
+  "WS_H": {
+   "file": "19-lab-nodes",
+   "shape": "number",
+   "bytes": 3
+  },
+  "SAVE_KEY": {
+   "file": "19-lab-nodes",
+   "shape": "string",
+   "bytes": 17
+  },
+  "FPS_LIST": {
+   "file": "19-lab-nodes",
+   "shape": "array[8]",
+   "bytes": 22
+  },
+  "SAMPLE_PARTS": {
+   "file": "19-lab-nodes",
+   "shape": "string",
+   "bytes": 3730
+  },
+  "SAMPLE_ASE": {
+   "file": "19-lab-nodes",
+   "shape": "string",
+   "bytes": 6930
+  },
+  "UMAT0": {
+   "file": "20-lab-import",
+   "shape": "number",
+   "bytes": 2
+  },
+  "UREG_P": {
+   "file": "20-lab-import",
+   "shape": "object{4}",
+   "bytes": 33,
+   "keyOrder": [
+    "x",
+    "y",
+    "w",
+    "h"
+   ]
+  },
+  "UREG_F": {
+   "file": "20-lab-import",
+   "shape": "object{4}",
+   "bytes": 33,
+   "keyOrder": [
+    "x",
+    "y",
+    "w",
+    "h"
+   ]
+  },
+  "TINTS": {
+   "file": "20-lab-import",
+   "shape": "array[3]",
+   "bytes": 69
+  },
+  "CAND": {
+   "file": "20-lab-import",
+   "shape": "array[78]",
+   "bytes": 1426
+  },
+  "PART_ORDER": {
+   "file": "20-lab-import",
+   "shape": "array[9]",
+   "bytes": 63
+  },
+  "PART_LABEL": {
+   "file": "20-lab-import",
+   "shape": "object{9}",
+   "bytes": 111,
+   "keyOrder": [
+    "torso",
+    "head",
+    "armF",
+    "armB",
+    "legF",
+    "legB",
+    "wpn",
+    "off",
+    "cape"
+   ]
+  },
+  "opt": {
+   "file": "20-lab-import",
+   "shape": "object{4}",
+   "bytes": 64,
+   "keyOrder": [
+    "colorMode",
+    "flipG",
+    "flip",
+    "faceLeft"
+   ]
+  },
+  "ROLE_LABEL": {
+   "file": "20-lab-import",
+   "shape": "object{5}",
+   "bytes": 64,
+   "keyOrder": [
+    "color",
+    "normal",
+    "emit",
+    "mat",
+    "height"
+   ]
+  },
+  "POSE_KEY": {
+   "file": "21-lab-pose",
+   "shape": "string",
+   "bytes": 17
+  },
+  "PF": {
+   "file": "21-lab-pose",
+   "shape": "array[13]",
+   "bytes": 678
+  },
+  "VEC": {
+   "file": "21-lab-pose",
+   "shape": "object{8}",
+   "bytes": 113,
+   "keyOrder": [
+    "b0",
+    "b1",
+    "h0",
+    "h1",
+    "fF0",
+    "fF1",
+    "fB0",
+    "fB1"
+   ]
+  },
+  "HP": {
+   "file": "21-lab-pose",
+   "shape": "array[11]",
+   "bytes": 233
+  },
+  "headUp": {
+   "file": "21-lab-pose",
+   "shape": "number",
+   "bytes": 1
+  },
+  "hipBack": {
+   "file": "21-lab-pose",
+   "shape": "number",
+   "bytes": 1
+  },
+  "LINE_GRADE": {
+   "file": "22-scene-world",
+   "shape": "array[5]",
+   "bytes": 177
+  },
+  "GITEMS": {
+   "file": "23-game-items",
+   "shape": "object{40}",
+   "bytes": 7500,
+   "keyOrder": [
+    "punch",
+    "paper",
+    "umb",
+    "case",
+    "kick",
+    "knee",
+    "elbow",
+    "round",
+    "upper",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp",
+    "duck",
+    "bkick",
+    "bfist",
+    "pin",
+    "ring",
+    "charm",
+    "coffee",
+    "knuckle",
+    "gum",
+    "coat",
+    "shoes",
+    "earph",
+    "bandage",
+    "fkick",
+    "cycle",
+    "axe",
+    "suplex",
+    "renkan",
+    "tetsu",
+    "skick",
+    "metro",
+    "cuff",
+    "watch",
+    "hmup",
+    "hmswing",
+    "hmback",
+    "hmdown"
+   ]
+  },
+  "COND": {
+   "file": "23-game-items",
+   "shape": "object{10}",
+   "bytes": 511,
+   "keyOrder": [
+    "gap",
+    "down",
+    "multi",
+    "combo",
+    "finish",
+    "counter",
+    "grab",
+    "proj",
+    "back",
+    "air"
+   ]
+  },
+  "ETYPES": {
+   "file": "23-game-items",
+   "shape": "object{40}",
+   "bytes": 6668,
+   "keyOrder": [
+    "punk",
+    "rusher",
+    "thrower",
+    "guard",
+    "heavy",
+    "brute",
+    "slasher",
+    "weasel",
+    "gear",
+    "boss2",
+    "kane",
+    "stick",
+    "pipe",
+    "triad",
+    "kungfu",
+    "swords",
+    "bguard",
+    "boss3",
+    "pick",
+    "blade",
+    "boss",
+    "skater",
+    "batter",
+    "neonbig",
+    "boss4",
+    "bouncer",
+    "punkg",
+    "breaker",
+    "kaneB",
+    "valet",
+    "guardL",
+    "courier",
+    "tech",
+    "janitor",
+    "chef",
+    "waiter",
+    "accountant",
+    "butcher",
+    "headchef",
+    "mgr"
+   ]
+  },
+  "TW_FLOORS": {
+   "file": "24-tower",
+   "shape": "array[21]",
+   "bytes": 2752
+  },
+  "TW_TOP": {
+   "file": "24-tower",
+   "shape": "number",
+   "bytes": 2
+  },
+  "TW_LIMIT": {
+   "file": "24-tower",
+   "shape": "number",
+   "bytes": 1
+  },
+  "TW_WT": {
+   "file": "24-tower",
+   "shape": "object{11}",
+   "bytes": 123,
+   "keyOrder": [
+    "valet",
+    "janitor",
+    "guardL",
+    "tech",
+    "courier",
+    "mgr",
+    "chef",
+    "waiter",
+    "accountant",
+    "butcher",
+    "headchef"
+   ]
+  },
+  "TW_OT": {
+   "file": "24-tower",
+   "shape": "array[7]",
+   "bytes": 395,
+   "fns": 6
+  },
+  "TW_OT_MAX": {
+   "file": "24-tower",
+   "shape": "number",
+   "bytes": 1
+  },
+  "TW_BARKS": {
+   "file": "24-tower",
+   "shape": "array[7]",
+   "bytes": 99
+  },
+  "TW_MODS": {
+   "file": "24-tower",
+   "shape": "array[6]",
+   "bytes": 468,
+   "fns": 6
+  },
+  "TW_HIT": {
+   "file": "24-tower",
+   "shape": "object{20}",
+   "bytes": 1239,
+   "keyOrder": [
+    "park",
+    "dock",
+    "lobby",
+    "mail",
+    "mech",
+    "laundry",
+    "room",
+    "sec",
+    "canteen",
+    "office",
+    "food",
+    "kitchen",
+    "freezer",
+    "banquet",
+    "cellar",
+    "bar",
+    "lounge",
+    "dish",
+    "roof",
+    "chefroom"
+   ]
+  },
+  "LINE_D": {
+   "file": "25-lines",
+   "shape": "array[7]",
+   "bytes": 1239
+  },
+  "LINE_4": {
+   "file": "25-lines",
+   "shape": "array[4]",
+   "bytes": 749
+  },
+  "LINE_6": {
+   "file": "25-lines",
+   "shape": "array[4]",
+   "bytes": 756
+  },
+  "LINE_7": {
+   "file": "25-lines",
+   "shape": "array[7]",
+   "bytes": 1250
+  },
+  "LINE_L": {
+   "file": "25-lines",
+   "shape": "array[7]",
+   "bytes": 1298
+  },
+  "STAGES": {
+   "file": "25-lines",
+   "shape": "array[5]",
+   "bytes": 6697
+  },
+  "BARKS": {
+   "file": "25-lines",
+   "shape": "array[6]",
+   "bytes": 60
+  },
+  "COLS": {
+   "file": "25-lines",
+   "shape": "number",
+   "bytes": 1
+  },
+  "ROWS": {
+   "file": "25-lines",
+   "shape": "number",
+   "bytes": 1
+  },
+  "FLOOR": {
+   "file": "25-lines",
+   "shape": "number",
+   "bytes": 3
+  },
+  "INV": {
+   "file": "26-bag-model",
+   "shape": "object{4}",
+   "bytes": 27,
+   "keyOrder": [
+    "W",
+    "H",
+    "SW",
+    "SH"
+   ]
+  },
+  "TIER_MAX": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 1
+  },
+  "MERGE_P": {
+   "file": "26-bag-model",
+   "shape": "array[5]",
+   "bytes": 22
+  },
+  "MERGE_BOOST": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 4
+  },
+  "BOOST_COST": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 1
+  },
+  "REROLL_COST": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 1
+  },
+  "OPTS": {
+   "file": "26-bag-model",
+   "shape": "object{4}",
+   "bytes": 347,
+   "fns": 4,
+   "keyOrder": [
+    "crit",
+    "critd",
+    "dmg",
+    "cd"
+   ]
+  },
+  "CRIT_BASE": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 4
+  },
+  "CRITD_BASE": {
+   "file": "26-bag-model",
+   "shape": "number",
+   "bytes": 3
+  },
+  "KNOCKERS": {
+   "file": "26-bag-model",
+   "shape": "array[6]",
+   "bytes": 48
+  },
+  "LINKS": {
+   "file": "26-bag-model",
+   "shape": "array[14]",
+   "bytes": 1882,
+   "fns": 28
+  },
+  "FAMS": {
+   "file": "26-bag-model",
+   "shape": "object{3}",
+   "bytes": 119,
+   "keyOrder": [
+    "fist",
+    "foot",
+    "grap"
+   ]
+  },
+  "PASS_MODEL": {
+   "file": "27-actors",
+   "shape": "array[3]",
+   "bytes": 73958
+  },
+  "PASSENGERS": {
+   "file": "27-actors",
+   "shape": "object{8}",
+   "bytes": 290,
+   "keyOrder": [
+    "commute",
+    "night",
+    "ads",
+    "cargo",
+    "works",
+    "cab",
+    "dark",
+    "show"
+   ]
+  },
+  "SPOTS": {
+   "file": "27-actors",
+   "shape": "array[8]",
+   "bytes": 99
+  },
+  "STRAP_X": {
+   "file": "27-actors",
+   "shape": "array[14]",
+   "bytes": 53
+  },
+  "MOVE_REACH": {
+   "file": "27-actors",
+   "shape": "object{25}",
+   "bytes": 279,
+   "keyOrder": [
+    "renkan",
+    "tetsu",
+    "cycle",
+    "axe",
+    "suplex",
+    "fkick",
+    "hm_swing",
+    "hm_back",
+    "hm_up",
+    "hm_down",
+    "bkick",
+    "bfist",
+    "jab",
+    "cross",
+    "hook",
+    "upper",
+    "kick",
+    "round",
+    "hbutt",
+    "elbow",
+    "knee",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp"
+   ]
+  },
+  "ATK_FEEL": {
+   "file": "28-attack-feel",
+   "shape": "object{27}",
+   "bytes": 2476,
+   "keyOrder": [
+    "renkan",
+    "tetsu",
+    "cycle",
+    "axe",
+    "axe_air",
+    "suplex",
+    "jab",
+    "bfist",
+    "elbow",
+    "cross",
+    "hook",
+    "kick",
+    "knee",
+    "bkick",
+    "upper",
+    "round",
+    "sweep",
+    "stomp",
+    "charge",
+    "fkick",
+    "swat",
+    "uthrust",
+    "throw",
+    "scoop",
+    "skick",
+    "round_air",
+    "charge_air"
+   ]
+  },
+  "FOE_W": {
+   "file": "28-attack-feel",
+   "shape": "object{10}",
+   "bytes": 116,
+   "keyOrder": [
+    "jab",
+    "throw",
+    "hook",
+    "kick",
+    "hbutt",
+    "bat",
+    "charge",
+    "round",
+    "upper",
+    "fkick"
+   ]
+  },
+  "FOE_TELL": {
+   "file": "28-attack-feel",
+   "shape": "object{3}",
+   "bytes": 24,
+   "keyOrder": [
+    "L",
+    "M",
+    "H"
+   ]
+  },
+  "FOE_TELLX": {
+   "file": "28-attack-feel",
+   "shape": "object{3}",
+   "bytes": 27,
+   "keyOrder": [
+    "L",
+    "M",
+    "H"
+   ]
+  },
+  "JW_CUE": {
+   "file": "28-attack-feel",
+   "shape": "object{33}",
+   "bytes": 564,
+   "keyOrder": [
+    "renkan",
+    "tetsu",
+    "cycle",
+    "axe",
+    "axe_air",
+    "suplex",
+    "fkick",
+    "uthrust",
+    "swat",
+    "hm_swing",
+    "hm_back",
+    "hm_up",
+    "hm_down",
+    "bkick",
+    "bfist",
+    "jab",
+    "cross",
+    "hook",
+    "upper",
+    "kick",
+    "round",
+    "bat",
+    "hbutt",
+    "elbow",
+    "knee",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp",
+    "scoop",
+    "skick",
+    "round_air",
+    "charge_air"
+   ]
+  },
+  "WHEELS": {
+   "file": "30-train-env",
+   "shape": "array[4]",
+   "bytes": 15
+  },
+  "ICON_PAL": {
+   "file": "31-bag-ui",
+   "shape": "object{37}",
+   "bytes": 519,
+   "keyOrder": [
+    "K",
+    "w",
+    "W",
+    "g",
+    "G",
+    "h",
+    "s",
+    "S",
+    "z",
+    "r",
+    "R",
+    "y",
+    "Y",
+    "o",
+    "b",
+    "B",
+    "n",
+    "N",
+    "m",
+    "e",
+    "E",
+    "p",
+    "P",
+    "c",
+    "C",
+    "x",
+    "t",
+    "l",
+    "D",
+    "d",
+    "v",
+    "V",
+    "u",
+    "a",
+    "q",
+    "Q",
+    "i"
+   ]
+  },
+  "ICON_ART": {
+   "file": "31-bag-ui",
+   "shape": "object{22}",
+   "bytes": 6906,
+   "keyOrder": [
+    "duck",
+    "punch",
+    "paper",
+    "umb",
+    "case",
+    "kick",
+    "round",
+    "upper",
+    "elbow",
+    "knee",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp",
+    "charm",
+    "coffee",
+    "coat",
+    "shoes",
+    "earph",
+    "bandage",
+    "knuckle",
+    "gum"
+   ]
+  },
+  "ART_PX": {
+   "file": "31-bag-ui",
+   "shape": "number",
+   "bytes": 2
+  },
+  "RAMPS": {
+   "file": "31-bag-ui",
+   "shape": "array[10]",
+   "bytes": 141
+  },
+  "RAMP_OF": {
+   "file": "31-bag-ui",
+   "shape": "object{27}",
+   "bytes": 271,
+   "keyOrder": [
+    "N",
+    "n",
+    "m",
+    "z",
+    "S",
+    "s",
+    "W",
+    "w",
+    "h",
+    "G",
+    "g",
+    "Y",
+    "y",
+    "t",
+    "x",
+    "C",
+    "c",
+    "R",
+    "r",
+    "o",
+    "B",
+    "b",
+    "l",
+    "P",
+    "p",
+    "E",
+    "e"
+   ]
+  },
+  "ART_CACHE": {
+   "file": "31-bag-ui",
+   "shape": "object{1}",
+   "bytes": 1112,
+   "keyOrder": [
+    "case@0p"
+   ]
+  },
+  "PANEL_SET": {
+   "file": "32-block-art",
+   "shape": "object{14}",
+   "bytes": 825,
+   "keyOrder": [
+    "punch",
+    "kick",
+    "knee",
+    "elbow",
+    "round",
+    "upper",
+    "sweep",
+    "charge",
+    "throw",
+    "stomp",
+    "bkick",
+    "bfist",
+    "duck",
+    "fkick"
+   ]
+  },
+  "PANEL_FX": {
+   "file": "32-block-art",
+   "shape": "object{24}",
+   "bytes": 369,
+   "keyOrder": [
+    "flyKick",
+    "stare",
+    "fistup",
+    "hitbald",
+    "jab",
+    "hook",
+    "hitface",
+    "chamber",
+    "sole",
+    "kneeup",
+    "elbow",
+    "upperRise",
+    "jawUp",
+    "sweepLow",
+    "feetUp",
+    "shoulder",
+    "grab",
+    "overhead",
+    "floorhit",
+    "stompDown",
+    "backfistP",
+    "heel",
+    "duckP",
+    "spin"
+   ]
+  },
+  "FAM_BG": {
+   "file": "32-block-art",
+   "shape": "object{4}",
+   "bytes": 117,
+   "keyOrder": [
+    "fist",
+    "foot",
+    "grap",
+    "none"
+   ]
+  },
+  "COMBO_ROLE": {
+   "file": "32-block-art",
+   "shape": "object{27}",
+   "bytes": 901,
+   "keyOrder": [
+    "upper",
+    "skick",
+    "sweep",
+    "knee",
+    "elbow",
+    "umb",
+    "punch",
+    "paper",
+    "stomp",
+    "bfist",
+    "round",
+    "charge",
+    "throw",
+    "kick",
+    "fkick",
+    "bkick",
+    "case",
+    "cycle",
+    "axe",
+    "hmup",
+    "hmswing",
+    "hmback",
+    "hmdown",
+    "suplex",
+    "tetsu",
+    "renkan",
+    "duck"
+   ]
+  },
+  "RT_COL": {
+   "file": "32-block-art",
+   "shape": "array[3]",
+   "bytes": 31
+  },
+  "ST_OK": {
+   "file": "32-block-art",
+   "shape": "object{9}",
+   "bytes": 123,
+   "keyOrder": [
+    "T",
+    "C",
+    "Z",
+    "P",
+    "B",
+    "K",
+    "A",
+    "D",
+    "G"
+   ]
+  },
+  "CN": {
+   "file": "32-block-art",
+   "shape": "object{9}",
+   "bytes": 95,
+   "keyOrder": [
+    "A",
+    "T",
+    "C",
+    "Z",
+    "P",
+    "D",
+    "B",
+    "K",
+    "G"
+   ]
+  },
+  "COMBO_BOOK": {
+   "file": "32-block-art",
+   "shape": "array[13]",
+   "bytes": 1237
+  },
+  "ST_NAME": {
+   "file": "32-block-art",
+   "shape": "object{9}",
+   "bytes": 85,
+   "keyOrder": [
+    "G",
+    "A",
+    "T",
+    "C",
+    "D",
+    "B",
+    "K",
+    "P",
+    "Z"
+   ]
+  },
+  "SIG": {
+   "file": "32-block-art",
+   "shape": "object{13}",
+   "bytes": 1015,
+   "keyOrder": [
+    "airrush",
+    "moonlit",
+    "airgrab",
+    "scoop",
+    "trample",
+    "fbounce",
+    "crumple",
+    "counter",
+    "hookrush",
+    "signoff",
+    "kickdrop",
+    "thunder",
+    "bridge"
+   ]
+  },
+  "SEP_HF": {
+   "file": "32-block-art",
+   "shape": "number",
+   "bytes": 2
+  },
+  "SEP_FF": {
+   "file": "32-block-art",
+   "shape": "number",
+   "bytes": 2
+  },
+  "TIER_COL": {
+   "file": "33-bag-ui2",
+   "shape": "array[6]",
+   "bytes": 54
+  },
+  "SHORT_N": {
+   "file": "33-bag-ui2",
+   "shape": "object{10}",
+   "bytes": 137,
+   "keyOrder": [
+    "hmback",
+    "charm",
+    "pin",
+    "ring",
+    "metro",
+    "cuff",
+    "paper",
+    "earph",
+    "bandage",
+    "duck"
+   ]
+  },
+  "ROLE_G": {
+   "file": "33-bag-ui2",
+   "shape": "object{4}",
+   "bytes": 33,
+   "keyOrder": [
+    "S",
+    "L",
+    "F",
+    "X"
+   ]
+  },
+  "SV_SW": {
+   "file": "33-bag-ui2",
+   "shape": "string",
+   "bytes": 361
+  },
+  "SV_CK": {
+   "file": "33-bag-ui2",
+   "shape": "string",
+   "bytes": 409
+  },
+  "CMD_MAX": {
+   "file": "33-bag-ui2",
+   "shape": "number",
+   "bytes": 1
+  },
+  "CMD_LIFE": {
+   "file": "33-bag-ui2",
+   "shape": "number",
+   "bytes": 1
+  },
+  "IMP_NAME": {
+   "file": "33-bag-ui2",
+   "shape": "object{3}",
+   "bytes": 50,
+   "keyOrder": [
+    "holster",
+    "pocket",
+    "worn"
+   ]
+  },
+  "IMP_DESC": {
+   "file": "33-bag-ui2",
+   "shape": "object{3}",
+   "bytes": 92,
+   "keyOrder": [
+    "holster",
+    "pocket",
+    "worn"
+   ]
+  },
+  "UNDO_MAX": {
+   "file": "33-bag-ui2",
+   "shape": "number",
+   "bytes": 2
+  },
+  "ROLE_N": {
+   "file": "34-shop",
+   "shape": "object{4}",
+   "bytes": 41,
+   "keyOrder": [
+    "S",
+    "L",
+    "F",
+    "X"
+   ]
+  },
+  "CHORDS": {
+   "file": "35-audio",
+   "shape": "array[4]",
+   "bytes": 57
+  },
+  "BASSW": {
+   "file": "35-audio",
+   "shape": "array[4]",
+   "bytes": 57
+  },
+  "META_KEY": {
+   "file": "36-meta-menu",
+   "shape": "string",
+   "bytes": 23
+  },
+  "KITS": {
+   "file": "36-meta-menu",
+   "shape": "array[6]",
+   "bytes": 1056
+  },
+  "POLES": {
+   "file": "37-gimmicks",
+   "shape": "array[5]",
+   "bytes": 20
+  },
+  "HEAVY_RK": {
+   "file": "37-gimmicks",
+   "shape": "set[6]",
+   "bytes": 65
+  },
+  "CORR_LEN": {
+   "file": "39-prologue",
+   "shape": "number",
+   "bytes": 4
+  },
+  "CORR_WAVES": {
+   "file": "39-prologue",
+   "shape": "array[9]",
+   "bytes": 254
+  },
+  "CORR_VAULT": {
+   "file": "39-prologue",
+   "shape": "number",
+   "bytes": 1
+  },
+  "CORR_SEG": {
+   "file": "39-prologue",
+   "shape": "array[4]",
+   "bytes": 387
+  },
+  "CR_PIPE_Y": {
+   "file": "39-prologue",
+   "shape": "number",
+   "bytes": 3
+  },
+  "LAMP_TOP": {
+   "file": "39-prologue",
+   "shape": "number",
+   "bytes": 2
+  },
+  "LAMP_L": {
+   "file": "39-prologue",
+   "shape": "number",
+   "bytes": 2
+  },
+  "CINE": {
+   "file": "39-prologue",
+   "shape": "object{5}",
+   "bytes": 54,
+   "keyOrder": [
+    "start",
+    "trash",
+    "ent",
+    "y",
+    "spd"
+   ]
+  },
+  "CAR_PAINT": {
+   "file": "40-bonus",
+   "shape": "number",
+   "bytes": 1
+  },
+  "CAR_K": {
+   "file": "40-bonus",
+   "shape": "number",
+   "bytes": 3
+  },
+  "CAR_MODEL": {
+   "file": "40-bonus",
+   "shape": "object{26}",
+   "bytes": 98777,
+   "keyOrder": [
+    "body",
+    "detail",
+    "cabin",
+    "interior",
+    "glassS",
+    "glassF",
+    "glassB",
+    "glassX",
+    "pillar",
+    "wiper",
+    "hood",
+    "trunk",
+    "bumperF",
+    "bumperR",
+    "doorF",
+    "doorR",
+    "mirror",
+    "wheelF",
+    "hubF",
+    "wheelF2",
+    "wheelR",
+    "wheelR2",
+    "farW",
+    "lightF",
+    "lightR",
+    "dents"
+   ]
+  },
+  "CAR_STAGES": {
+   "file": "40-bonus",
+   "shape": "array[8]",
+   "bytes": 37
+  },
+  "CAR_HP": {
+   "file": "40-bonus",
+   "shape": "number",
+   "bytes": 3
+  },
+  "CAR_TIME": {
+   "file": "40-bonus",
+   "shape": "number",
+   "bytes": 2
+  },
+  "HINTS": {
+   "file": "41-hints-save",
+   "shape": "object{9}",
+   "bytes": 628,
+   "keyOrder": [
+    "tower",
+    "move",
+    "bag",
+    "link",
+    "sp",
+    "timer",
+    "boss",
+    "heavy",
+    "just"
+   ]
+  },
+  "RUN_KEY": {
+   "file": "41-hints-save",
+   "shape": "string",
+   "bytes": 15
+  },
+  "DOJO": {
+   "file": "42-dojo",
+   "shape": "object{7}",
+   "bytes": 2969,
+   "keyOrder": [
+    "hero",
+    "misc",
+    "spc",
+    "react",
+    "foe",
+    "moves",
+    "combo"
+   ]
+  },
+  "DJ_DUMMY": {
+   "file": "42-dojo",
+   "shape": "array[4]",
+   "bytes": 62
+  },
+  "DEMO_BAGS": {
+   "file": "42-dojo",
+   "shape": "array[2]",
+   "bytes": 261
+  },
+  "DJ_PLAY": {
+   "file": "42-dojo",
+   "shape": "array[8]",
+   "bytes": 58
+  },
+  "CC_MAX": {
+   "file": "42-dojo",
+   "shape": "number",
+   "bytes": 1
+  },
+  "CAR_PTS": {
+   "file": "43-fx-smoke",
+   "shape": "object{9}",
+   "bytes": 190,
+   "keyOrder": [
+    "mirror",
+    "hubF",
+    "bumperF",
+    "doorF",
+    "doorR",
+    "hood",
+    "wheelF",
+    "trunk",
+    "bumperR"
+   ]
+  },
+  "CAST": {
+   "file": "44-story",
+   "shape": "object{4}",
+   "bytes": 131,
+   "keyOrder": [
+    "cond",
+    "saboo",
+    "minnie",
+    "me"
+   ]
+  },
+  "VOX": {
+   "file": "44-story",
+   "shape": "object{4}",
+   "bytes": 299,
+   "keyOrder": [
+    "cond",
+    "saboo",
+    "minnie",
+    "me"
+   ]
+  },
+  "VOWEL": {
+   "file": "44-story",
+   "shape": "array[21]",
+   "bytes": 55
+  },
+  "SC_BAG": {
+   "file": "44-story",
+   "shape": "object{4}",
+   "bytes": 228,
+   "keyOrder": [
+    "hammer",
+    "thunder",
+    "bridge",
+    "signoff"
+   ]
+  },
+  "SPD_CYCLE": {
+   "file": "45-hud",
+   "shape": "array[4]",
+   "bytes": 14
+  },
+  "DMG_K": {
+   "file": "45-hud",
+   "shape": "number",
+   "bytes": 3
+  },
+  "DFONT": {
+   "file": "45-hud",
+   "shape": "object{12}",
+   "bytes": 745,
+   "keyOrder": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "+",
+    "-"
+   ]
+  },
+  "DSTYLE": {
+   "file": "45-hud",
+   "shape": "object{5}",
+   "bytes": 326,
+   "keyOrder": [
+    "hit",
+    "crit",
+    "hurt",
+    "heal",
+    "total"
+   ]
+  },
+  "SW_T": {
+   "file": "45-hud",
+   "shape": "object{20}",
+   "bytes": 212,
+   "keyOrder": [
+    "tetsu",
+    "axe",
+    "axe_air",
+    "suplex",
+    "round",
+    "round_air",
+    "charge",
+    "charge_air",
+    "fkick",
+    "throw",
+    "upper",
+    "kick",
+    "knee",
+    "cycle",
+    "renkan",
+    "hook",
+    "bkick",
+    "uthrust",
+    "sweep",
+    "stomp"
+   ]
+  },
+  "SWP": {
+   "file": "45-hud",
+   "shape": "object{2}",
+   "bytes": 123,
+   "keyOrder": [
+    "2",
+    "3"
+   ]
+  },
+  "QUIPS": {
+   "file": "45-hud",
+   "shape": "object{5}",
+   "bytes": 285,
+   "keyOrder": [
+    "wave",
+    "clear",
+    "combo",
+    "rest",
+    "think"
+   ]
+  },
+  "BOSS_LINES": {
+   "file": "45-hud",
+   "shape": "object{7}",
+   "bytes": 199,
+   "keyOrder": [
+    "boss",
+    "boss2",
+    "boss3",
+    "boss4",
+    "kaneB",
+    "mgr",
+    "headchef"
+   ]
+  },
+  "SPC": {
+   "file": "47-special-ui",
+   "shape": "object{3}",
+   "bytes": 218,
+   "keyOrder": [
+    "fist",
+    "foot",
+    "grap"
+   ]
+  },
+  "BOSS_INFO": {
+   "file": "47-special-ui",
+   "shape": "object{7}",
+   "bytes": 552,
+   "keyOrder": [
+    "boss",
+    "boss2",
+    "boss4",
+    "kaneB",
+    "mgr",
+    "headchef",
+    "boss3"
+   ]
+  },
+  "SPC_LIFT": {
+   "file": "47-special-ui",
+   "shape": "number",
+   "bytes": 1
+  },
+  "UIS": {
+   "file": "47-special-ui",
+   "shape": "number",
+   "bytes": 1
+  },
+  "GAME_SPD": {
+   "file": "48-input",
+   "shape": "number",
+   "bytes": 4
+  },
+  "DL_BAGS": {
+   "file": "50-mobile-dev",
+   "shape": "array[4]",
+   "bytes": 65
+  }
+ },
+ "skipped": {
+  "hexRGB": "function",
+  "finish": "function",
+  "plain": "function",
+  "darker": "function",
+  "textW": "function",
+  "djIdx": "function",
+  "xcSpan": "function",
+  "xcKey": "function",
+  "xcOn": "function",
+  "canvas": "호스트 객체",
+  "gl": "호스트 객체",
+  "sprProg": "호스트 객체",
+  "blitProg": "호스트 객체",
+  "dbgProg": "호스트 객체",
+  "brightProg": "호스트 객체",
+  "blurProg": "호스트 객체",
+  "postProg": "호스트 객체",
+  "pFB": "호스트 객체",
+  "bFA": "호스트 객체",
+  "bFB": "호스트 객체",
+  "POSTV": "호스트 객체",
+  "POSTC": "호스트 객체",
+  "POSTD": "호스트 객체",
+  "SWA": "호스트 객체",
+  "SWB": "호스트 객체",
+  "prog3": "호스트 객체",
+  "vao3": "호스트 객체",
+  "vbo3": "호스트 객체",
+  "v3": "호스트 객체",
+  "palData": "호스트 객체",
+  "palTex": "호스트 객체",
+  "gFB": "호스트 객체",
+  "gDepthRB": "호스트 객체",
+  "cFB": "호스트 객체",
+  "vao": "호스트 객체",
+  "vbo": "호스트 객체",
+  "vdata": "호스트 객체",
+  "emptyVAO": "호스트 객체",
+  "U": "function",
+  "REMAP": "호스트 객체",
+  "deathOf": "function",
+  "seqOf": "function",
+  "SKIN_CACHE": "빈 값(실행 상태)",
+  "pvBox": "function",
+  "PE_ORIG": "빈 값(실행 상태)",
+  "peClone": "function",
+  "peNrm": "function",
+  "peBox": "function",
+  "skinAcc": "function",
+  "builtinK": "function",
+  "baseKnight": "function",
+  "m32": "function",
+  "BF": "function",
+  "lerpA": "function",
+  "pops": "빈 값(실행 상태)",
+  "sparks": "빈 값(실행 상태)",
+  "dusts": "빈 값(실행 상태)",
+  "rings": "빈 값(실행 상태)",
+  "poseAir": "function",
+  "heroAirborne": "function",
+  "LP": "호스트 객체",
+  "LC": "호스트 객체",
+  "LD": "호스트 객체",
+  "hash": "function",
+  "rotEnd": "function",
+  "advGait": "function",
+  "BLEND_MS": "function",
+  "ACT": "function",
+  "isCity": "function",
+  "CC": "function",
+  "sceneGround": "function",
+  "sceneUserX": "function",
+  "layerOX": "function",
+  "smooth": "function",
+  "mix3": "function",
+  "stage": "호스트 객체",
+  "SHK": "function",
+  "PC_MQ": "빈 값(실행 상태)",
+  "devK": "function",
+  "conv": "function",
+  "statusEl": "호스트 객체",
+  "L_": "function",
+  "clone": "function",
+  "ws": "호스트 객체",
+  "svg": "호스트 객체",
+  "sizer": "호스트 객체",
+  "edScroll": "호스트 객체",
+  "pathD": "function",
+  "portOf": "function",
+  "wsPoint": "function",
+  "addSel": "호스트 객체",
+  "presetBox": "호스트 객체",
+  "bAuto": "호스트 객체",
+  "bBeam": "호스트 객체",
+  "bFix": "호스트 객체",
+  "gBox": "호스트 객체",
+  "tl": "호스트 객체",
+  "gramInfo": "호스트 객체",
+  "unit": "호스트 객체",
+  "bTween": "호스트 객체",
+  "fileIn": "호스트 객체",
+  "bClear": "호스트 객체",
+  "impMsg": "호스트 객체",
+  "s2l": "function",
+  "l2s": "function",
+  "hueOf": "function",
+  "chromaOf": "function",
+  "hueDiff": "function",
+  "ROLE_RE": "호스트 객체 포함",
+  "PART_RE": "호스트 객체 포함",
+  "SUFFIX": "호스트 객체 포함",
+  "visBox": "function",
+  "ang16": "function",
+  "impPanel": "호스트 객체",
+  "bFlipG": "호스트 객체",
+  "bFlipX": "호스트 객체",
+  "bFaceL": "호스트 객체",
+  "poseJson": "호스트 객체",
+  "poseGrid": "호스트 객체",
+  "poseSel": "호스트 객체",
+  "wrapA": "function",
+  "getF": "function",
+  "fmtF": "function",
+  "handles": "호스트 객체",
+  "hpLabel": "호스트 객체",
+  "hpEl": "호스트 객체 포함",
+  "todEl": "호스트 객체",
+  "todOut": "호스트 객체",
+  "bPan": "호스트 객체",
+  "bChars": "호스트 객체",
+  "inStation": "function",
+  "inBridge": "function",
+  "REAL_ITEMS": "function",
+  "behindOf": "function",
+  "isDown": "function",
+  "isFalling": "function",
+  "comboWin": "function",
+  "twOtName": "function",
+  "twWt": "function",
+  "twWeight": "function",
+  "twFloorName": "function",
+  "legMin": "function",
+  "tDmg": "function",
+  "tCd": "function",
+  "cellsOf": "function",
+  "sizeOf": "function",
+  "tokenValue": "function",
+  "optTag": "function",
+  "newItem": "function",
+  "pv": "function",
+  "CHAIN_K": "function",
+  "poleOK": "function",
+  "bagHasLink": "function",
+  "srcLinked": "function",
+  "linkBetween": "function",
+  "inSet": "function",
+  "canEdit": "function",
+  "inCombat": "function",
+  "bagTouch": "function",
+  "cdReset": "function",
+  "adj": "function",
+  "has": "function",
+  "heroMax": "function",
+  "heroSpd": "function",
+  "FOE_CAP": "function",
+  "legDur": "function",
+  "inDoor": "function",
+  "outDoor": "function",
+  "foes": "function",
+  "canAct": "function",
+  "holding": "function",
+  "inFront": "function",
+  "wpnReach": "function",
+  "doorOpenAt": "function",
+  "AW0": "function",
+  "AW1": "function",
+  "pickGear": "function",
+  "readySkill": "function",
+  "JUST_W": "function",
+  "atkStartup": "function",
+  "cueFor": "function",
+  "dbgSt": "function",
+  "showBulbK": "function",
+  "STRAPS": "빈 값(실행 상태)",
+  "isDucking": "function",
+  "duckSlot": "function",
+  "duckReady": "function",
+  "startStage": "function",
+  "spawnSection": "function",
+  "sayEl": "호스트 객체",
+  "bagEl": "호스트 객체",
+  "infoEl": "호스트 객체",
+  "gOverlay": "호스트 객체",
+  "ARTS": "함수 묶음(코드)",
+  "slv": "function",
+  "fistAt": "function",
+  "starAt": "function",
+  "enemyHead": "function",
+  "PANELS": "함수 묶음(코드)",
+  "PANEL_CV": "빈 값(실행 상태)",
+  "croleOf": "function",
+  "stIn": "function",
+  "stOut": "function",
+  "stFits": "function",
+  "stNext": "function",
+  "isSkillB": "function",
+  "rdKey": "function",
+  "linkable": "function",
+  "bookOf": "function",
+  "comboName": "function",
+  "comboMul": "function",
+  "rtScore": "function",
+  "solidFoe": "function",
+  "ICON": "빈 값(실행 상태)",
+  "starsOf": "function",
+  "LB_CACHE": "빈 값(실행 상태)",
+  "fmtD": "function",
+  "touches": "function",
+  "cellCenter": "function",
+  "findAny": "function",
+  "SEC_U": "function",
+  "KE": "function",
+  "lockNote": "function",
+  "prevEl": "호스트 객체",
+  "rotFab": "호스트 객체",
+  "tr_": "function",
+  "sfx": "함수 묶음(코드)",
+  "mtof": "function",
+  "metaSave": "function",
+  "kitOpen": "function",
+  "lineOpen": "function",
+  "ORIG_RAND": "function",
+  "todayKey": "function",
+  "hashStr": "function",
+  "dailyKit": "function",
+  "hitTier": "function",
+  "hitKind": "function",
+  "crowdK": "function",
+  "titleEl": "호스트 객체",
+  "doorAt": "function",
+  "backView": "function",
+  "STORY_ART": "빈 값(실행 상태)",
+  "hasPro": "function",
+  "restoreKit": "function",
+  "loadRunSave": "function",
+  "clearRunSave": "function",
+  "dojoDummy": "function",
+  "ccToStep": "function",
+  "djMoveName": "function",
+  "hideArrange": "function",
+  "tkBox": "호스트 객체",
+  "talkSafe": "function",
+  "TALK": "함수 묶음(코드)",
+  "scBag": "function",
+  "uiCv": "호스트 객체",
+  "uiCx": "호스트 객체",
+  "DGLY": "빈 값(실행 상태)",
+  "DPOPS": "빈 값(실행 상태)",
+  "HITFX": "빈 값(실행 상태)",
+  "COMIC": "빈 값(실행 상태)",
+  "pickQ": "function",
+  "comicPop": "function",
+  "optSave": "function",
+  "spcKind": "function",
+  "buzz": "function",
+  "canSpecial": "function",
+  "spcVis": "function",
+  "legRunOff": "function",
+  "easeO": "function",
+  "gStyles": "호스트 객체",
+  "carHasBoss": "function",
+  "SHOW_LAMPS": "비결정(부팅마다 다름)"
+ }
+}

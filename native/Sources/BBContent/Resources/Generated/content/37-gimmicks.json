@@ -1,0 +1,19 @@
+{
+ "POLES": [
+  98,
+  160,
+  240,
+  320,
+  382
+ ],
+ "HEAVY_RK": {
+  "$set": [
+   "rSlam",
+   "rSpike",
+   "rTetsu",
+   "rBlast",
+   "crumple",
+   "rCharge"
+  ]
+ }
+}

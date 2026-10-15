@@ -1,0 +1,311 @@
+{
+ "ATK_FEEL": {
+  "renkan": {
+   "w": "M",
+   "load": "rk_crouch",
+   "hit": "rk_k1",
+   "hs": 1,
+   "shake": 1.6,
+   "zoom": 0.03,
+   "step": 0
+  },
+  "tetsu": {
+   "w": "H",
+   "load": "ts_set",
+   "hit": "ts_hit",
+   "hs": 2.3,
+   "shake": 3.6,
+   "zoom": 0.1,
+   "step": 0,
+   "dust": 1
+  },
+  "cycle": {
+   "w": "L",
+   "load": "cy_jump",
+   "hit": "cy_k1",
+   "hs": 0.7,
+   "shake": 1,
+   "zoom": 0.02,
+   "step": 0
+  },
+  "axe": {
+   "w": "H",
+   "load": "ax_top",
+   "hit": "ax_hit",
+   "hs": 1.75,
+   "shake": 3,
+   "zoom": 0.08,
+   "step": 2,
+   "dust": 1
+  },
+  "axe_air": {
+   "w": "H",
+   "load": "axa_top",
+   "hit": "axa_hit",
+   "hs": 1.75,
+   "shake": 3,
+   "zoom": 0.08,
+   "step": 0,
+   "dust": 1
+  },
+  "suplex": {
+   "w": "H",
+   "load": "sx_lift",
+   "hit": "sx_arch",
+   "hs": 1.6,
+   "shake": 3.2,
+   "zoom": 0.08,
+   "step": 0,
+   "dust": 1
+  },
+  "jab": {
+   "w": "L",
+   "load": "j_load",
+   "hit": "j_hit",
+   "hs": 0.75,
+   "shake": 1,
+   "zoom": 0,
+   "step": 3
+  },
+  "bfist": {
+   "w": "L",
+   "load": "bf_load",
+   "hit": "bf_hit",
+   "hs": 0.85,
+   "shake": 1.2,
+   "zoom": 0,
+   "step": 0
+  },
+  "elbow": {
+   "w": "L",
+   "load": "e_load",
+   "hit": "e_hit",
+   "hs": 0.95,
+   "shake": 1.3,
+   "zoom": 0.02,
+   "step": 3
+  },
+  "cross": {
+   "w": "M",
+   "load": "c_pull",
+   "hit": "c_hit",
+   "hs": 1.05,
+   "shake": 1.6,
+   "zoom": 0.03,
+   "step": 6
+  },
+  "hook": {
+   "w": "M",
+   "load": "h_load",
+   "hit": "h_hit",
+   "hs": 1.15,
+   "shake": 1.8,
+   "zoom": 0.04,
+   "step": 4
+  },
+  "kick": {
+   "w": "M",
+   "load": "k_load",
+   "hit": "k_hit",
+   "hs": 1.1,
+   "shake": 1.7,
+   "zoom": 0.035,
+   "step": 5
+  },
+  "knee": {
+   "w": "M",
+   "load": "n_load",
+   "hit": "n_hit",
+   "hs": 1.25,
+   "shake": 1.9,
+   "zoom": 0.045,
+   "step": 6
+  },
+  "bkick": {
+   "w": "M",
+   "load": "bk_load",
+   "hit": "bk_hit",
+   "hs": 1.15,
+   "shake": 1.8,
+   "zoom": 0.04,
+   "step": 0
+  },
+  "upper": {
+   "w": "H",
+   "load": "u_load",
+   "hit": "u_hit",
+   "hs": 1.55,
+   "shake": 2.6,
+   "zoom": 0.075,
+   "step": 3,
+   "dust": 1
+  },
+  "round": {
+   "w": "H",
+   "load": "r_load",
+   "hit": "r_hit",
+   "hs": 1.5,
+   "shake": 2.6,
+   "zoom": 0.07,
+   "step": 7,
+   "dust": 1
+  },
+  "sweep": {
+   "w": "H",
+   "load": "sw_load",
+   "hit": "sw_hit",
+   "hs": 1.35,
+   "shake": 2.2,
+   "zoom": 0.05,
+   "step": 4,
+   "dust": 1
+  },
+  "stomp": {
+   "w": "H",
+   "load": "st_load",
+   "hit": "st_hit",
+   "hs": 1.5,
+   "shake": 3,
+   "zoom": 0.06,
+   "step": 2,
+   "dust": 1
+  },
+  "charge": {
+   "w": "H",
+   "hs": 1.4,
+   "shake": 2.8,
+   "zoom": 0.06,
+   "step": 0,
+   "dust": 1
+  },
+  "fkick": {
+   "w": "H",
+   "hs": 1.5,
+   "shake": 2.7,
+   "zoom": 0.07,
+   "step": 0,
+   "dust": 1
+  },
+  "swat": {
+   "w": "L",
+   "load": "np_load",
+   "hit": "np_hit",
+   "hs": 0.8,
+   "shake": 1,
+   "zoom": 0,
+   "step": 2
+  },
+  "uthrust": {
+   "w": "M",
+   "load": "ut_load",
+   "hit": "ut_hit",
+   "hs": 1.05,
+   "shake": 1.4,
+   "zoom": 0.03,
+   "step": 6
+  },
+  "throw": {
+   "w": "H",
+   "hs": 1.7,
+   "shake": 3.2,
+   "zoom": 0.08,
+   "step": 0,
+   "dust": 1
+  },
+  "scoop": {
+   "w": "H",
+   "load": "u_load",
+   "hit": "u_hit",
+   "hs": 1.55,
+   "shake": 2.6,
+   "zoom": 0.075,
+   "step": 3,
+   "dust": 1
+  },
+  "skick": {
+   "w": "H",
+   "load": "sk_crouch",
+   "hit": "sk_kick",
+   "hs": 1.5,
+   "shake": 2.4,
+   "zoom": 0.08,
+   "step": 0,
+   "dust": 1
+  },
+  "round_air": {
+   "w": "H",
+   "load": "r_load",
+   "hit": "r_hit",
+   "hs": 1.5,
+   "shake": 2.6,
+   "zoom": 0.07,
+   "step": 7,
+   "dust": 1
+  },
+  "charge_air": {
+   "w": "H",
+   "hs": 1.4,
+   "shake": 2.8,
+   "zoom": 0.06,
+   "step": 0,
+   "dust": 1
+  }
+ },
+ "FOE_W": {
+  "jab": "L",
+  "throw": "L",
+  "hook": "M",
+  "kick": "M",
+  "hbutt": "M",
+  "bat": "H",
+  "charge": "H",
+  "round": "H",
+  "upper": "H",
+  "fkick": "H"
+ },
+ "FOE_TELL": {
+  "L": 1,
+  "M": 1.35,
+  "H": 1.8
+ },
+ "FOE_TELLX": {
+  "L": 0.26,
+  "M": 0.3,
+  "H": 0.34
+ },
+ "JW_CUE": {
+  "renkan": "rk_k1",
+  "tetsu": "ts_hit",
+  "cycle": "cy_k1",
+  "axe": "ax_hit",
+  "axe_air": "axa_hit",
+  "suplex": "sx_grab",
+  "fkick": "fk_hit",
+  "uthrust": "ut_hit",
+  "swat": "np_hit",
+  "hm_swing": "hm_hit",
+  "hm_back": "hm_bhit",
+  "hm_up": "hm_uhit",
+  "hm_down": "hm_dhit",
+  "bkick": "bk_hit",
+  "bfist": "bf_hit",
+  "jab": "j_hit",
+  "cross": "c_hit",
+  "hook": "h_hit",
+  "upper": "u_hit",
+  "kick": "k_hit",
+  "round": "r_hit",
+  "bat": "batS",
+  "hbutt": "hb",
+  "elbow": "e_hit",
+  "knee": "n_hit",
+  "sweep": "sw_hit",
+  "charge": "ch_hit",
+  "throw": "gr_hold",
+  "stomp": "st_hit",
+  "scoop": "u_hit",
+  "skick": "sk_kick",
+  "round_air": "r_hit",
+  "charge_air": "ch_hit"
+ }
+}

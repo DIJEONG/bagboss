@@ -1,0 +1,986 @@
+{
+ "NYC_COL": {
+  "mustard": [
+   9,
+   0.5
+  ],
+  "terracotta": [
+   11,
+   0.3
+  ],
+  "gold": [
+   9,
+   0.62
+  ],
+  "burgundy": [
+   12,
+   0.3
+  ],
+  "maroon": [
+   12,
+   0.26
+  ],
+  "purple": [
+   5,
+   0.36
+  ],
+  "orchid": [
+   5,
+   0.5
+  ],
+  "ultramarine": [
+   6,
+   0.42
+  ],
+  "midnight": [
+   7,
+   0.36
+  ],
+  "blue": [
+   6,
+   0.5
+  ],
+  "marine": [
+   4,
+   0.36
+  ],
+  "dkgreen": [
+   45,
+   0.36
+  ],
+  "reddishpurple": [
+   40,
+   0.3
+  ],
+  "black": [
+   22,
+   0.12
+  ],
+  "white": [
+   20,
+   0.84
+  ],
+  "royalblue": [
+   6,
+   0.36
+  ],
+  "grassgreen": [
+   4,
+   0.42
+  ],
+  "chromegreen": [
+   45,
+   0.3
+  ],
+  "lightgreen": [
+   4,
+   0.58
+  ],
+  "truegreen": [
+   4,
+   0.3
+  ],
+  "deepyellow": [
+   9,
+   0.58
+  ],
+  "ochre": [
+   9,
+   0.36
+  ],
+  "scarlet": [
+   12,
+   0.5
+  ],
+  "darkbrown": [
+   11,
+   0.2
+  ],
+  "royalpurple": [
+   5,
+   0.42
+  ],
+  "teal": [
+   39,
+   0.42
+  ]
+ },
+ "STN": {
+  "s14": {
+   "n": "14 St",
+   "ko": "14번가",
+   "tab": "14TH STREET",
+   "dir": "14TH AND 16TH STS",
+   "band": "mustard",
+   "border": "terracotta",
+   "tablet": {
+    "field": "black",
+    "rim": "gold"
+   },
+   "beam": "black",
+   "cap": "14"
+  },
+  "s23": {
+   "n": "23 St",
+   "ko": "23번가",
+   "tab": "23RD STREET",
+   "band": null,
+   "tablet": {
+    "field": "gold",
+    "rim": "black"
+   },
+   "beam": "black",
+   "cap": "23"
+  },
+  "s34": {
+   "n": "34 St–Penn Station",
+   "ko": "34번가–펜역",
+   "tab": "34TH STREET",
+   "dir": "PENN STATION",
+   "band": "maroon",
+   "border": "maroon",
+   "tablet": {
+    "field": "maroon",
+    "rim": "maroon"
+   },
+   "beam": "dkgreen",
+   "cap": "34"
+  },
+  "s42": {
+   "n": "42 St–Port Authority",
+   "ko": "42번가–포트 오소리티",
+   "tab": null,
+   "band": "purple",
+   "border": "black",
+   "big": "42",
+   "beam": "black",
+   "cap": "42"
+  },
+  "s50": {
+   "n": "50 St",
+   "ko": "50번가",
+   "tab": "50TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "purple",
+    "rim": "black"
+   },
+   "beam": "black",
+   "cap": "50"
+  },
+  "s59": {
+   "n": "59 St–Columbus Circle",
+   "ko": "59번가–콜럼버스 서클",
+   "tab": "59TH STREET",
+   "dir": "COLUMBUS CIRCLE",
+   "band": "ultramarine",
+   "border": "black",
+   "tablet": {
+    "field": "black",
+    "rim": "ultramarine"
+   },
+   "beam": "black",
+   "cap": "59"
+  },
+  "s72": {
+   "n": "72 St",
+   "ko": "72번가",
+   "tab": "72ND STREET",
+   "band": null,
+   "tablet": {
+    "field": "blue",
+    "rim": "black"
+   },
+   "beam": "blue",
+   "cap": "72"
+  },
+  "s81": {
+   "n": "81 St–Museum",
+   "ko": "81번가–자연사박물관",
+   "tab": "81ST STREET",
+   "band": "midnight",
+   "border": "black",
+   "tablet": {
+    "field": "midnight",
+    "rim": "black"
+   },
+   "beam": "blue",
+   "cap": "81"
+  },
+  "s96": {
+   "n": "96 St",
+   "ko": "96번가",
+   "tab": "96TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "midnight",
+    "rim": "black"
+   },
+   "beam": "blue",
+   "cap": "96"
+  },
+  "s110": {
+   "n": "Cathedral Pkwy–110 St",
+   "ko": "110번가",
+   "tab": "110TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "midnight",
+    "rim": "black"
+   },
+   "beam": "blue",
+   "cap": "110"
+  },
+  "s125": {
+   "n": "125 St",
+   "ko": "125번가",
+   "tab": null,
+   "band": "marine",
+   "border": "black",
+   "beam": "marine",
+   "cap": "125",
+   "wall": "brick"
+  },
+  "s135": {
+   "n": "135 St",
+   "ko": "135번가",
+   "tab": "135TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "dkgreen",
+    "rim": "black"
+   },
+   "beam": "black",
+   "cap": "135"
+  },
+  "s145": {
+   "n": "145 St",
+   "ko": "145번가",
+   "tab": "145TH STREET",
+   "band": "gold",
+   "border": "black",
+   "tablet": {
+    "field": "black",
+    "rim": "gold"
+   },
+   "beam": "black",
+   "cap": "145"
+  },
+  "s155": {
+   "n": "155 St",
+   "ko": "155번가",
+   "tab": "155TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "gold",
+    "rim": "black"
+   },
+   "beam": "gold",
+   "cap": "155"
+  },
+  "s163": {
+   "n": "163 St–Amsterdam Av",
+   "ko": "163번가–암스테르담가",
+   "tab": "163RD STREET",
+   "dir": "AMSTERDAM AVE",
+   "band": "gold",
+   "border": "black",
+   "tablet": {
+    "field": "gold",
+    "rim": "black"
+   },
+   "beam": "gold",
+   "cap": "163"
+  },
+  "s168": {
+   "n": "168 St",
+   "ko": "168번가",
+   "tab": null,
+   "band": "reddishpurple",
+   "border": "black",
+   "beam": "black",
+   "cap": "168"
+  },
+  "atl": {
+   "n": "Atlantic Av–Barclays Ctr",
+   "ko": "애틀랜틱 애비뉴–바클레이스 센터",
+   "h": "ATL",
+   "tab": "ATLANTIC AV",
+   "dir": "BARCLAYS CTR",
+   "band": "black",
+   "border": "teal",
+   "bandPat": "geo",
+   "bandText": "PACIFIC ST",
+   "tablet": {
+    "field": "black",
+    "rim": "black"
+   },
+   "beam": "black"
+  },
+  "grand": {
+   "n": "Grand St",
+   "ko": "그랜드 스트리트",
+   "h": "GR",
+   "tab": null,
+   "band": "royalblue",
+   "border": "royalblue",
+   "bandText": "GRAND ST",
+   "beam": "black",
+   "wall": "beige"
+  },
+  "bwl": {
+   "n": "Broadway–Lafayette St",
+   "ko": "브로드웨이–라파예트",
+   "tab": "BWAY-LAFAYETTE",
+   "band": "royalblue",
+   "border": "black",
+   "tablet": {
+    "field": "black",
+    "rim": "royalblue"
+   },
+   "beam": "blue"
+  },
+  "w4": {
+   "n": "W 4 St–Wash Sq",
+   "ko": "웨스트 4번가",
+   "h": "W4",
+   "tab": "WEST 4TH ST",
+   "dir": "WASHINGTON SQ",
+   "band": "grassgreen",
+   "border": "chromegreen",
+   "tablet": {
+    "field": "black",
+    "rim": "grassgreen"
+   },
+   "beam": "dkgreen",
+   "cap": "4"
+  },
+  "s14f": {
+   "n": "14 St (6 Av)",
+   "ko": "14번가",
+   "tab": "14TH STREET",
+   "band": "lightgreen",
+   "border": "truegreen",
+   "tablet": {
+    "field": "black",
+    "rim": "lightgreen"
+   },
+   "beam": "black",
+   "cap": "14"
+  },
+  "s23f": {
+   "n": "23 St (6 Av)",
+   "ko": "23번가",
+   "tab": "23RD STREET",
+   "band": "lightgreen",
+   "border": "truegreen",
+   "tablet": {
+    "field": "black",
+    "rim": "lightgreen"
+   },
+   "beam": "black",
+   "cap": "23"
+  },
+  "s34h": {
+   "n": "34 St–Herald Sq",
+   "ko": "34번가–헤럴드 스퀘어",
+   "tab": "34TH STREET",
+   "dir": "HERALD SQ",
+   "band": "deepyellow",
+   "border": "ochre",
+   "tablet": {
+    "field": "black",
+    "rim": "deepyellow"
+   },
+   "beam": "black",
+   "cap": "34"
+  },
+  "s42b": {
+   "n": "42 St–Bryant Pk",
+   "ko": "42번가–브라이언트 파크",
+   "tab": "42ND STREET",
+   "dir": "BRYANT PARK",
+   "band": "scarlet",
+   "border": "darkbrown",
+   "tablet": {
+    "field": "black",
+    "rim": "scarlet"
+   },
+   "beam": "black",
+   "cap": "42"
+  },
+  "s47": {
+   "n": "47–50 Sts–Rockefeller Ctr",
+   "ko": "47–50번가–록펠러 센터",
+   "tab": "47-50 STS",
+   "dir": "ROCKEFELLER CTR",
+   "band": "scarlet",
+   "border": "darkbrown",
+   "tablet": {
+    "field": "black",
+    "rim": "scarlet"
+   },
+   "beam": "black",
+   "cap": "50"
+  },
+  "gc42": {
+   "n": "Grand Central–42 St",
+   "ko": "그랜드 센트럴–42번가",
+   "h": "GC",
+   "tab": "GRAND CENTRAL",
+   "band": "terracotta",
+   "border": "terracotta",
+   "tablet": {
+    "field": "white",
+    "rim": "terracotta"
+   },
+   "beam": "black"
+  },
+  "s33l": {
+   "n": "33 St",
+   "ko": "33번가",
+   "tab": "33RD STREET",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "blue"
+   },
+   "beam": "black",
+   "cap": "33"
+  },
+  "s28l": {
+   "n": "28 St",
+   "ko": "28번가",
+   "tab": "28TH STREET",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "mustard"
+   },
+   "beam": "black",
+   "cap": "28"
+  },
+  "s23l": {
+   "n": "23 St",
+   "ko": "23번가",
+   "h": "23",
+   "tab": "23RD STREET",
+   "band": "teal",
+   "border": "teal",
+   "tablet": {
+    "field": "white",
+    "rim": "teal"
+   },
+   "beam": "black",
+   "cap": "23"
+  },
+  "s14l": {
+   "n": "14 St–Union Sq",
+   "ko": "14번가–유니언 스퀘어",
+   "tab": "14TH STREET",
+   "dir": "UNION SQUARE",
+   "band": "maroon",
+   "border": "maroon",
+   "tablet": {
+    "field": "white",
+    "rim": "maroon"
+   },
+   "beam": "black",
+   "cap": "14"
+  },
+  "astor": {
+   "n": "Astor Pl",
+   "ko": "애스터 플레이스",
+   "h": "AST",
+   "tab": "ASTOR PLACE",
+   "band": "dkgreen",
+   "border": "dkgreen",
+   "tablet": {
+    "field": "white",
+    "rim": "dkgreen"
+   },
+   "beam": "dkgreen"
+  },
+  "bleecker": {
+   "n": "Bleecker St",
+   "ko": "블리커 스트리트",
+   "tab": "BLEECKER ST",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "ochre"
+   },
+   "beam": "black"
+  },
+  "spring": {
+   "n": "Spring St",
+   "ko": "스프링 스트리트",
+   "tab": "SPRING ST",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "blue"
+   },
+   "beam": "black"
+  },
+  "canal": {
+   "n": "Canal St",
+   "ko": "캐널 스트리트",
+   "h": "CNL",
+   "tab": "CANAL ST",
+   "dir": "CHINATOWN",
+   "band": "scarlet",
+   "border": "scarlet",
+   "tablet": {
+    "field": "white",
+    "rim": "scarlet"
+   },
+   "beam": "black"
+  },
+  "bbch": {
+   "n": "Brooklyn Bridge–City Hall",
+   "ko": "브루클린 브리지–시티 홀",
+   "tab": "BROOKLYN BRIDGE",
+   "dir": "CITY HALL",
+   "band": "darkbrown",
+   "border": "darkbrown",
+   "tablet": {
+    "field": "white",
+    "rim": "darkbrown"
+   },
+   "beam": "black"
+  },
+  "cityhall": {
+   "n": "City Hall (closed)",
+   "ko": "옛 시티 홀 역",
+   "h": "CH",
+   "tab": "CITY HALL",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "dkgreen"
+   },
+   "beam": "black",
+   "vault": true
+  },
+  "y161": {
+   "n": "161 St–Yankee Stadium",
+   "ko": "161번가–양키 스타디움",
+   "h": "161",
+   "el": true,
+   "sign": "161 ST-YANKEE STADIUM",
+   "yankee": true
+  },
+  "s167": {
+   "n": "167 St",
+   "ko": "167번가",
+   "el": true,
+   "sign": "167 ST"
+  },
+  "s170": {
+   "n": "170 St",
+   "ko": "170번가",
+   "h": "170",
+   "el": true,
+   "sign": "170 ST"
+  },
+  "mteden": {
+   "n": "Mt Eden Av",
+   "ko": "마운트 에덴 애비뉴",
+   "el": true,
+   "sign": "MT EDEN AV"
+  },
+  "s176": {
+   "n": "176 St",
+   "ko": "176번가",
+   "el": true,
+   "sign": "176 ST"
+  },
+  "burn": {
+   "n": "Burnside Av",
+   "ko": "번사이드 애비뉴",
+   "h": "BUR",
+   "el": true,
+   "sign": "BURNSIDE AV"
+  },
+  "s183": {
+   "n": "183 St",
+   "ko": "183번가",
+   "el": true,
+   "sign": "183 ST"
+  },
+  "ford": {
+   "n": "Fordham Rd",
+   "ko": "포덤 로드",
+   "h": "FOR",
+   "el": true,
+   "sign": "FORDHAM RD"
+  },
+  "kings": {
+   "n": "Kingsbridge Rd",
+   "ko": "킹스브리지 로드",
+   "el": true,
+   "sign": "KINGSBRIDGE RD"
+  },
+  "bedpk": {
+   "n": "Bedford Park Blvd–Lehman College",
+   "ko": "베드퍼드 파크 블러바드",
+   "el": true,
+   "sign": "BEDFORD PARK BLVD"
+  },
+  "mosh": {
+   "n": "Mosholu Pkwy",
+   "ko": "모숄루 파크웨이",
+   "el": true,
+   "sign": "MOSHOLU PKWY"
+  },
+  "wood": {
+   "n": "Woodlawn",
+   "ko": "우드론",
+   "h": "WDL",
+   "el": true,
+   "sign": "WOODLAWN"
+  },
+  "s7a": {
+   "n": "7 Av",
+   "ko": "7번가",
+   "tab": "7TH AVENUE",
+   "band": "royalpurple",
+   "border": "black",
+   "tablet": {
+    "field": "black",
+    "rim": "royalpurple"
+   },
+   "beam": "black",
+   "cap": "7"
+  },
+  "qbp": {
+   "n": "Queensboro Plaza",
+   "ko": "퀸스보로 플라자",
+   "h": "QBP",
+   "el": true,
+   "line": "7",
+   "sign": "QUEENSBORO PLAZA"
+  },
+  "s33r": {
+   "n": "33 St–Rawson St",
+   "ko": "33번가–로슨 스트리트",
+   "el": true,
+   "line": "7",
+   "sign": "33 ST-RAWSON ST"
+  },
+  "s40": {
+   "n": "40 St–Lowery St",
+   "ko": "40번가–라워리 스트리트",
+   "el": true,
+   "line": "7",
+   "sign": "40 ST-LOWERY ST"
+  },
+  "s46": {
+   "n": "46 St–Bliss St",
+   "ko": "46번가–블리스 스트리트",
+   "h": "46",
+   "el": true,
+   "line": "7",
+   "sign": "46 ST-BLISS ST"
+  },
+  "s52": {
+   "n": "52 St",
+   "ko": "52번가",
+   "el": true,
+   "line": "7",
+   "sign": "52 ST"
+  },
+  "woodside": {
+   "n": "61 St–Woodside",
+   "ko": "61번가–우드사이드",
+   "h": "WDS",
+   "el": true,
+   "line": "7",
+   "sign": "61 ST-WOODSIDE"
+  },
+  "s69": {
+   "n": "69 St",
+   "ko": "69번가",
+   "el": true,
+   "line": "7",
+   "sign": "69 ST"
+  },
+  "s74": {
+   "n": "74 St–Broadway",
+   "ko": "74번가–브로드웨이",
+   "h": "74",
+   "el": true,
+   "line": "7",
+   "sign": "74 ST-BROADWAY"
+  },
+  "s82": {
+   "n": "82 St–Jackson Hts",
+   "ko": "82번가–잭슨 하이츠",
+   "el": true,
+   "line": "7",
+   "sign": "82 ST-JACKSON HTS"
+  },
+  "s90": {
+   "n": "90 St–Elmhurst Av",
+   "ko": "90번가–엘름허스트",
+   "el": true,
+   "line": "7",
+   "sign": "90 ST-ELMHURST AV"
+  },
+  "junction": {
+   "n": "Junction Blvd",
+   "ko": "정션 블러바드",
+   "h": "JCT",
+   "el": true,
+   "line": "7",
+   "sign": "JUNCTION BLVD"
+  },
+  "s103": {
+   "n": "103 St–Corona Plaza",
+   "ko": "103번가–코로나 플라자",
+   "el": true,
+   "line": "7",
+   "sign": "103 ST-CORONA PLAZA"
+  },
+  "s111": {
+   "n": "111 St",
+   "ko": "111번가",
+   "h": "111",
+   "el": true,
+   "line": "7",
+   "sign": "111 ST"
+  },
+  "mets": {
+   "n": "Mets–Willets Point",
+   "ko": "메츠–윌레츠 포인트",
+   "h": "MET",
+   "el": true,
+   "line": "7",
+   "sign": "METS-WILLETS POINT",
+   "citi": true
+  },
+  "flushing": {
+   "n": "Flushing–Main St",
+   "ko": "플러싱–메인 스트리트",
+   "h": "FLU",
+   "el": true,
+   "line": "7",
+   "sign": "FLUSHING-MAIN ST"
+  },
+  "s3av": {
+   "n": "3 Av",
+   "ko": "3번가",
+   "tab": "3RD AVENUE",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "blue"
+   },
+   "beam": "black",
+   "cap": "3"
+  },
+  "s1av": {
+   "n": "1 Av",
+   "ko": "1번가",
+   "h": "1AV",
+   "tab": "1ST AVENUE",
+   "band": "ultramarine",
+   "border": "ultramarine",
+   "tablet": {
+    "field": "white",
+    "rim": "ultramarine"
+   },
+   "beam": "black",
+   "cap": "1"
+  },
+  "bedford": {
+   "n": "Bedford Av",
+   "ko": "베드퍼드 애비뉴",
+   "h": "BED",
+   "tab": "BEDFORD AV",
+   "band": "teal",
+   "border": "teal",
+   "tablet": {
+    "field": "white",
+    "rim": "teal"
+   },
+   "beam": "black"
+  },
+  "lorimer": {
+   "n": "Lorimer St",
+   "ko": "로리머 스트리트",
+   "tab": "LORIMER ST",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "ochre"
+   },
+   "beam": "black"
+  },
+  "graham": {
+   "n": "Graham Av",
+   "ko": "그레이엄 애비뉴",
+   "tab": "GRAHAM AV",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "maroon"
+   },
+   "beam": "black"
+  },
+  "grandl": {
+   "n": "Grand St",
+   "ko": "그랜드 스트리트(L)",
+   "tab": "GRAND ST",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "blue"
+   },
+   "beam": "black"
+  },
+  "montrose": {
+   "n": "Montrose Av",
+   "ko": "몬트로즈 애비뉴",
+   "h": "MON",
+   "tab": "MONTROSE AV",
+   "band": "mustard",
+   "border": "mustard",
+   "tablet": {
+    "field": "white",
+    "rim": "mustard"
+   },
+   "beam": "black"
+  },
+  "morgan": {
+   "n": "Morgan Av",
+   "ko": "모건 애비뉴",
+   "tab": "MORGAN AV",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "dkgreen"
+   },
+   "beam": "black"
+  },
+  "jefferson": {
+   "n": "Jefferson St",
+   "ko": "제퍼슨 스트리트",
+   "h": "JEF",
+   "tab": "JEFFERSON ST",
+   "band": "reddishpurple",
+   "border": "reddishpurple",
+   "tablet": {
+    "field": "white",
+    "rim": "reddishpurple"
+   },
+   "beam": "black"
+  },
+  "dekalbl": {
+   "n": "DeKalb Av",
+   "ko": "디캘브 애비뉴(L)",
+   "tab": "DEKALB AV",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "scarlet"
+   },
+   "beam": "black"
+  },
+  "myrtle": {
+   "n": "Myrtle–Wyckoff Avs",
+   "ko": "머틀–와이코프",
+   "h": "MYR",
+   "tab": "MYRTLE-WYCKOFF",
+   "band": "darkbrown",
+   "border": "darkbrown",
+   "tablet": {
+    "field": "white",
+    "rim": "darkbrown"
+   },
+   "beam": "black"
+  },
+  "halsey": {
+   "n": "Halsey St",
+   "ko": "핼시 스트리트",
+   "tab": "HALSEY ST",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "ochre"
+   },
+   "beam": "black"
+  },
+  "wilson": {
+   "n": "Wilson Av",
+   "ko": "윌슨 애비뉴",
+   "tab": "WILSON AV",
+   "band": null,
+   "tablet": {
+    "field": "white",
+    "rim": "blue"
+   },
+   "beam": "black"
+  },
+  "bwayjct": {
+   "n": "Broadway Junction",
+   "ko": "브로드웨이 정션",
+   "tab": "BROADWAY JCT",
+   "band": "black",
+   "border": "black",
+   "tablet": {
+    "field": "white",
+    "rim": "black"
+   },
+   "beam": "black"
+  },
+  "canarsie": {
+   "n": "Canarsie–Rockaway Pkwy",
+   "ko": "캐너시–로커웨이 파크웨이",
+   "h": "CAN",
+   "tab": "CANARSIE",
+   "dir": "ROCKAWAY PKWY",
+   "band": "maroon",
+   "border": "maroon",
+   "tablet": {
+    "field": "white",
+    "rim": "maroon"
+   },
+   "beam": "black"
+  },
+  "ghost": {
+   "n": "(Not on the map)",
+   "ko": "지도에 없는 역",
+   "h": "END",
+   "tab": "NO SERVICE",
+   "band": "black",
+   "border": "black",
+   "tablet": {
+    "field": "black",
+    "rim": "white"
+   },
+   "beam": "black",
+   "ruin": true
+  }
+ },
+ "NY": {
+  "CEIL": 34,
+  "BAND": 112,
+  "TAB": 160,
+  "DIR": 182,
+  "CAP": 98,
+  "FLOOR": 226,
+  "LEN": 960
+ },
+ "BR": {
+  "HZ": 168,
+  "SUN": [
+   352,
+   116
+  ]
+ },
+ "EL": {
+  "HZ": 150
+ }
+}

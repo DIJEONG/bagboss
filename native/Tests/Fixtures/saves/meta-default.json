@@ -1,0 +1,30 @@
+{
+ "v": 1,
+ "runs": 0,
+ "best": {
+  "score": 0,
+  "stage": 0
+ },
+ "tot": {
+  "kills": 0,
+  "crits": 0,
+  "dodges": 0,
+  "links": 0,
+  "throws": 0,
+  "outs": 0,
+  "onTime": 0,
+  "merges": 0,
+  "footSet": 0
+ },
+ "foes": {},
+ "stns": {},
+ "items": {},
+ "links": {},
+ "kits": {
+  "basic": 1
+ },
+ "lines": {
+  "0": 1
+ },
+ "daily": {}
+}

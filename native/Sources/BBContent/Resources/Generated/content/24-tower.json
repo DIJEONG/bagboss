@@ -1,0 +1,676 @@
+{
+ "TW_FLOORS": [
+  null,
+  {
+   "n": "주차장",
+   "en": "Parking",
+   "fs": "park",
+   "col": [
+    1,
+    0.62,
+    0.28
+   ],
+   "w": [
+    "valet",
+    "valet",
+    "valet"
+   ],
+   "d": "나트륨등 아래 발레 요원들이 열쇠를 돌린다"
+  },
+  {
+   "n": "하역장",
+   "en": "Loading Dock",
+   "fs": "dock",
+   "col": [
+    0.82,
+    0.9,
+    1
+   ],
+   "w": [
+    "courier",
+    "valet",
+    "valet"
+   ],
+   "d": "배달원은 무겁다 — 정원 3칸"
+  },
+  {
+   "n": "로비",
+   "en": "Lobby",
+   "fs": "lobby",
+   "col": [
+    1,
+    0.84,
+    0.58
+   ],
+   "w": [
+    "guardL",
+    "valet",
+    "janitor",
+    "valet"
+   ],
+   "d": "손전등 경비원은 정면을 비추면 막는다 — 뒤를 노려요"
+  },
+  {
+   "n": "우편실",
+   "en": "Mail Room",
+   "fs": "mail",
+   "col": [
+    0.86,
+    1,
+    0.92
+   ],
+   "w": [
+    "courier",
+    "courier",
+    "janitor"
+   ],
+   "d": "청소부가 바닥을 적신다 — 적이 미끄러진다"
+  },
+  {
+   "n": "기계실",
+   "en": "Machine Room",
+   "fs": "mech",
+   "col": [
+    1,
+    0.28,
+    0.18
+   ],
+   "w": [
+    "guardL",
+    "guardL",
+    "tech"
+   ],
+   "black": true,
+   "d": "전기가 나갔다 — 손전등 불빛만 움직인다"
+  },
+  {
+   "n": "세탁실",
+   "en": "Laundry",
+   "fs": "laundry",
+   "col": [
+    0.55,
+    0.82,
+    1
+   ],
+   "w": [
+    "janitor",
+    "janitor",
+    "courier",
+    "valet"
+   ],
+   "d": "젖은 바닥 · 김 서린 세탁실"
+  },
+  {
+   "n": "룸서비스",
+   "en": "Room Service",
+   "fs": "room",
+   "col": [
+    1,
+    0.74,
+    0.48
+   ],
+   "rest": true,
+   "d": "잠깐 쉬어 가요 — 체력 40% · 매점"
+  },
+  {
+   "n": "경비실",
+   "en": "Security",
+   "fs": "sec",
+   "col": [
+    0.45,
+    0.66,
+    1
+   ],
+   "w": [
+    "guardL",
+    "guardL",
+    "tech",
+    "valet",
+    "valet"
+   ],
+   "d": "수리 기사가 패널에 붙으면 정전 — 먼저 끊어요"
+  },
+  {
+   "n": "직원 식당",
+   "en": "Staff Canteen",
+   "fs": "canteen",
+   "col": [
+    0.78,
+    1,
+    0.86
+   ],
+   "w": [
+    "courier",
+    "courier",
+    "tech",
+    "janitor",
+    "valet"
+   ],
+   "d": "한꺼번에 몰려 탄다 — 정원 초과에 주의"
+  },
+  {
+   "n": "관리실",
+   "en": "Super's Office",
+   "fs": "office",
+   "col": [
+    1,
+    0.8,
+    0.52
+   ],
+   "w": [
+    "mgr",
+    "guardL",
+    "janitor"
+   ],
+   "boss": true,
+   "d": "이 건물의 열쇠를 쥔 사람"
+  },
+  {
+   "n": "푸드코트",
+   "en": "Food Court",
+   "fs": "food",
+   "col": [
+    1,
+    0.72,
+    0.42
+   ],
+   "w": [
+    "waiter",
+    "chef",
+    "valet"
+   ],
+   "d": "웨이터는 멀리서 접시를 던진다 — 숙여서 피해요"
+  },
+  {
+   "n": "주방",
+   "en": "Kitchen",
+   "fs": "kitchen",
+   "col": [
+    1,
+    0.55,
+    0.25
+   ],
+   "w": [
+    "chef",
+    "chef",
+    "waiter"
+   ],
+   "flame": true,
+   "d": "주방장은 프라이팬으로 막는다 — 띄우거나 등 뒤를 노려요"
+  },
+  {
+   "n": "냉동 창고",
+   "en": "Walk-in Freezer",
+   "fs": "freezer",
+   "col": [
+    0.55,
+    0.85,
+    1
+   ],
+   "w": [
+    "butcher",
+    "janitor",
+    "waiter"
+   ],
+   "ice": true,
+   "d": "냉기가 쏟아져 바닥이 언다 — 적이 미끄러진다"
+  },
+  {
+   "n": "연회장",
+   "en": "Banquet Hall",
+   "fs": "banquet",
+   "col": [
+    1,
+    0.84,
+    0.55
+   ],
+   "w": [
+    "accountant",
+    "accountant",
+    "accountant",
+    "waiter",
+    "guardL"
+   ],
+   "d": "회계사가 버튼을 누르면 다음 층에 더 탄다 — 먼저 잡아요"
+  },
+  {
+   "n": "와인 셀러",
+   "en": "Wine Cellar",
+   "fs": "cellar",
+   "col": [
+    1,
+    0.5,
+    0.25
+   ],
+   "w": [
+    "chef",
+    "guardL",
+    "tech"
+   ],
+   "black": true,
+   "d": "촛불만 남은 지하 셀러 — 손전등 불빛만 움직인다"
+  },
+  {
+   "n": "바 라운지",
+   "en": "Bar Lounge",
+   "fs": "bar",
+   "col": [
+    0.9,
+    0.4,
+    1
+   ],
+   "w": [
+    "waiter",
+    "waiter",
+    "chef",
+    "valet"
+   ],
+   "strobe": true,
+   "d": "네온 조명이 박자마다 칸을 물들인다"
+  },
+  {
+   "n": "직원 휴게실",
+   "en": "Staff Lounge",
+   "fs": "lounge",
+   "col": [
+    1,
+    0.86,
+    0.62
+   ],
+   "rest": true,
+   "d": "잠깐 쉬어 가요 — 체력 40% · 매점"
+  },
+  {
+   "n": "식기 세척실",
+   "en": "Dish Room",
+   "fs": "dish",
+   "col": [
+    0.75,
+    0.95,
+    1
+   ],
+   "w": [
+    "janitor",
+    "chef",
+    "butcher",
+    "accountant",
+    "accountant"
+   ],
+   "d": "접시 더미와 김 — 젖은 바닥에 미끄러진다"
+  },
+  {
+   "n": "루프탑 테라스",
+   "en": "Rooftop Terrace",
+   "fs": "roof",
+   "col": [
+    1,
+    0.8,
+    0.5
+   ],
+   "w": [
+    "waiter",
+    "butcher",
+    "accountant",
+    "accountant",
+    "chef"
+   ],
+   "wind": true,
+   "d": "문이 열리면 밤바람이 칸을 밀어붙인다"
+  },
+  {
+   "n": "총주방장실",
+   "en": "Head Chef's Kitchen",
+   "fs": "chefroom",
+   "col": [
+    1,
+    0.6,
+    0.3
+   ],
+   "w": [
+    "headchef",
+    "chef",
+    "waiter"
+   ],
+   "boss": true,
+   "flame": true,
+   "d": "불꽃을 다루는 이 건물 주방의 대장"
+  }
+ ],
+ "TW_TOP": 20,
+ "TW_LIMIT": 7,
+ "TW_WT": {
+  "valet": 1,
+  "janitor": 1,
+  "guardL": 2,
+  "tech": 2,
+  "courier": 3,
+  "mgr": 4,
+  "chef": 2,
+  "waiter": 1,
+  "accountant": 1,
+  "butcher": 3,
+  "headchef": 4
+ },
+ "TW_OT": [
+  null,
+  {
+   "n": "적이 질겨요",
+   "en": "Tougher enemies",
+   "ap": {
+    "$fn": "TW_OT[1].ap"
+   }
+  },
+  {
+   "n": "정원 −1",
+   "en": "Capacity −1",
+   "ap": {
+    "$fn": "TW_OT[2].ap"
+   }
+  },
+  {
+   "n": "정전이 잦아요",
+   "en": "More blackouts",
+   "ap": {
+    "$fn": "TW_OT[3].ap"
+   }
+  },
+  {
+   "n": "적이 세져요",
+   "en": "Harder hits",
+   "ap": {
+    "$fn": "TW_OT[4].ap"
+   }
+  },
+  {
+   "n": "구급함이 비었어요",
+   "en": "Empty first-aid box",
+   "ap": {
+    "$fn": "TW_OT[5].ap"
+   }
+  },
+  {
+   "n": "두목이 독해요",
+   "en": "Ruthless bosses",
+   "ap": {
+    "$fn": "TW_OT[6].ap"
+   }
+  }
+ ],
+ "TW_OT_MAX": 6,
+ "TW_BARKS": [
+  "관계자 외 출입 금지예요",
+  "이 층에서 내리시죠",
+  "정원 초과라고!",
+  "열쇠 내놔",
+  "경비실, 여기 수상한 놈이",
+  "배달 왔습니다 — 주먹으로",
+  "엘리베이터는 내 구역이야"
+ ],
+ "TW_MODS": [
+  {
+   "id": "cap6",
+   "n": "정원 6",
+   "en": "Capacity 6",
+   "ap": {
+    "$fn": "TW_MODS[0].ap"
+   }
+  },
+  {
+   "id": "dark2",
+   "n": "정전 층 하나 더",
+   "en": "One more blackout floor",
+   "ap": {
+    "$fn": "TW_MODS[1].ap"
+   }
+  },
+  {
+   "id": "rush",
+   "n": "배달 폭주",
+   "en": "Delivery rush",
+   "ap": {
+    "$fn": "TW_MODS[2].ap"
+   }
+  },
+  {
+   "id": "guard",
+   "n": "경비 강화",
+   "en": "Extra security",
+   "ap": {
+    "$fn": "TW_MODS[3].ap"
+   }
+  },
+  {
+   "id": "mop",
+   "n": "청소 시간",
+   "en": "Cleaning hour",
+   "ap": {
+    "$fn": "TW_MODS[4].ap"
+   }
+  },
+  {
+   "id": "wire",
+   "n": "배선 공사",
+   "en": "Wiring works",
+   "ap": {
+    "$fn": "TW_MODS[5].ap"
+   }
+  }
+ ],
+ "TW_HIT": {
+  "park": [
+   90,
+   56,
+   "WEE-OO!",
+   "차 경보",
+   [
+    "#c8d0e0",
+    "#2c2a1d"
+   ]
+  ],
+  "dock": [
+   20,
+   74,
+   "CRASH!",
+   "상자 더미",
+   [
+    "#a69077",
+    "#83705a",
+    "#ebe9e4"
+   ]
+  ],
+  "lobby": [
+   28,
+   82,
+   "SMASH!",
+   "화분",
+   [
+    "#47793c",
+    "#5e3125",
+    "#2f4767"
+   ]
+  ],
+  "mail": [
+   66,
+   40,
+   "FWOOSH!",
+   "우편함",
+   [
+    "#ebe9e4",
+    "#d6d4cf",
+    "#ebe9e4"
+   ]
+  ],
+  "mech": [
+   58,
+   24,
+   "PSSSH!",
+   "배관",
+   [
+    "#ebe9e4",
+    "#c2c7df"
+   ]
+  ],
+  "laundry": [
+   68,
+   56,
+   "SPLOOSH!",
+   "세탁기",
+   [
+    "#5fd3d6",
+    "#ebe9e4",
+    "#c8fbf8"
+   ]
+  ],
+  "room": [
+   66,
+   74,
+   "CLANG!",
+   "룸서비스 카트",
+   [
+    "#ebe9e4",
+    "#c2c7df",
+    "#ff5e95"
+   ]
+  ],
+  "sec": [
+   66,
+   30,
+   "ZZZT!",
+   "CCTV",
+   [
+    "#5fd3d6",
+    "#ebe9e4"
+   ]
+  ],
+  "canteen": [
+   43,
+   40,
+   "KRSSH!",
+   "자판기",
+   [
+    "#eb4747",
+    "#dcb34a",
+    "#4a7c33",
+    "#c2c7df"
+   ]
+  ],
+  "office": [
+   60,
+   36,
+   "CRACK!",
+   "창문",
+   [
+    "#ebe9e4",
+    "#c2c7df"
+   ]
+  ],
+  "food": [
+   68,
+   22,
+   "CRASH!",
+   "네온 메뉴판",
+   [
+    "#ff5e95",
+    "#dcb34a",
+    "#ebe9e4"
+   ]
+  ],
+  "kitchen": [
+   60,
+   44,
+   "CLANG!",
+   "육수 냄비",
+   [
+    "#dcb34a",
+    "#c2c7df",
+    "#ebe9e4"
+   ]
+  ],
+  "freezer": [
+   42,
+   44,
+   "KRAK!",
+   "냉동 선반",
+   [
+    "#ebe9e4",
+    "#c8fbf8",
+    "#f0f2ff"
+   ]
+  ],
+  "banquet": [
+   100,
+   76,
+   "SMASH!",
+   "연회 테이블",
+   [
+    "#ebe9e4",
+    "#ffc13d",
+    "#c2c7df"
+   ]
+  ],
+  "cellar": [
+   32,
+   66,
+   "SPLASH!",
+   "와인 통",
+   [
+    "#891423",
+    "#c22131",
+    "#7c4923"
+   ]
+  ],
+  "bar": [
+   68,
+   34,
+   "KSSH!",
+   "술병 선반",
+   [
+    "#5fd3d6",
+    "#ff5e95",
+    "#dcb34a"
+   ]
+  ],
+  "lounge": [
+   36,
+   46,
+   "BANG!",
+   "사물함",
+   [
+    "#c2c7df",
+    "#9198ba"
+   ]
+  ],
+  "dish": [
+   36,
+   62,
+   "KRSSH!",
+   "접시 더미",
+   [
+    "#ebe9e4",
+    "#f0f2ff"
+   ]
+  ],
+  "roof": [
+   68,
+   20,
+   "SNAP!",
+   "전구 줄",
+   [
+    "#fbcf80",
+    "#ffe6b8",
+    "#2c2a1d"
+   ]
+  ],
+  "chefroom": [
+   52,
+   30,
+   "FWOOM!",
+   "구리 냄비",
+   [
+    "#ffc13d",
+    "#ff7a2e",
+    "#ebe9e4"
+   ]
+  ]
+ }
+}
